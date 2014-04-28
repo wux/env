@@ -1,0 +1,7 @@
+# exec echo "$0" -- ${1+"$@"} 
+# exec emacs -fn 8x13bold --eval '(ediff-files "'$1'" "'$2'")'
+
+# ALTERNATE_EDITOR=emacs EDITOR=emacsclient VISUAL=emacsclient
+#exec emacsclient --alternate-editor="emacs" -c --eval '(ediff-files "'$1'" "'$2'")'
+#echo emacsclient --alternate-editor="emacs" -c --eval '(ediff-files "'$1'" "'$2'")'
+exec emacsclient --alternate-editor="" -c --eval '(ediff-files "'$1'" "'$2'")'
