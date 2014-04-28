@@ -25,6 +25,8 @@ fi
    h ()  { command history "$@" | more ; }
 
    alias home='cd /home/users/jwu/'
+   alias u1='ssh jwu@upad01.upthere.com'
+   alias u2='ssh jwu@upad02.upthere.com'
 
    alias la='ls -a -h --color=auto'
 
