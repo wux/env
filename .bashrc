@@ -1,6 +1,6 @@
 set -o emacs on
 
-export PATH=/home/users/jwu/bin:$PATH
+export PATH=$HOME/bin:$PATH
 
 export EDITOR=/usr/bin/emacs
 
@@ -23,6 +23,8 @@ fi
    alias c='clear'
 
    h ()  { command history "$@" | more ; }
+
+   alias home='cd /home/users/jwu/'
 
    alias la='ls -a -h --color=auto'
 
