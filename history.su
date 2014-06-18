@@ -1,0 +1,582 @@
+    1  makecfg help
+    2  makecfg check --config infrastructure 
+    3  cd /
+    4  ls
+    5  cd data0
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd cache2
+   10  ls
+   11  more .upthere 
+   12  cd
+   13  ls
+   14  ls -la
+   15  exit
+   16  exit
+   17  mkdir /cache2/thomas
+   18  chown thomas /cache2/thomas
+   19  exit
+   20  chmod +w /etc/sudoers
+   21  emacs /etc/sudoers
+   22  exit
+   23  vim /etc/sudoers
+   24  pacman -Sy vim
+   25  vim /etc/sudoers
+   26  exit
+   27  ps
+   28  ps uaxww
+   29  htop
+   30  pwd
+   31  cd /home/users/
+   32  ls
+   33  dstat
+   34  iostat -x 1
+   35  df -h
+   36  ls /data0/
+   37  ls /data1
+   38  ls /cache2/
+   39  ls /cache3/
+   40  cd /cache2/thomas/
+   41  ls
+   42  ls udev/
+   43  ls src/
+   44  ls src/depot/
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd ..
+   49  ls
+   50  cd /data1/
+   51  ls
+   52  ls rheath/
+   53  ls rheath/source/
+   54  cd
+   55  cd /home/users/
+   56  ls
+   57  ls robertheath/
+   58  ls
+   59  top
+   60  cd /etc
+   61  ls
+   62  find . -name 'nsl*'
+   63  more nslcd.conf 
+   64  vi nslcd.conf 
+   65  systemctl restart nslcd
+   66  ls
+   67  cd /home/users/rh
+   68  cd /home/users/robertheath/
+   69  ls
+   70  cd collectd-5.4.0/
+   71  ls
+   72  make
+   73  make clean
+   74  which python
+   75  ls -l /usr/bin/python
+   76  ./configure --with-python=/usr/bin/python2
+   77  cd
+   78  ls tar xvjf ~robertheath/collectd-5.4.0.tar.bz2 
+   79  tar xvjf ~robertheath/collectd-5.4.0.tar.bz2 
+   80  cd collectd-5.4.0/
+   81  ls
+   82  ./configure --with-python=/usr/bin/python2
+   83  make
+   84  make install
+   85  ls
+   86  ls -l
+   87  cd src/
+   88  ls
+   89  ls -
+   90  ls -l -d
+   91  cd .
+   92  cd ..
+   93  ls
+   94  find / -name collectd
+   95  /opt/collectd/sbin/collectd
+   96  ps -A | grep collectd
+   97  cd /opt/collectd/var/lib/collectd/
+   98  ls
+   99  ls -l
+  100  cd ../
+  101  cd ..
+  102  ls
+  103  cd ..
+  104  ls
+  105  cd etc
+  106  ls
+  107  vim collectd.conf 
+  108  scp collectd.conf root@10.0.2.1:/etc/collectd.conf
+  109  exit
+  110  cd /root
+  111  ls
+  112  cd /opt/collectd/etc/
+  113  ls
+  114  scp collectd.conf root@10.0.2.1:/etc/collectd.conf
+  115  exit
+  116  cd /root
+  117  ls
+  118  cd collectd-5.4.0/
+  119  ls
+  120  ./configure --enable-netlink
+  121  cd /data1/rheath/source/
+  122  ls
+  123  cd depot/archlinux/
+  124  ls
+  125  cd idfs
+  126  ls
+  127  p4 edit *.idf
+  128  export P4CONFIG=.p4config
+  129  p4 edit *.idf
+  130  p4 login
+  131  p4 login
+  132  exit
+  133  cd /etc/sudoers.d/
+  134  ls
+  135  ls
+  136  cd ..
+  137  ls
+  138  man sudoers
+  139  more /etc/sudoers
+  140  man /etc/sudoers.d/
+  141  man sudoers
+  142  more /etc/sudoers
+  143  ls
+  144  cd
+  145  exit
+  146  df -h
+  147  cat /.upthere 
+  148  w
+  149  ls
+  150  pwd
+  151  w
+  152  ls
+  153  df -h
+  154  p4 clients
+  155  cd /tmp
+  156  cat > test.c
+  157  gcc test.c 
+  158  sftp root@10.0.2.7
+  159  cat /etc/fstab 
+  160  top
+  161  echo 3 > /proc/sys/vm/drop_caches
+  162  yop
+  163  top
+  164  top
+  165  iostat -x 1
+  166  ls
+  167  cd /tmp
+  168  ls
+  169  gcc
+  170  sftp root@10.0.2.7
+  171  ls
+  172  emacs /etc/ssh/sshd_config 
+  173  systemctl restart sshd
+  174  exit
+  175  mkdir jwu
+  176  chown jwu jwu
+  177  exit
+  178  ls
+  179  cd /etc/
+  180  ls
+  181  vim ssh/sshd_config
+  182  systemctl restart sshd.service 
+  183  mkdir jwu
+  184  chown jwu jwu
+  185  exit
+  186  cd
+  187  cd data0
+  188  cd /data0/jwu
+  189  ll
+  190  ls -al
+  191  pwd
+  192  exit
+  193  ll
+  194  ls -al
+  195  ll -al jwu
+  196  ls -al jwu
+  197  cd /home/users/jwu
+  198  ls -al
+  199  pwd
+  200  cd
+  201  cd /data0/jwu/
+  202  cd ..
+  203  chgrp jwu standard
+  204  chgrp standard jwu
+  205  ls -al 
+  206  exit
+  207  exit
+  208  passwd
+  209  ls
+  210  cd /home/
+  211  ls
+  212  cd users/
+  213  ls
+  214  cd thomas/
+  215  ls
+  216  getent passwd
+  217  su - thomas
+  218  exit
+  219  cd /data1/rheath/
+  220  ls
+  221  cd source/
+  222  ls
+  223  cd depot/
+  224  s
+  225  ls
+  226  cd archlinux/packages/packages/
+  227  ls
+  228  ls j*
+  229  pacman -s cscope
+  230  pacman -S cscope
+  231  pacman -S csccscope 15.8.a-2
+  232  pacman -S cscope 15.8.a-2
+  233  pacman -S Cscope
+  234  pacman -S cscope
+  235  pacman --help
+  236  pacman -D
+  237  pacman -D cscope
+  238  pacman -Q  
+  239  pacman -S extra
+  240  pacman -S Extra
+  241  pdw
+  242  cd /tmp/
+  243  l
+  244  ls
+  245  tar -xvf cscope-15.8.a-2-i686.pkg.tar.xz 
+  246  l
+  247  ls
+  248  l usr/
+  249  ls usr/
+  250  ls /usr/
+  251  mv cscope-15.8.a-2-i686.pkg.tar.xz  /
+  252  cs 
+  253  cd 
+  254  pwd
+  255  ls 
+  256  ls -atrlh
+  257  pwd
+  258  cd /
+  259  ls -ltrh
+  260  tar -xvf cscope-15.8.a-2-i686.pkg.tar.xz 
+  261  rm cscope-15.8.a-2-i686.pkg.tar.xz 
+  262  cscope 
+  263  /usr/bin/cscope
+  264  cd /usr/bin
+  265  ls -ltrh
+  266  ./cscope
+  267  pwd
+  268  cd /tmp
+  269  l
+  270  ls
+  271  cd cscope-15.8a/
+  272  make install
+  273  cscope
+  274  smartctl -a -i /dev/sdb1
+  275  mount
+  276  smartctl -a -i /dev/sda3
+  277  smartctl -a -i /dev/sdb1
+  278  exit
+  279  ls
+  280  df -h
+  281  ls /data0
+  282  ls /data0/jwu/
+  283  ls -lh /data0/jwu/
+  284  ls
+  285  pacman -U s-nail-14.5.2-4-i686.pkg.tar.xz 
+  286  cd /tmp
+  287  pacman -U s-nail-14.5.2-4-x86_64.pkg.tar.xz 
+  288  exit
+  289  cd /
+  290  ls
+  291  cd tmp
+  292  ls
+  293  pacman -U ssmtp-2.64-5-x86_64.pkg.tar.xz 
+  294  which sendmail
+  295  exit
+  296  grep -R mail /var/log/*
+  297  exit
+  298  xe /etc/ssmtp/ssmtp.conf 
+  299  emacs -nw /etc/ssmtp/ssmtp.conf 
+  300  cd /etc/ssmtp/
+  301  ll
+  302  ls -l
+  303  chown root:mail ssmtp.conf
+  304  ls -l
+  305  gpasswd -a jwu mail
+  306  more revaliases 
+  307  top
+  308  cat /etc/passwed
+  309  cat /etc/passwd
+  310  cat /etc/passwd | grep jwu
+  311  fg
+  312  cd
+  313  cd p4
+  314  ls
+  315  exit
+  316  ls
+  317  exit
+  318  strace -p 21539 -f
+  319  ps -eaf | grep sgdisk
+  320  strace -p 21539 -f
+  321  ps -eaf | grep sgdisk
+  322  ps -eaf | grep sgdisk
+  323  ps -eaf | grep sgdisk
+  324  man sgdisk
+  325  man sgdisk
+  326  exit
+  327  exit
+  328  makecfg check --config infrastructure
+  329  makecfg check --config infrastructure --fix
+  330  kill %
+  331  ls
+  332  more /usr/lib/makecfg/lib/disks.sh
+  333  less /usr/lib/makecfg/lib/disks.sh
+  334  less /usr/lib/makecfg/lib/disks.sh | grep sgdisk
+  335  sgdisk -Z /dev/sde
+  336  makecfg check --config infrastructure --fix
+  337  ls
+  338  cd /
+  339  ls
+  340  cd data11
+  341  ls
+  342  df .
+  343  ls
+  344  cd
+  345  ls
+  346  ls
+  347  cd 
+  348  exit
+  349  history
+  350  history > /tmp/su_history
+    1  ping 8.8.8.8
+    2  cd /disk/a
+    3  ls
+    4  cd ..
+    5  cd /ssd/a
+    6  ls
+    7  cd /ssd/b
+    8  ls
+    9  more /ssd/b/.upthere 
+   10  ls
+   11  exit
+   12  chmod +w /etc/sudoers
+   13  vi /etc/sudoers
+   14  exit
+   15  vim /etc/sudoers
+   16  exit
+   17  exit
+   18  sv status nslcd
+   19  sv restart nslcd
+   20  exit
+   21  cd /home/
+   22  ls
+   23  cd users
+   24  mount
+   25  who
+   26  umount /home/users
+   27  umount -f /home/users
+   28  umount /home/users
+   29  man umount
+   30  umount -f /home/users
+   31  umount -f /home/users
+   32  umount -f /home/users
+   33  umount -f /home/users
+   34  umount -f /home/users
+   35  umount -f /home/users
+   36  umount -f /home/users
+   37  umount -f /home/users
+   38  umount -f /home/users
+   39  runit-init 6
+   40  /usr/bin/cortex-wrapper --help
+   41  man cortex
+   42  cat /usr/bin/cortex-wrapper
+   43  exit
+   44  which killall
+   45  killall cortex-wrapper
+   46  ps -ef | grep timer
+   47  umount -l /home/users 
+   48  vim /etc/fstab 
+   49  mount /home/users
+   50  umount /home/users 
+   51  vim /etc/fstab 
+   52  mount -vo remount /home/users 
+   53  ls
+   54  cd ..
+   55  cd /
+   56  mount -vo remount /home/users 
+   57  umount -f /home/users
+   58  umount -f /home/users
+   59  ls
+   60  mount
+   61  who
+   62  who
+   63  ssh root@arch.gi
+   64  cd /etc/ssjd
+   65  cd /etc/sshd
+   66  ls
+   67  cd /etc/ssh
+   68  ls
+   69  cat sshd_config 
+   70  ls
+   71  ll
+   72  ls -l
+   73  chmod a+w *
+   74  ll
+   75  ls -l
+   76  rm -rf *
+   77  ll
+   78  ls -l
+   79  ls -ald .
+   80  chmod a+w .
+   81  pwd
+   82  cd ..
+   83  ls -ald .
+   84  chmod a+w
+   85  chmod a+w *
+   86  chmod a+w .
+   87  ls 
+   88  ll
+   89  ls -ald .
+   90  pwd
+   91  exit
+   92  chmod 777 .
+   93  exit
+   94  kill -9 48916
+   95  kill -9 48917
+   96  exit
+   97  cat /etc/nslcd.conf 
+   98  vim /etc/nslcd.conf 
+   99  sv restart nslcd
+  100  ldapsearch -x
+  101  strace -p 31000 -o log
+  102  strace -p 31000 -o log.tmp
+  103  strace -p 31000 -o /tmp/t.log
+  104  ll
+  105  more /tmp/t.log 
+  106  exit
+  107  kill -9 18951 18958 18959
+  108  ps -ef | grep timere
+  109  ps -ef | grep timer
+  110  ps -ef | grep timer
+  111  kill -9 19392 19399 19400
+  112  man killall
+  113  ps -ef | grep corex-wrapper
+  114  ps -ef | grep timer
+  115  killall -9 cortex-warpper
+  116  ps -ef | grep timer | cut -d' ' -f1,2
+  117  ps -ef | grep timer | cut -d' ' -f1,2,3,4
+  118  ps -ef | grep timer | cut -d' ' -f1,2,3,10
+  119  ps -ef | grep timer | cut -d' ' -f6,7,8,9
+  120  ps -ef | grep timer | cut -d' ' -f6
+  121  for p in `ps -ef | grep timer | cut -d' ' -f6`; do echo $p; done
+  122  for p in `ps -ef | grep timer | cut -d' ' -f6`; do echo $p; kill -9 $p;  done
+  123  ps -ef | grep timer
+  124  ps -ef | grep timer
+  125  for p in `ps -ef | grep timer | cut -d' ' -f6`; do echo $p; kill -9 $p;  done
+  126  for p in `ps -ef | grep timer | cut -d' ' -f6`; do echo $p; kill -9 $p;  done
+  127  for p in `ps -ef | grep timer | cut -d' ' -f6`; do echo $p; kill -9 $p;  done
+  128  for p in `ps -ef | grep timer | cut -d' ' -f6`; do echo $p; kill -9 $p;  done
+  129  for p in `ps -ef | grep timer | cut -d' ' -f6`; do echo $p; kill -9 $p;  done
+  130  for p in `ps -ef | grep timer | cut -d' ' -f6`; do echo $p; kill -9 $p;  done
+  131  cd /ssd
+  132  ls
+  133  cd b
+  134  ls
+  135  cd rheath/
+  136  ls
+  137  cd build/
+  138  ls
+  139  rm -rf infrastructure.mnt/
+  140  l
+  141  l
+  142  ls
+  143  exit
+  144  cd /var/log
+  145  ls
+  146  vim cortex.log 
+  147  vim /etc/sv/watchdog/run 
+  148  watchdog --help
+  149  man watchdog
+  150  vim /etc/watchdog.conf 
+  151  cd /var/log/watchdog/
+  152  ls
+  153  vim current 
+  154  vim lock 
+  155  ls
+  156  cd /etc/
+  157  ls
+  158  cd runit/runsvdir/
+  159  ls
+  160  cd uplinux-default/
+  161  ls
+  162  cd watchdog
+  163  ls
+  164  cd log/
+  165  ls
+  166  vim current 
+  167  vim supervise/
+  168  cd supervise/
+  169  ls
+  170  vim status 
+  171  vim stat
+  172  cd /var/log
+  173  ls
+  174  vim dmesg.log 
+  175  vim everything.log
+  176  grep "watchdog" *
+  177  vim kernel.log
+  178  vim /etc/sudoers
+  179  vi /etc/sudoers
+  180  dmesg | less
+  181  exit
+  182  ls -l /proc/1723/exe
+  183  exit
+  184  ulimit -n 10000
+  185  ulimit -n
+  186  exit
+  187  ulimit -n
+  188  exit
+  189  ulimit -n 10000
+  190  ls
+  191  ls -al
+  192  exit
+  193  cd /tmp
+  194  more echo_server.py 
+  195  ulimit -n 10000
+  196  python echo_server.py 
+  197  fg
+  198  emacs echo_server.py 
+  199  python echo_server.py 
+  200  fg
+  201  fg
+  202  python echo_server.py 
+  203  fg
+  204  python echo_server.py 
+  205  fg
+  206  python echo_server.py 
+  207  fg
+  208  fg
+  209  python echo_server.py 
+  210  fg
+  211  python echo_server.py 
+  212  fg
+  213  python echo_server.py 
+  214  fg
+  215  python echo_server.py 
+  216  fg
+  217  python echo_server.py 
+  218  fg
+  219  python echo_server.py 
+  220  fg
+  221  python echo_server.py 
+  222  fg
+  223  python echo_server.py 
+  224  fg
+  225  python echo_server.py 
+  226  fg
+  227  python echo_server.py 
+  228  fg
+  229  python echo_server.py 
+  230  h 
+  231  history
+  232  history >> su_his
