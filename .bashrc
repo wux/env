@@ -9,7 +9,7 @@ export HEAPCHECK=normal
 
 # Perforce setting.
 export P4CONFIG=.p4config
-export P4PORT=perforce.upthere.com:1666
+export P4PORT=perforce.corp.upthere.com:1666
 #export EDITOR=emacs  # or whatever else you prefer
 
 # Source global definitions
@@ -82,3 +82,6 @@ function ssh_prd2(){
 }
 
 eval $(keychain --eval -Q id_rsa)
+
+   alias desktop='ssh -Y jwu@10.0.70.114'
+   alias p4src='cd /ssd/a/jwu/src/depot'
