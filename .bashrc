@@ -84,4 +84,11 @@ function ssh_prd2(){
 eval $(keychain --eval -Q id_rsa)
 
    alias desktop='ssh -Y jwu@10.0.70.114'
+
    alias p4src='cd /ssd/a/jwu/src/depot'
+
+   alias svndiff='svn diff --diff-cmd tkdiff'
+
+   alias psA='ps auxf'
+   alias psE='ps -eLf'
+   alias psL='ps -efww ef'
