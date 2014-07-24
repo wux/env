@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "Generating diff for ChangeList: $1"
+p4 opened -c $1 | cut -d "#" -f 1 | xargs p4 diff -du
