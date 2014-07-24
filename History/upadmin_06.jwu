@@ -1,0 +1,1000 @@
+   46  iostat 1
+   47  htop
+   48  df -h
+   49  cd /ssd/b
+   50  ls
+   51  dd if=/dev/zero of=bigfile bs=1M count=50000 oflag=direct
+   52  ps auxf | grep upprod1
+   53  ps auxf | grep sleep
+   54  ps auxf | grep upadmin
+   55  ps auxf | grep upadmin
+   56  ps auxf | grep upprod1
+   57  ps auxf | grep upprod1
+   58  ps auxf | grep upprod1
+   59  ps auxf | grep upprod1
+   60  ps auxf | grep upprod1
+   61  ps auxf | grep upprod1
+   62  ps auxf | grep upprod1
+   63  ps auxf | grep upprod1
+   64  ps auxf | grep upprod1
+   65  ps auxf | grep upprod1
+   66  ps auxf | grep upprod1
+   67  ps auxf | grep upprod1
+   68  ps auxf | grep upadmin
+   69  ps auxf | grep upprod1
+   70  ps auxf | grep upprod1
+   71  ps auxf | grep upprod1
+   72  ps auxf | grep upprod1
+   73  ls /tmp/__*
+   74  ls /tmp/
+   75  ps auxf | grep upprod1
+   76  ps auxf | grep upprod1
+   77  ps auxf | grep upprod1
+   78  ls /tmp/
+   79  ls /tmp/
+   80  ls -l /tmp/
+   81  ps auxf | grep upprod1
+   82  ps auxf | grep upprod1
+   83  ps auxf | grep upprod1
+   84  ps auxf | grep upprod1
+   85  ps auxf | grep upprod1
+   86  ps auxf | grep upprod1
+   87  ps auxf | grep upprod1
+   88  ps auxf | grep upprod1
+   89  ps auxf | grep upprod1
+   90  ps auxf | grep upprod1
+   91  ps auxf | grep upprod1
+   92  ps auxf | grep upprod1
+   93  ps auxf | grep upprod1
+   94  ps auxf | grep upprod1
+   95  ls /tmp/*
+   96  ls /tmp/*
+   97  ps auxf | grep upprod1
+   98  ps auxf | grep upprod1
+   99  pkill -u upprod1 -15 -f ".*echo_server.py.* --port 50001"
+  100  sudo pkill -u upprod1 -15 -f ".*echo_server.py.* --port 50001"
+  101  ps auxf | grep upprod1
+  102  df -h
+  103  ps auxf | grep upprod1
+  104  pgrep [-u upprod1] -f “/usr/bin/loop\.sh .* echo_server.py.*—port.50001”
+  105  pgrep -u upprod1 -f “/usr/bin/loop\.sh .* echo_server.py.*—port.50001”
+  106  pgrep [-u upprod1] -f “/usr/bin/loop\.sh.*echo_server.py.*—port.50001”
+  107  pgrep [-u upprod1] -f “/usr/bin/loop\.sh.*echo_server.py.*—port=50001”
+  108  pgrep [-u upprod1] -f “/usr/bin/loop\.sh.*proxy_server.py.*—port.50000”
+  109  pgrep -u upprod1 -f “/usr/bin/loop\.sh.*proxy_server.py.*—port.50000”
+  110  ps auxf | grep upprod1
+  111  pgrep -u upprod1 -f “/upthere/bin/loop\.sh.*proxy_server.py.*—port.50000”
+  112  pgrep -u upprod1 -f “/upthere/bin/loop\.sh"
+  113  pgrep -u upprod1 -f "/upthere/bin/loop\.sh"
+  114  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*proxy_server.py.*—port.50000"
+  115  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*—port.50000"
+  116  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*"
+  117  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port=50000"
+  118  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*--port=50000"
+  119  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*--port*50000"
+  120  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*--port.*50000"
+  121  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port.*50000"
+  122  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port.*50000"
+  123  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port?50000"
+  124  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port[.]50000"
+  125  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port[ |=]50000"
+  126  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port[ |=]50000"
+  127  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port *[ |=] *50000"
+  128  pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000"
+  129  man pkill
+  130  man pgrep
+  131  pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000"
+  132  ps auxf | grep upprod1
+  133  ps auxf -u upprod1
+  134  pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000"
+  135  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  136  echo $(pgrep -l -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  137  which loop
+  138  xe /usr/bin/launcher 
+  139  emacs /usr/bin/launcher 
+  140  man ps
+  141  echo $(pgrep -vg 0 -l -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  142  echo $(pgrep -l -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  143  ps -ef | grep 33646
+  144  man ps
+  145  getpgrp 33646
+  146  ps -e -o pgid,pid= | grep [0-9]
+  147  ps -e -o pgid,pid=
+  148  ps -e -o pgid,pid= 33646
+  149  ps -e -o pgid,pid= | grep 33646
+  150  man pgrep
+  151  echo $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  152  echo $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  153  echo $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000") -d '\n'
+  154  man pgre
+  155  man pgrep
+  156  more /upthere/summary 
+  157  pacman -Sy prd-1.12-30
+  158  sudo pacman -Sy prd-1.12-30
+  159  exit
+  160  ll
+  161  ls
+  162  [[ ! -f /tmp/__babysitter_lock.50001 ]]; $?
+  163  ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )); echo $?
+  164  (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )); echo $?
+  165  man pkill
+  166  ps -l
+  167  ps -efl
+  168  sleep 300; sleep 200; sleep 100;
+  169  sleep 300; sleep 200; sleep 100; &
+  170  sleep 300&; sleep 200&; sleep 100&;
+  171  sleep 300& ; sleep 200 &; sleep 100 &
+  172  sleep 300& 
+  173  ps -ef | grep sleep
+  174  ps -efl | grep sleep
+  175  sleep 300& && sleep 100&
+  176  { sleep 300& } && { sleep 100& }
+  177  ps -efl | grep sleep
+  178  ps -efl | grep sleep
+  179  man ps
+  180  ps -e -o cmd,pgrp
+  181  ps -e -o cmd,pgrp | grep sleep
+  182  { sleep 600& } && { sleep 500& }
+  183  ps -e -o cmd,pgrp | grep sleep
+  184  ps -ef | grep sleep
+  185  ps -ef  | more
+  186  ps  xao pid,ppid,pgid,sid | head
+  187  ps  xao pid,ppid,pgid,sid 
+  188  ps  elo pid,ppid,pgid,sid 
+  189  ps  o pid,ppid,pgid,sid 
+  190  ps eo pid,ppid,pgid,sid 
+  191  ps efo pid,ppid,pgid,sid 
+  192  ps  xao pid,ppid,pgid,sid,comm 
+  193  ps  xao pid,ppid,pgid,sid,comm  | grep sleep
+  194  which loop
+  195  more /usr/bin/loop
+  196  ll /usr/bin/launcher 
+  197  more /usr/bin/launcher 
+  198  pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000") -d '\n'
+  199  echo $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000") -d '\n'
+  200  echo $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  201  killall -g $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  202  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  203  killall -g $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  204  ps -ef | grep 10861
+  205  pkill -g $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  206  ps -efo pid,gid | grep 10861
+  207  ps axo pid,gid,cmd | grep 10861
+  208  ps axo pid,pgid,cmd | grep 10861
+  209  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  210  ps axo pid,pgid,cmd | grep 10861
+  211  ps axo pid,pgid,cmd | grep 10863
+  212  pkill -9 10863
+  213  ps axo pid,pgid,cmd | grep 10863
+  214  pkill -9 10863 10864
+  215  pkill -9 10863,10864
+  216  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  217  ps axo pid,pgid,cmd | grep 10863 
+  218  ps -o pgid 10863
+  219  ps -o pgid 10863 | grep -v 'PGID'
+  220  ps -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  221  man ps
+  222  ps -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000") h
+  223  ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  224  echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000"))
+  225  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  226  cls
+  227  clear
+  228  exit
+  229  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  230  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  231  ls /tmp
+  232  rm -rf /tmp/__babysitter_lock.5000*
+  233  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  234  history | grep gpid
+  235  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=^C*50001")
+  236  echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))
+  237  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001")
+  238  ps -ef | grep loop
+  239  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port *[ |=] *50001")
+  240  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh *echo_server.py.*-port *[ |=] *50001")
+  241  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh ' '*echo_server.py.*-port *[ |=] *50001")
+  242  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port *[ |=] *50001")
+  243  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port.*[ |=] *50001")
+  244  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port.*[ |=]50001")
+  245  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port.*[ |=][' ']*50001")
+  246  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port[' ']*[ |=][' ']*50001")
+  247  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py .*-port[' ']*[ |=][' ']*50001")
+  248  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py .*-port *[ |=] *50001")
+  249  sleep      500&
+  250  ps -ef | grep sleep
+  251  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py .*-port[ |=]50001")
+  252  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py .*-port[ |=]50001")
+  253  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  254  rm -rf /tmp/__*
+  255  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  256  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  257  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"
+  258  sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))
+  259  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"
+  260  sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; 
+  261  sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done";
+  262  $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))
+  263  echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))
+  264  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")
+  265  man pgrep
+  266  pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"; echo $?
+  267  pgrep -u upprod1 -f "/upthere/bin/loop\.sh"; echo $?
+  268  $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || 0))
+  269  $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo "0"))
+  270  $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || exit 0))
+  271  echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || exit 0))
+  272  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || 0)
+  273  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || "0")
+  274  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo "0")
+  275   echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo "0"))
+  276  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo "0")
+  277  ps h -o pgid "0"
+  278  ps h -o pgid 0
+  279  man ps
+  280  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo $pid)
+  281  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo $$)
+  282  ps -ef | grep 21479
+  283  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo $BASHPID)
+  284  ps -ef | grep 3077
+  285   ps ax | grep bash4
+  286  echo $BASH_VERSION
+  287  man bash
+  288  echo $BASHPID; [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; echo $BASHPID; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo $BASHPID; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15 $BASHPID";echo $BASHPID; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"
+  289  which aborter 
+  290  more `which aborter`
+  291  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo $BASHPID)
+  292  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo 0)
+  293   echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") || echo "0")
+  294  man ps
+  295  ll /tmp
+  296  ls /tmp
+  297  rm -rf /tmp/__*
+  298  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  299  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  300  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  301  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'&
+  302  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'&
+  303  SSH:  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure";; 2 echo "unlock done";'
+  304  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure";; 2 echo "unlock done";'
+  305  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure";; 2 echo "unlock done";
+  306  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure";; 2 echo "unlock done";
+  307  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; };
+  308  touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; 
+  309  sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15";
+  310  sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; 
+  311  sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure";
+  312  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 2; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  313  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 2; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  314  rm -rf /tmp/__*
+  315  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 2; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  316  ls /upthere/bin/
+  317  more /upthere/bin/echo_server.py 
+  318  more /upthere/bin/loop.sh 
+  319  emacs /upthere/bin/loop.sh 
+  320  chmod +w /upthere/bin/loop.sh 
+  321  sudo chmod a+w /upthere/bin/loop.sh 
+  322  fg
+  323  emacs /upthere/bin/loop.sh 
+  324  timeout 26 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50000) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50000 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50000 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 > /disk/a/loop.10.1.2.6.50000.upprod1.proxy_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 16; rm -f /tmp/__babysitter_lock.50000 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  325  sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")) && echo "Done: pkill -15"; 
+  326  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")
+  327  killall -g $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")
+  328  kill -15 $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")
+  329  sudo kill -15 $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")
+  330  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*")
+  331  for pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*"); do echo $pid; done
+  332  history >> /tmp/jwu.h
+  333  exit
+  334  timeout 14 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(bb_found_pid)); done && echo "Done: pkill -15"; sleep 10; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(bb_found_pid)); done && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 > /disk/a/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 4; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  335  timeout 14 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(bb_found_pid)); done && echo "Done: pkill -15"; sleep 10; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(bb_found_pid)); done && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 > /disk/a/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 4; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  336  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $(bb_found_pid)); done && echo "Done: pkill -15"; 
+  337  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $(ps --no-headers -o pgid $(bb_found_pid)); done
+  338  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $(bb_found_pid); done && echo "Done: pkill -15"; 
+  339  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  340  timeout 14 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $bb_found_pid); done && echo "Done: pkill -15"; sleep 10; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $bb_found_pid); done && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 > /disk/a/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 4; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  341  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  342  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  343  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  344  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  345  do $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  346  do
+  347  pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000"
+  348  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; echo "do"; done
+  349  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; echo "do"; done
+  350  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; echo "do"; end;
+  351  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; do echo "do"; done
+  352  timeout 14 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $bb_found_pid); done && echo "Done: pkill -15"; sleep 10; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $bb_found_pid); done && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 > /disk/a/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 4; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  353  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000")
+  354  done
+  355  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000")); done
+  356  while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000")); done
+  357  ps auxf -u upprod1
+  358  ps auxf -u upprod1 | grep loop
+  359  exit
+  360  while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; 
+  361  cd /disk/a/logs
+  362  ls
+  363  ls
+  364  pwd
+  365  ls -l
+  366  exit
+  367  rm -rf /tmp/__*
+  368  rm -rf /tmp/__*
+  369  [[ ! -f /tmp/__babysitter_lock.50000 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50000) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50000 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50000 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); done && echo "Done: pkill -15"; sleep 10; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/loop.10.1.2.6.50000.upprod1.proxy_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; sleep 2; rm -f /tmp/__babysitter_lock.50000 > /dev/null || echo "Error: unlock failure";
+  370  cd /disk/g/arlie
+  371  ll
+  372  ll
+  373  ls -l
+  374  ls -al
+  375  cat .bash_profile 
+  376  . .bashrc
+  377  ll
+  378  alias
+  379  ll
+  380  ll upthere
+  381  ll
+  382  man git
+  383  man gittutorial
+  384  git help config
+  385  ls /tmp
+  386  ls /disk/a/logs/
+  387  ls /disk/a/logs/
+  388  ls /disk/a/logs/
+  389  more /upthere/bin/proxy_server.py 
+  390  python2 /upthere/bin/proxy_server.py 
+  391  python2 /upthere/bin/proxy_server.py --port 60000
+  392  python2 /upthere/bin/proxy_server.py --port 60000 --backends upac06:60001
+  393  ls /disk/a/
+  394  rm -rf /disk/a/loop*
+  395  ls /disk/a/logs
+  396  xe /upthere/bin/loop.sh
+  397  emacs /upthere/bin/loop.sh
+  398  man date
+  399  fg
+  400  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-16
+  401  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-18
+  402  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-20
+  403  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-22
+  404  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-26
+  405  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-26
+  406  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-26
+  407  fg
+  408  scp /upthere/bin/loop.sh upac07:/tmp/
+  409  ls -al /disk/a/logs/
+  410  ls -al /disk/a/logs/
+  411  more /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py 
+  412  more /upthere/bin/proxy_server.py 
+  413  ls
+  414  pwd
+  415  rm -rf /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py 
+  416  htop
+  417  ls -al /disk/a/logs/*
+  418  ls -al /disk/a/logs/
+  419  rm -rf /disk/a/logs/*
+  420  more /upthere/bin/loop.sh
+  421  emacs -nw /upthere/bin/loop.sh
+  422  rm -rf /disk/a/logs/*
+  423  scp /upthere/bin/loop.sh upac07:/tmp/
+  424  rm -rf /disk/a/logs/*
+  425  fg
+  426  rm -rf /disk/a/logs/*
+  427  ls /disk/a/logs/*
+  428  ls /disk/a/logs
+  429  ls /disk/a/logs
+  430  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  431  rm -rf /disk/a/logs/*
+  432  rm -rf /disk/a/logs/*
+  433  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  434  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  435  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  436  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  437  rm -rf /disk/a/logs/*
+  438  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  439  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  440  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  441  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  442  rm -rf /disk/a/logs/*
+  443  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  444  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  445  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server
+  446  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port
+  447  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  448  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  449  rm -rf /disk/a/logs/*
+  450  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  451  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  452  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  453  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  454  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  455  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  456  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  457  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  458  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  459  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  460  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  461  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  462  rm -rf /disk/a/logs/*
+  463  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  464  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  465  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  466  bash -c [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";
+  467  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  468  bash -c [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";
+  469  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; 
+  470  while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";
+  471  while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9";
+  472   sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py";
+  473   sudo --non-interactive --background -u upprod1 --shell bash -c '"/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"';
+  474   sudo --non-interactive --background -u upprod1 --shell bash -c "echo Hi"
+  475   sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"
+  476   sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>\&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"
+  477   sudo --non-interactive --background -u upprod1 --shell bash -c '/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py'
+  478   sudo --non-interactive --background -u upprod1 --shell bash -c '/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1'
+  479  ps -ef | grep echo
+  480  bash -c [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";
+  481   sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"
+  482  ps -ef | grep echo
+  483  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  484  rm -rf /disk/a/logs/*
+  485  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  486  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  487  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  488  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  489  tail -f /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  490  rm -rf /disk/a/logs/*
+  491  tail -f /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  492  tail -f /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  493  rm -rf /disk/a/logs/*
+  494  tail -f /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  495  tail -f /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  496  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  497  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  498  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  499  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  500  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  501  rm -rf /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  502  rm -rf /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  503  ll /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  504  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  505  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  506  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  507  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  508  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  509  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  510  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  511  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  512  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  513  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  514  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  515  rm -rf /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  516  rm -rf /tmp/__babysitter_lock.50001 
+  517  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  518  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  519  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  520  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  521  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  522  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  523  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed"; echo "All done";
+  524  rm -rf /tmp/__babysitter_lock.50001 
+  525  rm -rf /tmp/__babysitter_lock.50001 
+  526  rm -rf /tmp/__babysitter_lock.50001 
+  527  rm -rf /tmp/__babysitter_lock.50001 
+  528  rm -rf /tmp/__babysitter_lock.50001 
+  529  rm -rf /tmp/__babysitter_lock.50001 
+  530  rm -rf /tmp/__babysitter_lock.50001 
+  531  rm -rf /tmp/__babysitter_lock.50001 
+  532  sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50001
+  533  sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50001";
+  534  rm -rf /tmp/__babysitter_lock.50001 
+  535  rm -rf /tmp/__babysitter_lock.50001 
+  536  rm -rf /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  537* 
+  538  rm -rf /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py ; cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  539  rm -rf /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py ; cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  540  rm -rf /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py ; cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  541  rm -rf /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py ; cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  542  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  543  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  544  rm -rf /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py ; cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  545  history >> /tmp/upadmin_06.jwu 
+    3  ps auxf | grep upprod1
+    4  ps auxf | grep proxy
+    5  ps auxf | grep echo
+    6  ps auxf | grep upadmin
+    7  who
+    8  ps auxf | grep upadmin
+    9  ps auxf | grep upprod1
+   10  ps auxf | grep upprod1
+   11  ps auxf | grep upprod1
+   12  ps auxf | grep upprod1
+   13  ps auxf | grep upprod1
+   14  ps auxf | grep upprod1
+   15  ps auxf | grep upadmin
+   16  ps auxf | grep upprod1
+   17  ps auxf | grep upprod1
+   18  ps auxf | grep upprod1
+   19  ps auxf | grep upprod1
+   20  ps auxf | grep upprod1
+   21  ps auxf | grep sleep
+   22  ps auxf | grep upprod1
+   23  ps auxf | grep sleep
+   24  ps auxf | grep sleep
+   25  ps auxf | grep sleep
+   26  ps auxf | grep upprod1
+   27  ps auxf | grep sleep
+   28  ps auxf | grep sleep
+   29  ps auxf | grep upprod1
+   30  ps auxf | grep sleep
+   31  ps auxf | grep sleep
+   32  ps auxf | grep sleep
+   33  ps auxf | grep sleep
+   34  ps auxf | grep sleep
+   35  ps auxf | grep sleep
+   36  sudo kill -9 34070 34921
+   37  ps auxf | grep sleep
+   38  ps auxf | grep sleep
+   39  ps auxf | grep sleep
+   40  ps auxf | grep sleep
+   41  ps auxf | grep sleep
+   42  iostat 1
+   43  cd /ssd/b
+   44  dd if=/dev/zero of=bigfile2 bs=1M count=50000 oflag=direct
+   45  bc
+   46  iostat 1
+   47  htop
+   48  df -h
+   49  cd /ssd/b
+   50  ls
+   51  dd if=/dev/zero of=bigfile bs=1M count=50000 oflag=direct
+   52  ps auxf | grep upprod1
+   53  ps auxf | grep sleep
+   54  ps auxf | grep upadmin
+   55  ps auxf | grep upadmin
+   56  ps auxf | grep upprod1
+   57  ps auxf | grep upprod1
+   58  ps auxf | grep upprod1
+   59  ps auxf | grep upprod1
+   60  ps auxf | grep upprod1
+   61  ps auxf | grep upprod1
+   62  ps auxf | grep upprod1
+   63  ps auxf | grep upprod1
+   64  ps auxf | grep upprod1
+   65  ps auxf | grep upprod1
+   66  ps auxf | grep upprod1
+   67  ps auxf | grep upprod1
+   68  ps auxf | grep upadmin
+   69  ps auxf | grep upprod1
+   70  ps auxf | grep upprod1
+   71  ps auxf | grep upprod1
+   72  ps auxf | grep upprod1
+   73  ls /tmp/__*
+   74  ls /tmp/
+   75  ps auxf | grep upprod1
+   76  ps auxf | grep upprod1
+   77  ps auxf | grep upprod1
+   78  ls /tmp/
+   79  ls /tmp/
+   80  ls -l /tmp/
+   81  ps auxf | grep upprod1
+   82  ps auxf | grep upprod1
+   83  ps auxf | grep upprod1
+   84  ps auxf | grep upprod1
+   85  ps auxf | grep upprod1
+   86  ps auxf | grep upprod1
+   87  ps auxf | grep upprod1
+   88  ps auxf | grep upprod1
+   89  ps auxf | grep upprod1
+   90  ps auxf | grep upprod1
+   91  ps auxf | grep upprod1
+   92  ps auxf | grep upprod1
+   93  ps auxf | grep upprod1
+   94  ps auxf | grep upprod1
+   95  ls /tmp/*
+   96  ls /tmp/*
+   97  ps auxf | grep upprod1
+   98  ps auxf | grep upprod1
+   99  pkill -u upprod1 -15 -f ".*echo_server.py.* --port 50001"
+  100  sudo pkill -u upprod1 -15 -f ".*echo_server.py.* --port 50001"
+  101  ps auxf | grep upprod1
+  102  df -h
+  103  ps auxf | grep upprod1
+  104  pgrep [-u upprod1] -f “/usr/bin/loop\.sh .* echo_server.py.*—port.50001”
+  105  pgrep -u upprod1 -f “/usr/bin/loop\.sh .* echo_server.py.*—port.50001”
+  106  pgrep [-u upprod1] -f “/usr/bin/loop\.sh.*echo_server.py.*—port.50001”
+  107  pgrep [-u upprod1] -f “/usr/bin/loop\.sh.*echo_server.py.*—port=50001”
+  108  pgrep [-u upprod1] -f “/usr/bin/loop\.sh.*proxy_server.py.*—port.50000”
+  109  pgrep -u upprod1 -f “/usr/bin/loop\.sh.*proxy_server.py.*—port.50000”
+  110  ps auxf | grep upprod1
+  111  pgrep -u upprod1 -f “/upthere/bin/loop\.sh.*proxy_server.py.*—port.50000”
+  112  pgrep -u upprod1 -f “/upthere/bin/loop\.sh"
+  113  pgrep -u upprod1 -f "/upthere/bin/loop\.sh"
+  114  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*proxy_server.py.*—port.50000"
+  115  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*—port.50000"
+  116  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*"
+  117  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port=50000"
+  118  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*--port=50000"
+  119  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*--port*50000"
+  120  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*--port.*50000"
+  121  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port.*50000"
+  122  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port.*50000"
+  123  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port?50000"
+  124  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port[.]50000"
+  125  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port[ |=]50000"
+  126  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port[ |=]50000"
+  127  pgrep -u upprod1 -f "/upthere/bin/loop\.sh.*/upthere/bin/proxy_server.py.*-port *[ |=] *50000"
+  128  pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000"
+  129  man pkill
+  130  man pgrep
+  131  pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000"
+  132  ps auxf | grep upprod1
+  133  ps auxf -u upprod1
+  134  pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000"
+  135  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  136  echo $(pgrep -l -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  137  which loop
+  138  xe /usr/bin/launcher 
+  139  emacs /usr/bin/launcher 
+  140  man ps
+  141  echo $(pgrep -vg 0 -l -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  142  echo $(pgrep -l -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  143  ps -ef | grep 33646
+  144  man ps
+  145  getpgrp 33646
+  146  ps -e -o pgid,pid= | grep [0-9]
+  147  ps -e -o pgid,pid=
+  148  ps -e -o pgid,pid= 33646
+  149  ps -e -o pgid,pid= | grep 33646
+  150  man pgrep
+  151  echo $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  152  echo $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  153  echo $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000") -d '\n'
+  154  man pgre
+  155  man pgrep
+  156  more /upthere/summary 
+  157  pacman -Sy prd-1.12-30
+  158  sudo pacman -Sy prd-1.12-30
+  159  exit
+  160  ll
+  161  ls
+  162  [[ ! -f /tmp/__babysitter_lock.50001 ]]; $?
+  163  ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )); echo $?
+  164  (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )); echo $?
+  165  man pkill
+  166  ps -l
+  167  ps -efl
+  168  sleep 300; sleep 200; sleep 100;
+  169  sleep 300; sleep 200; sleep 100; &
+  170  sleep 300&; sleep 200&; sleep 100&;
+  171  sleep 300& ; sleep 200 &; sleep 100 &
+  172  sleep 300& 
+  173  ps -ef | grep sleep
+  174  ps -efl | grep sleep
+  175  sleep 300& && sleep 100&
+  176  { sleep 300& } && { sleep 100& }
+  177  ps -efl | grep sleep
+  178  ps -efl | grep sleep
+  179  man ps
+  180  ps -e -o cmd,pgrp
+  181  ps -e -o cmd,pgrp | grep sleep
+  182  { sleep 600& } && { sleep 500& }
+  183  ps -e -o cmd,pgrp | grep sleep
+  184  ps -ef | grep sleep
+  185  ps -ef  | more
+  186  ps  xao pid,ppid,pgid,sid | head
+  187  ps  xao pid,ppid,pgid,sid 
+  188  ps  elo pid,ppid,pgid,sid 
+  189  ps  o pid,ppid,pgid,sid 
+  190  ps eo pid,ppid,pgid,sid 
+  191  ps efo pid,ppid,pgid,sid 
+  192  ps  xao pid,ppid,pgid,sid,comm 
+  193  ps  xao pid,ppid,pgid,sid,comm  | grep sleep
+  194  which loop
+  195  more /usr/bin/loop
+  196  ll /usr/bin/launcher 
+  197  more /usr/bin/launcher 
+  198  pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000") -d '\n'
+  199  echo $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000") -d '\n'
+  200  echo $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  201  killall -g $(pgrep -al -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  202  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  203  killall -g $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  204  ps -ef | grep 10861
+  205  pkill -g $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  206  ps -efo pid,gid | grep 10861
+  207  ps axo pid,gid,cmd | grep 10861
+  208  ps axo pid,pgid,cmd | grep 10861
+  209  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  210  ps axo pid,pgid,cmd | grep 10861
+  211  ps axo pid,pgid,cmd | grep 10863
+  212  pkill -9 10863
+  213  ps axo pid,pgid,cmd | grep 10863
+  214  pkill -9 10863 10864
+  215  pkill -9 10863,10864
+  216  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  217  ps axo pid,pgid,cmd | grep 10863 
+  218  ps -o pgid 10863
+  219  ps -o pgid 10863 | grep -v 'PGID'
+  220  ps -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  221  man ps
+  222  ps -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000") h
+  223  ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000")
+  224  echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh */upthere/bin/proxy_server.py.*-port *[ |=] *50000"))
+  225  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  226  cls
+  227  clear
+  228  exit
+  229  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  230  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  231  ls /tmp
+  232  rm -rf /tmp/__babysitter_lock.5000*
+  233  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  234  history | grep gpid
+  235  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=^C*50001")
+  236  echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001"))
+  237  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh *echo_server.py.*-port *[ |=] *50001")
+  238  ps -ef | grep loop
+  239  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port *[ |=] *50001")
+  240  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh *echo_server.py.*-port *[ |=] *50001")
+  241  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh ' '*echo_server.py.*-port *[ |=] *50001")
+  242  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port *[ |=] *50001")
+  243  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port.*[ |=] *50001")
+  244  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port.*[ |=]50001")
+  245  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port.*[ |=][' ']*50001")
+  246  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py.*-port[' ']*[ |=][' ']*50001")
+  247  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py .*-port[' ']*[ |=][' ']*50001")
+  248  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py .*-port *[ |=] *50001")
+  249  sleep      500&
+  250  ps -ef | grep sleep
+  251  echo $(pgrep -u upprod1 -f "/upthere/bin/loop.sh .*echo_server.py .*-port[ |=]50001")
+  252  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py .*-port[ |=]50001")
+  253  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  254  rm -rf /tmp/__*
+  255  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))")" && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))")" && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  256  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  257  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"
+  258  sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))
+  259  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"
+  260  sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; 
+  261  sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done";
+  262  $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))
+  263  echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))
+  264  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")
+  265  man pgrep
+  266  pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"; echo $?
+  267  pgrep -u upprod1 -f "/upthere/bin/loop\.sh"; echo $?
+  268  $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || 0))
+  269  $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo "0"))
+  270  $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || exit 0))
+  271  echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || exit 0))
+  272  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || 0)
+  273  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || "0")
+  274  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo "0")
+  275   echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo "0"))
+  276  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo "0")
+  277  ps h -o pgid "0"
+  278  ps h -o pgid 0
+  279  man ps
+  280  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo $pid)
+  281  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo $$)
+  282  ps -ef | grep 21479
+  283  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo $BASHPID)
+  284  ps -ef | grep 3077
+  285   ps ax | grep bash4
+  286  echo $BASH_VERSION
+  287  man bash
+  288  echo $BASHPID; [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; echo $BASHPID; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo $BASHPID; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15 $BASHPID";echo $BASHPID; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"
+  289  which aborter 
+  290  more `which aborter`
+  291  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo $BASHPID)
+  292  echo  $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" || echo 0)
+  293   echo $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") || echo "0")
+  294  man ps
+  295  ll /tmp
+  296  ls /tmp
+  297  rm -rf /tmp/__*
+  298  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  299  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  300  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'
+  301  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'&
+  302  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done"'&
+  303  SSH:  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure";; 2 echo "unlock done";'
+  304  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure";; 2 echo "unlock done";'
+  305  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure";; 2 echo "unlock done";
+  306  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure";; 2 echo "unlock done";
+  307  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; };
+  308  touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; 
+  309  sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15";
+  310  sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; 
+  311  sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure";
+  312  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 2; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  313  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 2; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  314  rm -rf /tmp/__*
+  315  timeout 12 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 2; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  316  ls /upthere/bin/
+  317  more /upthere/bin/echo_server.py 
+  318  more /upthere/bin/loop.sh 
+  319  emacs /upthere/bin/loop.sh 
+  320  chmod +w /upthere/bin/loop.sh 
+  321  sudo chmod a+w /upthere/bin/loop.sh 
+  322  fg
+  323  emacs /upthere/bin/loop.sh 
+  324  timeout 26 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50000) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50000 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50000 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")) && echo "Done: pkill -15"; sleep 10; sudo -u upprod1 pkill -u upprod1 -9 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")) && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 > /disk/a/loop.10.1.2.6.50000.upprod1.proxy_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 16; rm -f /tmp/__babysitter_lock.50000 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  325  sudo -u upprod1 pkill -u upprod1 -15 -g $(ps h -o pgid $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")) && echo "Done: pkill -15"; 
+  326  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")
+  327  killall -g $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")
+  328  kill -15 $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")
+  329  sudo kill -15 $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")
+  330  echo $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*")
+  331  for pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*"); do echo $pid; done
+  332  history >> /tmp/jwu.h
+  333  exit
+  334  timeout 14 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(bb_found_pid)); done && echo "Done: pkill -15"; sleep 10; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(bb_found_pid)); done && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 > /disk/a/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 4; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  335  timeout 14 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(bb_found_pid)); done && echo "Done: pkill -15"; sleep 10; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(bb_found_pid)); done && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 > /disk/a/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 4; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  336  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $(bb_found_pid)); done && echo "Done: pkill -15"; 
+  337  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $(ps --no-headers -o pgid $(bb_found_pid)); done
+  338  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $(bb_found_pid); done && echo "Done: pkill -15"; 
+  339  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  340  timeout 14 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $bb_found_pid); done && echo "Done: pkill -15"; sleep 10; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $bb_found_pid); done && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 > /disk/a/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 4; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  341  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  342  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  343  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  344  for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  345  do $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000"); do echo $bb_found_pid; done && echo "Done: pkill -15"; 
+  346  do
+  347  pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000"
+  348  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; echo "do"; done
+  349  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; echo "do"; done
+  350  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; echo "do"; end;
+  351  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; do echo "do"; done
+  352  timeout 14 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; echo "lock done"; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $bb_found_pid); done && echo "Done: pkill -15"; sleep 10; for bb_found_pid in $(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"); do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $bb_found_pid); done && echo "Done: pkill -9"; echo "kill done"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 > /disk/a/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; echo "start done"; sleep 4; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failure"; echo "unlock done";'
+  353  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000")
+  354  done
+  355  while [[ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000")); done
+  356  while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*-port[ |=]50000")); done
+  357  ps auxf -u upprod1
+  358  ps auxf -u upprod1 | grep loop
+  359  exit
+  360  while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; 
+  361  cd /disk/a/logs
+  362  ls
+  363  ls
+  364  pwd
+  365  ls -l
+  366  exit
+  367  rm -rf /tmp/__*
+  368  rm -rf /tmp/__*
+  369  [[ ! -f /tmp/__babysitter_lock.50000 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50000) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50000 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50000 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); done && echo "Done: pkill -15"; sleep 10; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/loop.10.1.2.6.50000.upprod1.proxy_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; sleep 2; rm -f /tmp/__babysitter_lock.50000 > /dev/null || echo "Error: unlock failure";
+  370  cd /disk/g/arlie
+  371  ll
+  372  ll
+  373  ls -l
+  374  ls -al
+  375  cat .bash_profile 
+  376  . .bashrc
+  377  ll
+  378  alias
+  379  ll
+  380  ll upthere
+  381  ll
+  382  man git
+  383  man gittutorial
+  384  git help config
+  385  ls /tmp
+  386  ls /disk/a/logs/
+  387  ls /disk/a/logs/
+  388  ls /disk/a/logs/
+  389  more /upthere/bin/proxy_server.py 
+  390  python2 /upthere/bin/proxy_server.py 
+  391  python2 /upthere/bin/proxy_server.py --port 60000
+  392  python2 /upthere/bin/proxy_server.py --port 60000 --backends upac06:60001
+  393  ls /disk/a/
+  394  rm -rf /disk/a/loop*
+  395  ls /disk/a/logs
+  396  xe /upthere/bin/loop.sh
+  397  emacs /upthere/bin/loop.sh
+  398  man date
+  399  fg
+  400  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-16
+  401  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-18
+  402  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-20
+  403  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-22
+  404  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-26
+  405  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-26
+  406  date +%Y-%m-%d-%H:%M:%S-%N | cut -c 1-26
+  407  fg
+  408  scp /upthere/bin/loop.sh upac07:/tmp/
+  409  ls -al /disk/a/logs/
+  410  ls -al /disk/a/logs/
+  411  more /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py 
+  412  more /upthere/bin/proxy_server.py 
+  413  ls
+  414  pwd
+  415  rm -rf /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py 
+  416  htop
+  417  ls -al /disk/a/logs/*
+  418  ls -al /disk/a/logs/
+  419  rm -rf /disk/a/logs/*
+  420  more /upthere/bin/loop.sh
+  421  emacs -nw /upthere/bin/loop.sh
+  422  rm -rf /disk/a/logs/*
+  423  scp /upthere/bin/loop.sh upac07:/tmp/
+  424  rm -rf /disk/a/logs/*
+  425  fg
+  426  rm -rf /disk/a/logs/*
+  427  ls /disk/a/logs/*
+  428  ls /disk/a/logs
+  429  ls /disk/a/logs
+  430  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  431  rm -rf /disk/a/logs/*
+  432  rm -rf /disk/a/logs/*
+  433  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  434  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  435  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  436  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  437  rm -rf /disk/a/logs/*
+  438  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  439  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  440  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  441  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  442  rm -rf /disk/a/logs/*
+  443  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  444  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py 
+  445  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server
+  446  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port
+  447  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  448  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  449  rm -rf /disk/a/logs/*
+  450  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  451  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  452  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  453  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  454  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  455  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  456  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  457  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  458  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  459  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  460  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  461  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  462  rm -rf /disk/a/logs/*
+  463  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  464  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  465  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  466  bash -c [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";
+  467  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  468  bash -c [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";
+  469  [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; 
+  470  while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";
+  471  while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9";
+  472   sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py";
+  473   sudo --non-interactive --background -u upprod1 --shell bash -c '"/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"';
+  474   sudo --non-interactive --background -u upprod1 --shell bash -c "echo Hi"
+  475   sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"
+  476   sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>\&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"
+  477   sudo --non-interactive --background -u upprod1 --shell bash -c '/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py'
+  478   sudo --non-interactive --background -u upprod1 --shell bash -c '/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1'
+  479  ps -ef | grep echo
+  480  bash -c [[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/repo/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";
+  481   sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"
+  482  ps -ef | grep echo
+  483  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  484  rm -rf /disk/a/logs/*
+  485  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  486  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  487  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  488  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  489  tail -f /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  490  rm -rf /disk/a/logs/*
+  491  tail -f /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  492  tail -f /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  493  rm -rf /disk/a/logs/*
+  494  tail -f /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  495  tail -f /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py
+  496  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  497  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  498  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  499  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  500  cat /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py  | grep echo_server | grep port | wc -l
+  501  man timeout
+  502  history >> /tmp/upadmin_06.jwu 

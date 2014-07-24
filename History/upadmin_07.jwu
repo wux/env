@@ -1,0 +1,1000 @@
+   22  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-000421.17156.0000 
+   23  rm -f /disk/a/logs/repo/monitor.upac07.upadmin.log*
+   24  rm -rf /disk/a/logs/repo/monitor.upac07.upadmin.log*
+   25  ll /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+   26  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+   27  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+   28  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+   29  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+   30  bash -c "python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor"
+   31  bash -c "python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor"
+   32  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+   33  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+   34  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+   35  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+   36  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+   37  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+   38  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+   39  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+   40  $?
+   41  kill -l 142
+   42  /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+   43  /ssd/a/jwu/debug/system/babysitter/monitor
+   44  /ssd/a/jwu/debug/system/babysitter/monitor
+   45  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+   46  echo $?
+   47  python pp.py | while true; do echo "1"; sleep 6; done
+   48  echo $TMOUT
+   49  ps -ef | grep monitor
+   50  killall monitor
+   51  ps -ef | grep monitor
+   52  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   53  cd /ssd/a/jwu/src/depot/
+   54  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   55  ls /disk/a/logs/repo/
+   56  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140722-164030.2229.0000
+   57  rm -rf /disk/a/logs/repo/monitor*
+   58  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140722-164030.2229.0000
+   59  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   60  fg
+   61  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   62  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   63  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   64  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   65  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   66  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   67  ps -ef | grep monitor
+   68  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   69  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   70  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   71  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   72  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   73  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   74  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   75  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   76  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   77  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   78  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   79  ps -ef | grep monitor
+   80  kill -9 10873
+   81  ps -ef | grep monitor
+   82  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   83  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   84  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   85  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   86  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   87  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.2014072*
+   88  rm -rf /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.2014072*
+   89  ls /disk/a/logs/repo/monitor.upac07.
+   90  ls /disk/a/logs/
+   91  ls /disk/a/logs/
+   92  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-162100.63355.0000 
+   93  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-162100.63355.0000 
+   94  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-162100.63355.0000 
+   95  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+   96  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+   97  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.ERROR.20140722-162100.63355.0000 
+   98  more /disk/a/logs/repo/monitor.upac07.upadmin.log.ERROR.20140722-162100.63355.0000 
+   99  more /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140722-162100.63355.0000 
+  100  more /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140722-162100.63355.0000 
+  101  emacs /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-162100.63355.0000 
+  102  /tmp/monitor
+  103  xe pp.py
+  104  emacs pp.py
+  105  python pp.py
+  106  python pp.py | /tmp/monitor
+  107   /tmp/monitor < python pp.py 
+  108  python pp.py | /tmp/monitor
+  109  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  110  python pp.py | /tmp/monitor --logtostderr
+  111  emacs pp.py
+  112  python pp.py | /tmp/monitor --logtostderr
+  113  python pp.py | /tmp/monitor --logtostderr
+  114  python pp.py | /tmp/monitor
+  115  ls /disk/a/logs/repo/
+  116  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  117  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  118  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  119  ll /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  120  ls  /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  121  more  /disk/a/logs/repo/monitor.upac07.upadmin.log.ERROR.20140722-170944.5998.0000 
+  122  more  /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140722-170944.5998.0000 
+  123  more  /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140722-170944.5998.0000 
+  124  more  /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  125  grep ERROR  /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  126  grep ERROR  /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  127  emacs -nw /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  128  more pp
+  129  ls
+  130  more pp.py
+  131  fg
+  132  cp /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 mon.log
+  133  rm -rf /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  134  fg
+  135  fg
+  136  ls /disk/a/logs/repo/monitor.*
+  137  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-175812.54285.0000 
+  138  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-175812.54285.0000 
+  139  top
+  140  htop
+  141  ls /disk/a/logs/repo
+  142  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-175812.54285.0000 
+  143  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-175812.54285.0000 
+  144  ps -ef | grep upadmin
+  145  ps axo UID PID PPID C STIME TTY TIME CMD
+  146  ps axo uid,pid
+  147  ps axo uid,pid,pgid,ppid,c,stime,tty,time,cmd
+  148  ps axo uid,pid,pgid,ppid,c,stime,tty,time,cmd | grep upadmin
+  149  ps axo uid,pid,pgid,ppid,c,stime,tty,time,cmd | grep monitor
+  150  ps auxf | grep upadmin
+  151  ps auxf | grep upadmin
+  152  ps auxf | grep upadmin
+  153  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  154  ll /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  155  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  156  ls -al /disk/a/logs/repo_data/monitor.*
+  157  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  158  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  159  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  160  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  161  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  162  ps auxf | grep upadmin
+  163  ps auxf | grep upadmin
+  164  ps auxf | grep upadmin
+  165  ps auxf | grep upadmin
+  166  ls /disk/a/logs/repo
+  167  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-192950.5217.0000 
+  168  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-192950.5217.0000 
+  169  tail /disk/a/logs/ -frepo/monitor.upac07.upadmin.log.INFO.20140722-192950.5217.0000 
+  170  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-192950.5217.0000 
+  171  ll
+  172  ls /disk/a/logs/repo/monitor.*
+  173  rm -rf /disk/a/logs/repo/monitor.*
+  174  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-194028.6255.0000 
+  175  rm -rf /disk/a/logs/repo/monitor.*
+  176  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  177  rm -rf /disk/a/logs/repo/monitor.*
+  178  ps -ef | grep monitor
+  179  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  180  rm -rf /disk/a/logs/repo/monitor.*
+  181  rm -rf /disk/a/logs/repo/monitor.*
+  182  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  183  rm -rf /disk/a/logs/repo/monitor.*
+  184  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  185  rm -rf /disk/a/logs/repo/monitor.*
+  186  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  187  rm -rf /disk/a/logs/repo/monitor.*
+  188  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  189  ps -ef | grep upadmin
+  190  ps -ef | grep upprod
+  191  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  192  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  193  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-204643.11278.0001
+  194  rm -rf /disk/a/logs/repo/monitor.*
+  195  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-204643.11278.0001
+  196  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  197  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  198  rm -rf /disk/a/logs/repo/monitor.*
+  199  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  200  rm -rf /disk/a/logs/repo/monitor.*
+  201  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  202  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  203  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  204  ps -ef | grep monitor
+  205  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  206  ls /disk/a/logs/repo/
+  207  ll /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  208  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  209  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  210  ls /disk/a/logs/repo_data/
+  211  ls /disk/a/logs/repo_data/monitor.upac07.*
+  212  ls /disk/a/logs/repo_data/monitor.upac07.* | wc -l
+  213  rm -rf /disk/a/logs/repo_data/monitor.upac07.*
+  214  rm -rf /disk/a/logs/repo/monitor.*
+  215  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  216  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  217  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  218  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  219  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0003
+  220  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0003
+  221  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0003
+  222  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.*
+  223  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0003
+  224  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0003
+  225  ps -ef | grep monitor
+  226  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.*
+  227  ps -ef | grep monitor
+  228  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0004 
+  229  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0004 
+  230  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0004 
+  231  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.*
+  232  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0005
+  233  rm -rf /disk/a/logs/repo/monitor.*
+  234  rm -rf /disk/a/logs/repo/monitor.*
+  235  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140723-011759.22895.0000 
+  236  ls -al /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  237  ls -al /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  238  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140723-011759.22895.0000 
+  239  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140723-011759.22895.0000 
+  240  ll  /disk/a/logs/repo/monitor.*
+  241  ls -al /disk/a/logs/repo/monitor.*
+  242  grep ERROR /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140723-011759.22895.0000 
+  243  grep ERROR /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  244  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  245  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000
+  246  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000
+  247  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000
+  248  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000
+  249  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000
+  250  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc 0l
+  251  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  252  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  253  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  254  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  255  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  256  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  257  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  258  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  259  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  260  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  261  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  262  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  263  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  264  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  265  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  266  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  267  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  268  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-014134.24805.0000
+  269  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-014134.24805.0000
+  270  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-014134.24805.0000
+  271  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-014134.24805.0000
+  272  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-014134.24805.0000
+  273  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  274  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  275  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+  276  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+  277  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+  278  $?
+  279  kill -l 142
+  280  /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+  281  /ssd/a/jwu/debug/system/babysitter/monitor
+  282  /ssd/a/jwu/debug/system/babysitter/monitor
+  283  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  284  echo $?
+  285  python pp.py | while true; do echo "1"; sleep 6; done
+  286  echo $TMOUT
+  287  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  288  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  289  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  290  cd /disk/a
+  291  ls
+  292  cd logs/
+  293  ll
+  294  ls 
+  295  cd repo
+  296  ls
+  297  tail monitor.upac07.upadmin.log.INFO.20140723-002043.18601.0000 
+  298  man kill
+  299  kill -l
+  300  ps -ef | grep monitor
+  301  kill -14 18601
+  302  ps auxf | grep upadmin
+  303  ps auxf | grep pp.py
+  304  ps auxf | grep pp
+  305  ps auxf | grep python
+  306  ps -ef | grep monitor
+  307  kill -14 18601
+  308  kill -14 54978
+  309  ps -ef | grep monitor
+  310  ps -ef | grep monitor
+  311  kill -14 18601 19038
+  312  ps -ef | grep monitor
+  313  kill -9 18601
+  314  ps -ef | grep monitor
+  315  ps -ef | grep monitor
+  316  kill -9 19073
+  317  ps -ef | grep monitor
+  318  kill -9 19075
+  319  ps -ef | grep monitor
+  320  ps -ef | grep monitor
+  321  kill -14 19094
+  322  kill -14 19092
+  323  ps -ef | grep monitor
+  324  kill -14 19092
+  325  ps -ef | grep monitor
+  326  ps -ef | grep monitor
+  327  kill -14 19094
+  328  kill -14 19094
+  329  kill -14 19094
+  330  kill -14 19094
+  331  kill -14 19094
+  332  kill -14 19094
+  333  kill -14 19094
+  334  ps -ef | grep python
+  335  kill -9 19094
+  336  ps -ef | grep python
+  337  ps -ef | grep monitor
+  338  ps -ef | grep monitor
+  339  ps auxf | grep monitor
+  340  ps auxf 
+  341  htop
+  342  htop
+  343  ps auxf 
+  344  ps auxf  | grep upadmin
+  345  ps auxf  | grep upadmin
+  346  ps auxf  | grep upadmin
+  347  ps auxf  | grep upadmin
+  348  ps auxf  | grep upadmin
+  349  ps auxf  | grep upadmin
+  350  ps auxf  | grep upadmin
+  351  ps auxf  | grep upadmin
+  352  ps auxf  | grep upadmin
+  353  ps auxf  | grep upadmin
+  354  ps auxf  | grep upadmin
+  355  ps auxf  | grep upadmin
+  356  ps auxf  | grep upadmin
+  357  kill -14 19795
+  358  kill -14 19795
+  359  kill -14 19795
+  360  kill -14 19022
+  361  kill -l
+  362  ps -ef | grep monitor
+  363  ps -eLf
+  364  ps -eLf | grep monitor
+  365  ps -eLf 
+  366  ps -eLf -u upadmin
+  367  ps -eLf -U upadmin
+  368  ps -eLf -U upadmin -u upadmin
+  369  man ps
+  370  ps -ef -u upadmin
+  371  ps -ef u upadmin
+  372  ps --help threads
+  373  ps auxHf
+  374  ps auxH
+  375  ps auxH | grep upadmin
+  376  kill -9 19795
+  377  ps -ef | grep monitor
+  378  kill -SIGALRM 21013
+  379  kill -SIGALRM 21013
+  380  ps -ef | grep monitor
+  381  kill -SIGALRM 21105
+  382  ps -ef | grep monitor
+  383  kill -14 21114
+  384  ps -ef | grep monito
+  385  kill -14 21847
+  386  ps -ef | grep monito
+  387  kill -14 21858
+  388  ps -ef | grep monito
+  389  kill -14 22866
+  390  kill -14 22866
+  391  kill -14 22866
+  392  kill -14 22866
+  393  ps auxH | grep upadmin
+  394  man bash
+  395  ps auxH | grep upadmin
+  396  ps auxf | grep upadmin
+  397  ps -ef | grep 19882
+  398  kill -SIGALRM 23691
+  399  ps -ef | grep monito
+  400  kill -SIGALRM 24805
+  401  ps -efH | grep monito
+  402  ps -eLf | grep monito
+  403  man ps
+  404  ps -eLf
+  405  ps -eLf | grep 19882
+  406  ps -eLf | grep 24805
+  407  ps -eLf | grep monito
+  408  kill -14 24805
+  409  kill -14 24805
+  410  kill -14 24805
+  411  kill -14 24805
+  412  kill -14 24805
+  413  kill -14 24805
+  414  kill -14 24805
+  415  kill -14 24805
+  416  kill -14 24805
+  417  kill -14 24805
+  418  kill -14 24805
+  419  kill -14 24805
+  420  kill -14 24805
+  421  ps -eLf | grep monito
+  422  kill -14 26314
+  423  kill -14 26314
+  424  kill -14 26314
+  425  kill -14 26314
+  426  kill -14 26314
+  427  kill -14 26314
+  428  kill -14 26314
+  429  kill -14 26314
+  430  ps -ef | grep monitor
+  431  while true; do echo "Hi"; done
+  432  ps -ef | grep monitor
+  433  while true; do kill -14 1480; done
+  434  ps -ef | grep monitor
+  435  ps -ef | grep monitor
+  436  while true; do kill -14 3654; done
+  437  do echo; while true
+  438  do
+  439  do;
+  440  $?
+  441  ps -ef | grep monitor
+  442  while true; do kill -14 3654; [[ $? -eq 0 ]] || exit 1; done
+  443  rm -rf /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  444  rm -rf /disk/a/logs/repo_data/monitor.upac07.upadmin.log.*
+  445  pwd
+  446  ll
+  447  ls
+  448  rm -rf /disk/a/logs/repo_data/monitor.upac07.upadmin.log.*
+  449  while true; do kill -14 3654; [[ $? -eq 0 ]] || break; done
+  450  ps -ef | grep monitor
+  451  while true; do kill -14 3735; [[ $? -eq 0 ]] || break; done
+  452  man kill
+  453  man killall
+  454  while true; do killall -s SIGALRM monitor; [[ $? -eq 0 ]] || break; done
+  455  while true; do killall -s SIGALRM monitor; [[ $? -eq 0 ]] || break; done
+  456  ps -ef | grep monitor
+  457  while true; do kill -s SIGALRM 4245; [[ $? -eq 0 ]] || break; done
+  458  while true; do kill -s SIGALRM 4245; [[ $? -eq 0 ]] || break; done
+  459  ps -ef | grep monitor
+  460  ps o pid
+  461  pgrep -f "monitor"
+  462  while true; do kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  463  pgrep -f "monitor"
+  464  while true; echo do kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  465  while true; do echo kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  466  pgrep -f "monitor"
+  467  kill -s SIGALRM 11202
+  468  kill -s SIGALRM 11202
+  469  kill -s SIGALRM 11202
+  470  kill -s SIGALRM 11202
+  471  kill -s SIGALRM 11202
+  472  kill -s SIGALRM 11202
+  473  kill -s SIGALRM 11202
+  474  kill -s SIGALRM 11202
+  475  kill -s SIGALRM 11202
+  476  kill -s SIGALRM 11202
+  477  while true; do echo kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  478  while true; do kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  479  while true; do kill -s SIGALRM 11202; [[ $? -eq 0 ]] || break; done
+  480  pgrep -f "monitor"
+  481  while true; do kill -s SIGALRM 20587; [[ $? -eq 0 ]] || break; done
+  482  while true; do kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  483  while true; do kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  484  pgrep -f "monitor"
+  485  while true; do kill -s SIGALRM 23787; [[ $? -eq 0 ]] || break; done
+  486  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  487  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  488  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  489  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  490  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  491  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  492  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  493  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  494  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  495  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  496  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  497  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  498  cd /ssd/a/jwu/src/depot
+  499  uptime
+  500  uptime
+  501  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  502  cat pp.py
+  503  emacs pp.py
+  504  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  505  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  506  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  507  ps -ef | grep monitor
+  508  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  509  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  510  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  511  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr --verbosity 3
+  512  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr --verbosity 3
+  513  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  514  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  515  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr --verbosity 3
+  516  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  517* python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --
+  518  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr --verbosity 3
+  519  ls /tmp
+  520  ls
+  521  history >> /tmp/upadmin_07.jwu
+   66  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   67  ps -ef | grep monitor
+   68  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   69  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   70  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   71  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   72  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   73  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   74  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   75  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   76  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   77  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   78  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   79  ps -ef | grep monitor
+   80  kill -9 10873
+   81  ps -ef | grep monitor
+   82  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   83  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   84  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   85  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   86  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   87  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.2014072*
+   88  rm -rf /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.2014072*
+   89  ls /disk/a/logs/repo/monitor.upac07.
+   90  ls /disk/a/logs/
+   91  ls /disk/a/logs/
+   92  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-162100.63355.0000 
+   93  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-162100.63355.0000 
+   94  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-162100.63355.0000 
+   95  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+   96  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+   97  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.ERROR.20140722-162100.63355.0000 
+   98  more /disk/a/logs/repo/monitor.upac07.upadmin.log.ERROR.20140722-162100.63355.0000 
+   99  more /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140722-162100.63355.0000 
+  100  more /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140722-162100.63355.0000 
+  101  emacs /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-162100.63355.0000 
+  102  /tmp/monitor
+  103  xe pp.py
+  104  emacs pp.py
+  105  python pp.py
+  106  python pp.py | /tmp/monitor
+  107   /tmp/monitor < python pp.py 
+  108  python pp.py | /tmp/monitor
+  109  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  110  python pp.py | /tmp/monitor --logtostderr
+  111  emacs pp.py
+  112  python pp.py | /tmp/monitor --logtostderr
+  113  python pp.py | /tmp/monitor --logtostderr
+  114  python pp.py | /tmp/monitor
+  115  ls /disk/a/logs/repo/
+  116  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  117  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  118  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  119  ll /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  120  ls  /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  121  more  /disk/a/logs/repo/monitor.upac07.upadmin.log.ERROR.20140722-170944.5998.0000 
+  122  more  /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140722-170944.5998.0000 
+  123  more  /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140722-170944.5998.0000 
+  124  more  /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  125  grep ERROR  /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  126  grep ERROR  /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  127  emacs -nw /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 
+  128  more pp
+  129  ls
+  130  more pp.py
+  131  fg
+  132  cp /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-170944.5998.0000 mon.log
+  133  rm -rf /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  134  fg
+  135  fg
+  136  ls /disk/a/logs/repo/monitor.*
+  137  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-175812.54285.0000 
+  138  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-175812.54285.0000 
+  139  top
+  140  htop
+  141  ls /disk/a/logs/repo
+  142  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-175812.54285.0000 
+  143  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-175812.54285.0000 
+  144  ps -ef | grep upadmin
+  145  ps axo UID PID PPID C STIME TTY TIME CMD
+  146  ps axo uid,pid
+  147  ps axo uid,pid,pgid,ppid,c,stime,tty,time,cmd
+  148  ps axo uid,pid,pgid,ppid,c,stime,tty,time,cmd | grep upadmin
+  149  ps axo uid,pid,pgid,ppid,c,stime,tty,time,cmd | grep monitor
+  150  ps auxf | grep upadmin
+  151  ps auxf | grep upadmin
+  152  ps auxf | grep upadmin
+  153  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  154  ll /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  155  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  156  ls -al /disk/a/logs/repo_data/monitor.*
+  157  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  158  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  159  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  160  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  161  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-182525.57049.0000 
+  162  ps auxf | grep upadmin
+  163  ps auxf | grep upadmin
+  164  ps auxf | grep upadmin
+  165  ps auxf | grep upadmin
+  166  ls /disk/a/logs/repo
+  167  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-192950.5217.0000 
+  168  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-192950.5217.0000 
+  169  tail /disk/a/logs/ -frepo/monitor.upac07.upadmin.log.INFO.20140722-192950.5217.0000 
+  170  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-192950.5217.0000 
+  171  ll
+  172  ls /disk/a/logs/repo/monitor.*
+  173  rm -rf /disk/a/logs/repo/monitor.*
+  174  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-194028.6255.0000 
+  175  rm -rf /disk/a/logs/repo/monitor.*
+  176  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  177  rm -rf /disk/a/logs/repo/monitor.*
+  178  ps -ef | grep monitor
+  179  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  180  rm -rf /disk/a/logs/repo/monitor.*
+  181  rm -rf /disk/a/logs/repo/monitor.*
+  182  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  183  rm -rf /disk/a/logs/repo/monitor.*
+  184  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  185  rm -rf /disk/a/logs/repo/monitor.*
+  186  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  187  rm -rf /disk/a/logs/repo/monitor.*
+  188  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  189  ps -ef | grep upadmin
+  190  ps -ef | grep upprod
+  191  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  192  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  193  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-204643.11278.0001
+  194  rm -rf /disk/a/logs/repo/monitor.*
+  195  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-204643.11278.0001
+  196  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  197  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  198  rm -rf /disk/a/logs/repo/monitor.*
+  199  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  200  rm -rf /disk/a/logs/repo/monitor.*
+  201  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  202  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  203  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  204  ps -ef | grep monitor
+  205  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  206  ls /disk/a/logs/repo/
+  207  ll /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  208  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  209  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  210  ls /disk/a/logs/repo_data/
+  211  ls /disk/a/logs/repo_data/monitor.upac07.*
+  212  ls /disk/a/logs/repo_data/monitor.upac07.* | wc -l
+  213  rm -rf /disk/a/logs/repo_data/monitor.upac07.*
+  214  rm -rf /disk/a/logs/repo/monitor.*
+  215  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  216  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  217  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  218  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.*
+  219  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0003
+  220  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0003
+  221  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0003
+  222  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.*
+  223  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0003
+  224  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0003
+  225  ps -ef | grep monitor
+  226  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.*
+  227  ps -ef | grep monitor
+  228  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0004 
+  229  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0004 
+  230  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0004 
+  231  ls -l /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.*
+  232  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140722-220830.8407.0005
+  233  rm -rf /disk/a/logs/repo/monitor.*
+  234  rm -rf /disk/a/logs/repo/monitor.*
+  235  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140723-011759.22895.0000 
+  236  ls -al /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  237  ls -al /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  238  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140723-011759.22895.0000 
+  239  tail /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140723-011759.22895.0000 
+  240  ll  /disk/a/logs/repo/monitor.*
+  241  ls -al /disk/a/logs/repo/monitor.*
+  242  grep ERROR /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140723-011759.22895.0000 
+  243  grep ERROR /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  244  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  245  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000
+  246  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000
+  247  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000
+  248  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000
+  249  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000
+  250  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc 0l
+  251  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  252  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  253  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  254  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  255  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  256  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  257  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  258  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  259  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  260  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  261  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  262  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  263  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  264  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  265  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-012738.23691.0000 | wc -l
+  266  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  267  ls /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  268  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-014134.24805.0000
+  269  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-014134.24805.0000
+  270  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-014134.24805.0000
+  271  cat /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-014134.24805.0000
+  272  tail -f /disk/a/logs/repo/monitor.upac07.upadmin.log.WARNING.20140723-014134.24805.0000
+  273  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  274  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  275  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+  276  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+  277  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+  278  $?
+  279  kill -l 142
+  280  /ssd/a/jwu/debug/system/babysitter/monitor --logtostderr
+  281  /ssd/a/jwu/debug/system/babysitter/monitor
+  282  /ssd/a/jwu/debug/system/babysitter/monitor
+  283  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  284  echo $?
+  285  python pp.py | while true; do echo "1"; sleep 6; done
+  286  echo $TMOUT
+  287  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  288  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  289  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  290  cd /disk/a
+  291  ls
+  292  cd logs/
+  293  ll
+  294  ls 
+  295  cd repo
+  296  ls
+  297  tail monitor.upac07.upadmin.log.INFO.20140723-002043.18601.0000 
+  298  man kill
+  299  kill -l
+  300  ps -ef | grep monitor
+  301  kill -14 18601
+  302  ps auxf | grep upadmin
+  303  ps auxf | grep pp.py
+  304  ps auxf | grep pp
+  305  ps auxf | grep python
+  306  ps -ef | grep monitor
+  307  kill -14 18601
+  308  kill -14 54978
+  309  ps -ef | grep monitor
+  310  ps -ef | grep monitor
+  311  kill -14 18601 19038
+  312  ps -ef | grep monitor
+  313  kill -9 18601
+  314  ps -ef | grep monitor
+  315  ps -ef | grep monitor
+  316  kill -9 19073
+  317  ps -ef | grep monitor
+  318  kill -9 19075
+  319  ps -ef | grep monitor
+  320  ps -ef | grep monitor
+  321  kill -14 19094
+  322  kill -14 19092
+  323  ps -ef | grep monitor
+  324  kill -14 19092
+  325  ps -ef | grep monitor
+  326  ps -ef | grep monitor
+  327  kill -14 19094
+  328  kill -14 19094
+  329  kill -14 19094
+  330  kill -14 19094
+  331  kill -14 19094
+  332  kill -14 19094
+  333  kill -14 19094
+  334  ps -ef | grep python
+  335  kill -9 19094
+  336  ps -ef | grep python
+  337  ps -ef | grep monitor
+  338  ps -ef | grep monitor
+  339  ps auxf | grep monitor
+  340  ps auxf 
+  341  htop
+  342  htop
+  343  ps auxf 
+  344  ps auxf  | grep upadmin
+  345  ps auxf  | grep upadmin
+  346  ps auxf  | grep upadmin
+  347  ps auxf  | grep upadmin
+  348  ps auxf  | grep upadmin
+  349  ps auxf  | grep upadmin
+  350  ps auxf  | grep upadmin
+  351  ps auxf  | grep upadmin
+  352  ps auxf  | grep upadmin
+  353  ps auxf  | grep upadmin
+  354  ps auxf  | grep upadmin
+  355  ps auxf  | grep upadmin
+  356  ps auxf  | grep upadmin
+  357  kill -14 19795
+  358  kill -14 19795
+  359  kill -14 19795
+  360  kill -14 19022
+  361  kill -l
+  362  ps -ef | grep monitor
+  363  ps -eLf
+  364  ps -eLf | grep monitor
+  365  ps -eLf 
+  366  ps -eLf -u upadmin
+  367  ps -eLf -U upadmin
+  368  ps -eLf -U upadmin -u upadmin
+  369  man ps
+  370  ps -ef -u upadmin
+  371  ps -ef u upadmin
+  372  ps --help threads
+  373  ps auxHf
+  374  ps auxH
+  375  ps auxH | grep upadmin
+  376  kill -9 19795
+  377  ps -ef | grep monitor
+  378  kill -SIGALRM 21013
+  379  kill -SIGALRM 21013
+  380  ps -ef | grep monitor
+  381  kill -SIGALRM 21105
+  382  ps -ef | grep monitor
+  383  kill -14 21114
+  384  ps -ef | grep monito
+  385  kill -14 21847
+  386  ps -ef | grep monito
+  387  kill -14 21858
+  388  ps -ef | grep monito
+  389  kill -14 22866
+  390  kill -14 22866
+  391  kill -14 22866
+  392  kill -14 22866
+  393  ps auxH | grep upadmin
+  394  man bash
+  395  ps auxH | grep upadmin
+  396  ps auxf | grep upadmin
+  397  ps -ef | grep 19882
+  398  kill -SIGALRM 23691
+  399  ps -ef | grep monito
+  400  kill -SIGALRM 24805
+  401  ps -efH | grep monito
+  402  ps -eLf | grep monito
+  403  man ps
+  404  ps -eLf
+  405  ps -eLf | grep 19882
+  406  ps -eLf | grep 24805
+  407  ps -eLf | grep monito
+  408  kill -14 24805
+  409  kill -14 24805
+  410  kill -14 24805
+  411  kill -14 24805
+  412  kill -14 24805
+  413  kill -14 24805
+  414  kill -14 24805
+  415  kill -14 24805
+  416  kill -14 24805
+  417  kill -14 24805
+  418  kill -14 24805
+  419  kill -14 24805
+  420  kill -14 24805
+  421  ps -eLf | grep monito
+  422  kill -14 26314
+  423  kill -14 26314
+  424  kill -14 26314
+  425  kill -14 26314
+  426  kill -14 26314
+  427  kill -14 26314
+  428  kill -14 26314
+  429  kill -14 26314
+  430  ps -ef | grep monitor
+  431  while true; do echo "Hi"; done
+  432  ps -ef | grep monitor
+  433  while true; do kill -14 1480; done
+  434  ps -ef | grep monitor
+  435  ps -ef | grep monitor
+  436  while true; do kill -14 3654; done
+  437  do echo; while true
+  438  do
+  439  do;
+  440  $?
+  441  ps -ef | grep monitor
+  442  while true; do kill -14 3654; [[ $? -eq 0 ]] || exit 1; done
+  443  rm -rf /disk/a/logs/repo/monitor.upac07.upadmin.log.*
+  444  rm -rf /disk/a/logs/repo_data/monitor.upac07.upadmin.log.*
+  445  pwd
+  446  ll
+  447  ls
+  448  rm -rf /disk/a/logs/repo_data/monitor.upac07.upadmin.log.*
+  449  while true; do kill -14 3654; [[ $? -eq 0 ]] || break; done
+  450  ps -ef | grep monitor
+  451  while true; do kill -14 3735; [[ $? -eq 0 ]] || break; done
+  452  man kill
+  453  man killall
+  454  while true; do killall -s SIGALRM monitor; [[ $? -eq 0 ]] || break; done
+  455  while true; do killall -s SIGALRM monitor; [[ $? -eq 0 ]] || break; done
+  456  ps -ef | grep monitor
+  457  while true; do kill -s SIGALRM 4245; [[ $? -eq 0 ]] || break; done
+  458  while true; do kill -s SIGALRM 4245; [[ $? -eq 0 ]] || break; done
+  459  ps -ef | grep monitor
+  460  ps o pid
+  461  pgrep -f "monitor"
+  462  while true; do kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  463  pgrep -f "monitor"
+  464  while true; echo do kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  465  while true; do echo kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  466  pgrep -f "monitor"
+  467  kill -s SIGALRM 11202
+  468  kill -s SIGALRM 11202
+  469  kill -s SIGALRM 11202
+  470  kill -s SIGALRM 11202
+  471  kill -s SIGALRM 11202
+  472  kill -s SIGALRM 11202
+  473  kill -s SIGALRM 11202
+  474  kill -s SIGALRM 11202
+  475  kill -s SIGALRM 11202
+  476  kill -s SIGALRM 11202
+  477  while true; do echo kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  478  while true; do kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  479  while true; do kill -s SIGALRM 11202; [[ $? -eq 0 ]] || break; done
+  480  pgrep -f "monitor"
+  481  while true; do kill -s SIGALRM 20587; [[ $? -eq 0 ]] || break; done
+  482  while true; do kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  483  while true; do kill -s SIGALRM $(pgrep -f "monitor"); [[ $? -eq 0 ]] || break; done
+  484  pgrep -f "monitor"
+  485  while true; do kill -s SIGALRM 23787; [[ $? -eq 0 ]] || break; done
+  486  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  487  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  488  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  489  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  490  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  491  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  492  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  493  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  494  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  495  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  496  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  497  python pp.py | /ssd/a/jwu/debug/system/babysitter/monitor
+  498  cd /ssd/a/jwu/src/depot
+  499  cd /ssd/a/jwu/src/depot
+  500  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+  501  timeout 60 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+  502  timeout 60 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed"; echo "All done";'
+  503  time; timeout 60 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed"; echo "All done";' time;
+  504  time
+  505  date
+  506  time
+  507  data; time; timeout 60 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed"; echo "All done";'; date;
+  508  date; timeout 60 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed"; echo "All done";'; date;
+  509  date; timeout 60 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed"; echo "All done";'; date;
+  510  date; ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed"; echo "All done";'; date;
+  511  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed"; echo "All done";'
+  512  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 'echo "all done"'
+  513  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed"; echo "All done";'
+  514  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9";'
+  515  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py";'
+  516  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py";'
+  517  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001";'
+  518  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001";'
+  519  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001";'
+  520  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001";'
+  521  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "echo hi";'
+  522  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "echo hi";'
+  523  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50001";'
+  524  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50001";'
+  525  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50001 &";'
+  526  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50001 &";'
+  527  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50001 &";'
+  528  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 2; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50001 &";'
+  529  ssh upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50001 &";'
+  530  ssh upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50001 &";'
+  531  ssh upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50002";'
+  532  ssh -v upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50002";'
+  533  ssh -v upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50002";'
+  534  ssh upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50002";'
+  535  ssh upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50002";'
+  536  ssh -v upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 --shell bash -c "python2 /upthere/bin/echo_server.py --port 50002";'
+  537  man sudo
+  538  ssh -v upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 --shell bash "python2 /upthere/bin/echo_server.py --port 50002";'
+  539  ssh -v upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 --shell bash "python2 /upthere/bin/echo_server.py --port 50003";'
+  540  ssh upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 --shell bash "python2 /upthere/bin/echo_server.py --port 50003";'
+  541  ssh upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 "python2 /upthere/bin/echo_server.py --port 50003";'
+  542  ssh upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 bash -c "python2 /upthere/bin/echo_server.py --port 50003";'
+  543  timeout 14 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50000) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50000 > /dev/null; } ) || { echo "Error: babysitter lock failure"; exit 1; }; touch /tmp/__babysitter_lock.50000 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); done && echo "Done: pkill -15"; sleep 10; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); done && echo "Done: pkill -9"; sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/loop.10.1.2.6.50000.upprod1.proxy_server.py"; [[ $? == 0 ]] || echo "Error: start task failure"; sleep 4; rm -f /tmp/__babysitter_lock.50000 > /dev/null || echo "Error: unlock failure";'
+  544  man ssh
+  545  ssh -t upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 bash -c "python2 /upthere/bin/echo_server.py --port 50003";'
+  546  ssh --version
+  547  ssh -V
+  548  man ssh
+  549  ssh -T upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 bash -c "python2 /upthere/bin/echo_server.py --port 50002";'
+  550  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 bash -c "python2 /upthere/bin/echo_server.py --port 50004";'
+  551  ssh -n -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 bash -c "python2 /upthere/bin/echo_server.py --port 50005";'
+  552  ssh -oRequestTTY-no -n -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 bash -c "python2 /upthere/bin/echo_server.py --port 50006";'
+  553  ssh -oRequestTTY=no -n -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 bash -c "python2 /upthere/bin/echo_server.py --port 50006";'
+  554  ssh upadmin@10.1.2.6 'cat /tmp/loop.sh'
+  555  ssh -t upadmin@10.1.2.6 'cat /tmp/loop.sh'
+  556  ssh -oRequestTTY=no -n -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 bash -c "python2 /upthere/bin/echo_server.py --port 50007 2>&1 > /dev/null";'
+  557  ssh -oRequestTTY=no -n -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 bash -c "python2 /upthere/bin/echo_server.py --port 50007 2>&1 > /dev/null" > /dev/null;'
+  558  ssh -oRequestTTY=no -n -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 'sudo --non-interactive --background -u upprod1 bash -c "python2 /upthere/bin/echo_server.py --port 50008 2>&1 > /dev/null" > /dev/null;'
+  559  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+  560  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+  561  timeout 60 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py" > /dev/null; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+  562  timeout 60 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py" > /dev/null; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+  563  timeout 60 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py" > /dev/null; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+  564  timeout 60 ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 20; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py" 2>&1 > /dev/null; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+  565  history >> /tmp/upadmin_07.jwu 

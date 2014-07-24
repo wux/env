@@ -1,0 +1,500 @@
+  207  ps auxf | grep prod1; echo; echo; ps -u upprod1 
+  208  ps auxf | grep prod1
+  209  ps auxf | grep prod1
+  210  ps auxf | grep prod1
+  211  ps auxf | grep prod1
+  212  ps auxf | grep prod1
+  213  ps auxf | grep prod1
+  214  kill -9 53877
+  215  ps auxf | grep prod1
+  216  kill -9 54078
+  217  ps auxf | grep prod1
+  218  ps auxf | grep loop
+  219  ps auxf | grep loop
+  220  ps auxf | grep loop
+  221  kill -9 13895 13897
+  222  ps auxf | grep loop
+  223  ps auxf | grep loop
+  224  ps auxf | grep loop
+  225  ps auxf | grep loop
+  226  ps auxf | grep upprod1
+  227  ps auxf | grep upprod1
+  228  ps auxf | grep upprod1
+  229  ps auxf | grep upprod1
+  230  ps auxf | grep upprod1
+  231  ps auxf | grep upprod1
+  232  ps auxf | grep upprod1
+  233  ps auxf | grep upprod1
+  234  ps auxf | grep upprod1
+  235  ps auxf | grep upprod1
+  236  ps auxf | grep upprod1
+  237  ps auxf | grep upprod1
+  238  ps auxf | grep upprod1
+  239  ps auxf | grep upprod1
+  240  ps auxf | grep upprod1
+  241  ps auxf | grep upprod1
+  242  ps auxf | grep upprod1
+  243  ps auxf | grep upprod1
+  244  ps auxf | grep upprod1
+  245  ps auxf | grep upprod1
+  246  ps auxf | grep upprod1
+  247  ps auxf | grep upprod1
+  248  ps auxf | grep upprod1
+  249  kill -9 14545
+  250  ps auxf | grep upprod1
+  251  kill -9 14547
+  252  ps auxf | grep upprod1
+  253  kill -9 14649
+  254  ps auxf | grep upprod1
+  255  ps auxf | grep upprod1
+  256  ps auxf | grep upprod1
+  257  ps auxf | grep upprod1
+  258  ps auxf | grep upprod1
+  259  ps auxf | grep upprod1
+  260  ps auxf | grep upprod1
+  261  ps auxf | grep upprod1
+  262  /bin/bash /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001
+  263  /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001
+  264  /bin/bash /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001
+  265  /bin/bash /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001
+  266  /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 >/dev/null 2>&1
+  267  ps -ef | grep proxy_server
+  268  killall loop.sh
+  269  ps -ef | grep proxy_server
+  270  kill -9 15483
+  271  /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >/dev/null 
+  272  ps -ef | grep proxy_server
+  273  ps auxf | grep upprod1
+  274  kill -9 15273
+  275  ps auxf | grep upprod1
+  276  ps auxf | grep upprod1
+  277  ps auxf | grep upadmin
+  278  ps auxf | grep upprod1
+  279  ps auxf | grep upprod1
+  280  ps auxf | grep upprod1
+  281  ps auxf | grep upprod1
+  282  /bin/bash /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001
+  283  ps auxf | grep upprod1
+  284  ps auxf | grep upprod1
+  285  ps auxf | grep upprod1
+  286  ps auxf 
+  287  htop
+  288  ps auxf | grep upprod1
+  289  kill -9 17481
+  290  ps auxf | grep upprod1
+  291  kill -9 17643
+  292  ps auxf | grep upprod1
+  293  kill -9 17739 17853 17645 
+  294  ps auxf | grep upprod1
+  295  ps auxf | grep upprod1
+  296  ps auxf | grep upprod1
+  297  ps auxf | grep upprod1
+  298  ps auxf | grep upprod1
+  299  ps auxf | grep upprod1
+  300  ps auxf | grep upprod1
+  301  ps auxf | grep upprod1
+  302  ps auxf | grep upprod1
+  303  ps auxf | grep upprod1
+  304  ps auxf | grep upprod1
+  305  ps auxf | grep upprod1
+  306  ps auxf | grep upprod1
+  307  ps auxf | grep upprod1
+  308  ps auxf | grep upprod1
+  309  ps auxf | grep upprod1
+  310  ps auxf | grep upprod1
+  311  ps auxf | grep upprod1
+  312  ps auxf | grep upprod1
+  313  ps auxf | grep upprod1
+  314  ps auxf | grep upprod1
+  315  ps auxf | grep upprod1
+  316  ps auxf | grep upprod1
+  317  ps auxf | grep upprod1
+  318  ps auxf | grep upprod1
+  319  ps auxf | grep upprod1
+  320  ps auxf | grep upprod1
+  321  ps auxf | grep upprod1
+  322  ps auxf | grep upprod1
+  323  ps auxf | grep upprod1
+  324  ps auxf | grep upprod1
+  325  ps auxf | grep upprod1
+  326  ps auxf | grep upprod1
+  327  ps auxf | grep upprod1
+  328  ps auxf | grep upprod1
+  329  ps auxf | grep upprod1
+  330  kill -9 19644
+  331  ps auxf | grep upprod1
+  332  ps auxf | grep upprod1
+  333  ps auxf | grep upprod1
+  334  ps auxf | grep upprod1
+  335  ps auxf | grep upprod1
+  336  ps auxf | grep upprod1
+  337  ps auxf | grep upprod1
+  338  kill -9 20125 20127 20248
+  339  ps auxf | grep upprod1
+  340  ps auxf | grep upprod1
+  341  ps auxf | grep upprod1
+  342  ps auxf | grep upprod1
+  343  ps auxf | grep upprod1
+  344  ps auxf | grep upprod1
+  345  ps auxf | grep upprod1
+  346  ps auxf | grep upprod1
+  347  ps auxf | grep upprod1
+  348  ps auxf | grep upprod1
+  349  ps auxf | grep upprod1
+  350  ps auxf | grep upprod1
+  351  ps auxf | grep upprod1
+  352  ps auxf | grep upprod1
+  353  ps auxf | grep upprod1
+  354  ps auxf | grep upprod1
+  355  ps auxf | grep upprod1
+  356  ps auxf | grep upprod1
+  357  ps auxf | grep upprod1
+  358  ps auxf | grep upprod1
+  359  ps auxf | grep upprod1
+  360  ls /tmp/
+  361  ps auxf | grep upprod1
+  362  ps auxf | grep upprod1
+  363  ls /tmp/
+  364  ps auxf | grep upprod1
+  365  ps auxf | grep upprod1
+  366  ps auxf | grep upprod1
+  367  ps auxf | grep upprod1
+  368  ps auxf | grep upprod1
+  369  ps auxf | grep upprod1
+  370  ps auxf | grep upprod1
+  371  ll /tmp
+  372  ls -l /tmp
+  373  ps auxf | grep upprod1
+  374  ps auxf | grep upprod1
+  375  ls -l /tmp
+  376  ls -l /tmp
+  377  ls -l /tmp/__*
+  378  ls -l /tmp/__*
+  379  ps auxf | grep upprod1
+  380  ps auxf | grep upprod1
+  381  ps auxf | grep upprod1
+  382  ps auxf | grep upprod1
+  383  ps auxf | grep upprod1
+  384  ps auxf | grep upprod1
+  385  ps auxf | grep upprod1
+  386  ps auxf | grep upprod1
+  387  ps auxf | grep upprod1
+  388  ps auxf | grep upprod1
+  389  ps auxf | grep upprod1
+  390  ps auxf | grep upprod1
+  391  ps auxf | grep upprod1
+  392  ps auxf | grep upprod1
+  393  ps auxf | grep upprod1
+  394  ps auxf | grep upprod1
+  395  ps auxf | grep upprod1
+  396  ps auxf | grep upprod1
+  397  ps auxf | grep upprod1
+  398  ps auxf | grep upprod1
+  399  ps auxf | grep upprod1
+  400  kill -9 23806
+  401  ps auxf | grep upprod1
+  402  ps auxf | grep upprod1
+  403  kill -9 23963
+  404  ps auxf | grep upprod1
+  405  ps auxf | grep upprod1
+  406  ps auxf | grep upprod1
+  407  ps auxf | grep upprod1
+  408  ps auxf | grep upprod1
+  409  ps auxf | grep upprod1
+  410  ps auxf | grep upprod1
+  411  ps auxf | grep upprod1
+  412  ps auxf | grep upprod1
+  413  ps auxf | grep upprod1
+  414  kill -9 54460
+  415  ps auxf | grep upprod1
+  416  kill -9 24262
+  417  ps auxf | grep upprod1
+  418  ps auxf | grep upprod1
+  419  ps auxf | grep upprod1
+  420  ps auxf | grep upprod1
+  421  ps auxf | grep upprod1
+  422  ps auxf | grep upprod1
+  423  kill -9 29198
+  424  ps auxf | grep upprod1
+  425  ps auxf | grep upprod1
+  426  ps auxf | grep upprod1
+  427  ps auxf | grep upprod1
+  428  ps auxf | grep upprod1
+  429  ps auxf | grep upprod1
+  430  ps auxf | grep upprod1
+  431  ps auxf | grep upprod1
+  432  ps auxf | grep upprod1
+  433  ps auxf | grep upprod1
+  434  ps auxf | grep upprod1
+  435  ps auxf | grep upprod1
+  436  ps auxf | grep upprod1
+  437   sudo --non-interactive --background -u upprod1 --shell bash -c "/upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py"
+  438  ps auxf | grep upprod1
+  439  kill -9 30799 30797
+  440  ps auxf | grep upprod1
+  441  ps auxf | grep upprod1
+  442  ps auxf | grep upprod1
+  443  ps auxf | grep upprod1
+  444  ps auxf | grep upprod1
+  445  kill -9 31140
+  446  ps auxf | grep upprod1
+  447  ps auxf | grep upprod1
+  448  kill -9 32496
+  449  kill -9 32496
+  450  ps auxf | grep upprod1
+  451  ps auxf | grep upprod1
+  452  ps auxf | grep upprod1
+  453  ps auxf | grep upprod1
+  454  ps auxf | grep upprod1
+  455  ps auxf | grep upprod1
+  456  ps auxf | grep upprod1
+  457  kill -9 35577
+  458  kill -9 35577
+  459  ps auxf | grep upprod1
+  460  ps auxf | grep upprod1
+  461  ps auxf | grep upprod1
+  462  ps auxf | grep upprod1
+  463  ps auxf | grep upprod1
+  464  ps auxf | grep upprod1
+  465  ps auxf | grep upprod1
+  466  ps auxf | grep upprod1
+  467  ps auxf | grep upprod1
+  468  ps auxf | grep upprod1
+  469  ps auxf | grep upprod1
+  470  ps auxf | grep upprod1
+  471  ps auxf | grep upprod1
+  472  ps auxf | grep upprod1
+  473  ps auxf | grep upprod1
+  474  ps auxf | grep upprod1
+  475  ps auxf | grep upprod1
+  476  ps auxf | grep upprod1
+  477  ps auxf | grep upprod1
+  478  ps auxf | grep upprod1
+  479  ps auxf | grep upprod1
+  480  ps auxf | grep upprod1
+  481  ps auxf | grep upprod1
+  482  netstat 
+  483  netstat | grep 50001
+  484  netstat | grep 50001 | wc -l
+  485  netstat | grep 50001 | wc -l
+  486  netstat | grep 50001 | wc -l
+  487  netstat | grep 50001 | wc -l
+  488  netstat | grep 50001 | wc -l
+  489  netstat | grep 50001 | wc -l
+  490  ps auxf | grep upprod1
+  491  ps auxf | grep upprod1
+  492  ps auxf | grep upprod1
+  493  ps auxf | grep upprod1
+  494  ps auxf | grep upprod1
+  495  netstat | grep 50001 | wc -l
+  496  netstat | grep 50001 | wc -l
+  497  ps auxf | grep upprod1
+  498  netstat | grep 50001 | wc -l
+  499  ps auxf | grep upprod1
+  500  ps auxf | grep upprod1
+  501  ps auxf | grep upprod1
+  502  ps auxf | grep upprod1
+  503  ps auxf | grep upprod1
+  504  ps auxf | grep upprod1
+  505  ps auxf | grep upprod1
+  506  ps auxf | grep upprod1
+  507  ps auxf | grep upprod1
+  508  ps auxf | grep upprod1
+  509  ps auxf | grep upprod1
+  510  ps auxf | grep upprod1
+  511  ps auxf | grep upprod1
+  512  ps auxf | grep upprod1
+  513  ps auxf | grep upprod1
+  514  ps auxf | grep upprod1
+  515  ps auxf | grep upprod1
+  516  ps auxf | grep upprod1
+  517  ps auxf | grep upprod1
+  518  ps auxf | grep upprod1
+  519  ps auxf | grep upprod1
+  520  rm -rf /tmp/__babysitter_lock.50001 
+  521  ps auxf | grep upprod1
+  522  ps auxf | grep upprod1
+  523  ps auxf | grep upprod1
+  524  ps auxf | grep upprod1
+  525  ps auxf | grep upprod1
+  526  ps auxf | grep upprod1
+  527  netstat |grep 50001
+  528  netstat
+  529  netstat
+  530  ps auxf | grep upprod1
+  531  more /upthere/bin/echo_server.py 
+  532  nc upac06:50001
+  533  which nc
+  534  ps auxf | grep upprod1
+  535  ps auxf | grep upprod1
+  536  ps auxf | grep upprod1
+  537  ps auxf | grep upprod1
+  538  ps auxf | grep upprod1
+  539  ps auxf | grep upprod1
+  540  ps auxf | grep upprod1
+  541  ps auxf | grep upprod1
+  542  ps auxf | grep upprod1
+  543  ps auxf | grep upprod1
+  544  ps auxf | grep upprod1
+  545  ps auxf | grep upprod1
+  546  ps auxf | grep upprod1
+  547  ps auxf | grep upprod1
+  548  ps auxf | grep upprod1
+  549  ps auxf | grep upprod1
+  550  ps auxf | grep upprod1
+  551  ps auxf | grep upprod1
+  552  ps auxf | grep upprod1
+  553  ps auxf | grep upprod1
+  554  ps auxf | grep upprod1
+  555  kill -9 13304
+  556  ps auxf | grep upprod1
+  557  ps auxf | grep upprod1
+  558  kill -9 13543
+  559  ps auxf | grep upprod1
+  560  man ssh
+  561  ps auxf | grep upprod1
+  562  killall echo_server.py
+  563  kill 13715 13788
+  564  killall echo_server.py
+  565  ps auxf | grep upprod1
+  566  kill -9 14336
+  567  man ssh
+  568  ps auxf | grep upprod1
+  569  ps auxf | grep upprod1
+  570  ps auxf | grep upprod1
+  571  ps auxf | grep upprod1
+  572  ps auxf | grep upprod1
+  573  kill -9 14376 14951
+  574  ps auxf | grep upprod1
+  575  ps auxf | grep upprod1
+  576  ps auxf | grep upprod1
+  577  ps auxf | grep upprod1
+  578  ps auxf | grep upprod1
+  579  ps auxf | grep upprod1
+  580  ps auxf | grep upprod1
+  581  man ssh
+  582  man ssh
+  583  man ssh
+  584  ls /tmp
+  585  ps auxf | grep upprod1
+  586  killall -9 python2
+  587  ps auxf | grep upprod1
+  588  killall loop.sh
+  589  ps auxf | grep upprod1
+  590  killall -9 python2
+  591  ps auxf | grep upprod1
+  592  killall ython2
+  593  killall python2
+  594  ps auxf | grep upprod1
+  595  kill -9 15209
+  596  ps auxf | grep upprod1
+  597  ps auxf | grep upprod1
+  598  ps auxf | grep upprod1
+  599  ps auxf | grep upprod1
+  600  ps auxf | grep upprod1
+  601  ps auxf | grep upprod1
+  602  netstat -al
+  603  netstat -al
+  604* 
+  605  netstat -al
+  606  netstat -al
+  607  netstat -al
+  608* 
+  609  ps auxf | grep upprod1
+  610  ps auxf | grep upprod1;netstat -al | grep 50001
+  611  ps auxf | grep upprod1;netstat -al | grep 50001
+  612  ps auxf | grep upprod1;netstat -al | grep 50001
+  613  ps auxf | grep upprod1;netstat -al | grep 50001
+  614  ps auxf | grep upprod1;netstat -al | grep 50001
+  615  ps auxf | grep upprod1;netstat -al | grep 50001
+  616  ps auxf | grep upprod1;netstat -al | grep 50001
+  617  ps auxf | grep upprod1;netstat -al | grep 50001
+  618  ps auxf | grep upprod1;netstat -al | grep 50001
+  619  ps auxf | grep upprod1;netstat -al | grep 50001
+  620  ps auxf | grep upprod1;netstat -al | grep 50001
+  621  ps auxf | grep upprod1;netstat -al | grep 50001
+  622  ps auxf | grep upprod1;netstat -al | grep 50001
+  623  ps auxf | grep upprod1;netstat -al | grep 50001
+  624  ps auxf | grep upprod1;netstat -al | grep 50001
+  625  ps auxf | grep upprod1;netstat -al | grep 50001
+  626  ps auxf | grep upprod1;netstat -al | grep 50001
+  627  ps auxf | grep upprod1;netstat -al | grep 50001
+  628  ps auxf | grep upprod1;netstat -al | grep 50001
+  629  ps auxf | grep upprod1;netstat -al | grep 50001
+  630  ps auxf | grep upprod1;netstat -al | grep 50001
+  631  ps auxf | grep upprod1;netstat -al | grep 50001
+  632  ps auxf | grep upprod1;netstat -al | grep 50001
+  633  ps auxf | grep upprod1;netstat -al | grep 50001
+  634  ps auxf | grep upprod1;netstat -al | grep 50001
+  635  ps auxf | grep upprod1;netstat -al | grep 50001
+  636  ps auxf | grep upprod1;netstat -al | grep 50001
+  637  ps auxf | grep upprod1;netstat -al | grep 50001
+  638  ps auxf | grep upprod1;netstat -al | grep 50001
+  639  ps auxf | grep upprod1; 
+  640  ps auxf | grep upprod1;netstat -al | grep 50001 | wc -l
+  641  ps auxf | grep upprod1;netstat -al | grep 50001 | wc -l
+  642  ps auxf | grep upprod1;netstat -al | grep 50001 | wc -l
+  643  ps auxf | grep upprod1;netstat -al | grep 50001 | wc -l
+  644  ps auxf | grep upprod1;netstat -al | grep 50001 | wc -l
+  645  ps auxf | grep upprod1;netstat -al | grep 50001 | wc -l
+  646  ps auxf | grep upprod1;netstat -al | grep 50001 | wc -l
+  647  kill -9 22063
+  648  ps auxf | grep upprod1;netstat -al | grep 50001 | wc -l
+  649  ps auxf | grep upprod1;netstat -al | grep 50001 | wc -l
+  650  ps auxf | grep upprod1;netstat -al | grep 50001 
+  651  ps auxf | grep upprod1;netstat -al | grep 50001 
+  652  ps auxf | grep upprod1;netstat -al | grep 50001 
+  653  ps auxf | grep upprod1;netstat -al | grep 50001 
+  654  ps auxf | grep upprod1;netstat -al | grep 50001 
+  655  ps auxf | grep upprod1;netstat -al | grep 50001 
+  656  ps auxf | grep upprod1;netstat -al | grep 50001 
+  657  ps auxf | grep upprod1;netstat -al | grep 50001 
+  658  ps auxf | grep upprod1;netstat -al | grep 50001 
+  659  ps auxf | grep upprod1;netstat -al | grep 50001 
+  660  ps auxf | grep upprod1;netstat -al | grep 50001 
+  661  ps auxf | grep upprod1;netstat -al | grep 50001 
+  662  kill -9 22236
+  663  ps auxf | grep upprod1;netstat -al | grep 50001 
+  664  ps auxf | grep upprod1;netstat -al | grep 50001 
+  665  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  666  ps auxf | grep upprod1;netstat -al | grep 50001 
+  667  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  668  ps auxf | grep upprod1;netstat -al | grep 50001 
+  669  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  670  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  671  ps auxf | grep upprod1;netstat -al | grep 50001 
+  672  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  673  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  674  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  675  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  676  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  677  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  678  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  679  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  680  ps auxf | grep upprod1;netstat -al | grep 50001 
+  681  ps auxf | grep upprod1;netstat -al | grep 50001 
+  682  ps auxf | grep upprod1;netstat -al | grep 50001 
+  683  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  684  date
+  685  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  686  ps auxf | grep upprod1;netstat -al | grep 50001 
+  687  ps auxf | grep upprod1;netstat -al | grep 50001 
+  688  ps auxf | grep upprod1;netstat -al | grep 50001 
+  689  ps auxf | grep upprod1;netstat -al | grep 50001 
+  690  ps auxf | grep upprod1;netstat -al | grep 50001 
+  691  ps auxf | grep upprod1;netstat -al | grep 50001 
+  692  ps auxf | grep upprod1;netstat -al | grep 50001 
+  693  ps auxf | grep upprod1;netstat -al | grep 50001 
+  694  ps auxf | grep upprod1;netstat -al | grep 50001 
+  695  ps auxf | grep upprod1;netstat -al | grep 50001 
+  696  ps auxf | grep upprod1;netstat -al | grep 50001 
+  697  ps auxf | grep upprod1;netstat -al | grep 50001 
+  698  ps auxf | grep upprod1;netstat -al | grep 50001 
+  699  ps auxf | grep upprod1;netstat -al | grep 50001 
+  700  ps auxf | grep upprod1;netstat -al | grep 50001 
+  701  ps auxf | grep upprod1;netstat -al | grep 50001 
+  702  ps auxf | grep upprod1;netstat -al | grep 50001 
+  703  ps auxf | grep upprod1;netstat -al | grep 50001 
+  704  date
+  705  /usr/bin/python2 /upthere/bin/echo_server.py --port 50001
+  706  history >> /tmp/upprod1_06.jwu

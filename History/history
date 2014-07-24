@@ -1,0 +1,500 @@
+   34  ps -ef | grep jwu
+   35  ps -ef | grep jwu | grep -v chrome
+   36  ps -ef | grep background
+   37  ps -ef | grep setting
+   38  kill -9 6200
+   39  kill -9 6255
+   40  kill -9 6265
+   41  kill -9 6265
+   42  ps -ef | grep setting
+   43  kill -9 13575
+   44  kill -9 13596
+   45  ps -ef | grep setting
+   46  ps -aux
+   47  ps -au
+   48  ps -aux
+   49  sudo reboot
+   50  exit
+   51  man terminal
+   52  which term
+   53  which terminal
+   54  which Terminal
+   55  ps -ef | grep term
+   56  gnome-terminal --help
+   57  home
+   58  ls
+   59  cd p4/src/storage/
+   60  p4 diff
+   61  tmux
+   62  sudo apt-get install tmux
+   63  h | grep sudo
+   64  su
+   65  su
+   66  pwd
+   67  exit
+   68  sudo apt-get install keychain
+   69  exit
+   70  cd
+   71  ls
+   72  cd env
+   73  ls
+   74  ll
+   75  cd bin
+   76  ls
+   77  xe install_desktop.sh
+   78  cd
+   79  tmux
+   80  exit
+   81  pwd
+   82  cd
+   83  ll
+   84  ll .ssh/known_hosts 
+   85  ll .ssh
+   86  rm -rf .ssh
+   87  mkdir .ssh
+   88  home
+   89  cd .ssh/
+   90  ls
+   91  cp * ~/.ssh/
+   92  exit
+   93  cd
+   94  home
+   95  ls
+   96  ll
+   97  pwd
+   98  nice
+   99  haha
+  100  exit
+  101  pwd
+  102  ll
+  103  cd Dropbox/
+  104  ll
+  105  eog *.jpg
+  106  ls
+  107  cd 
+  108  cd nfs
+  109  ls
+  110  cd ..
+  111  ll
+  112  rm nfs
+  113  cd bin
+  114  sl
+  115  ls
+  116  cat "cd /home/users/jwu/p4" > home
+  117  echo "cd /home/users/jwu/p4" > home
+  118  chmod a+x home 
+  119  cd
+  120  home
+  121  pwd
+  122  rm bin/home 
+  123  xe .bashrc
+  124  h
+  125  fg
+  126  source .bashrc
+  127  home
+  128  pwd
+  129  ll
+  130  cd p4/src/
+  131  p4 diff
+  132  ls
+  133  pwd
+  134  cd
+  135  cd env
+  136  ll
+  137  git status
+  138  git commit
+  139  git config --global user.email "wuxiaqing2000@gmail.com"
+  140  git config --global user.name "James Wu"
+  141  git commit
+  142  git commit -a
+  143  git push origin master
+  144  git pull origin master
+  145  cd
+  146  source .bashrc
+  147  home
+  148  ls
+  149  u1
+  150  u2 
+  151  exit
+  152  tmux ls
+  153  tmux a
+  154  tmux a
+  155  ps -ef | grep diff
+  156  kill -9 tkdiff
+  157  kill tkdiff
+  158  killall tkdiff
+  159  ps -ef | grep diff
+  160  kill -9 6233
+  161  kill -9 6234
+  162  ps -ef | grep diff
+  163  kill -9 66232
+  164  kill -9 6232
+  165  ps -ef | grep diff
+  166  kill -9 6363
+  167  kill -9 6362
+  168  ps -ef | grep diff
+  169  kill -9 6372
+  170  ps -ef | grep diff
+  171  kill -9 6383
+  172  ps -ef | grep diff
+  173  kill -9 6391
+  174  ps -ef | grep diff
+  175  ps -ef | grep diff
+  176  kill -9 6373 5077 6382 6399
+  177  ps -ef | grep diff
+  178  kill -9 6374 6384 6392 6400
+  179  ps -ef | grep diff
+  180  ps -ef | grep diff
+  181  kill -9 6468
+  182  ps -ef | grep diff
+  183  kill -9 6469 6470
+  184  exit
+  185  tmux a
+  186  home
+  187  cd p4/src/storage/block_file/
+  188  p4 diff
+  189  p4 submit
+  190  p4 sync
+  191  fg
+  192  ls
+  193  home
+  194  ls
+  195  cd p4/src/
+  196  cd storage/
+  197  ls
+  198  cd block_file/
+  199  ll
+  200  p4 status
+  201  p4 diff
+  202  cat /proc/version
+  203  cat /proc/*-release
+  204  ls /proc/*release
+  205  lsb_release
+  206  uname -a
+  207  ls /etc/*version
+  208  ls /etc/*release
+  209  cat /etc/*release
+  210  fg
+  211  xe ~/bin/install_desktop.sh
+  212  pwd
+  213  ll
+  214  fg
+  215  xe inc/block_file/big_file.hpp
+  216  grep -R set_read_offset *
+  217  grep -R set_read_offset * | grep -v '~'
+  218  man 2 seek
+  219  man seek
+  220  fg
+  221  p4 diff
+  222  p4 diff
+  223  fg
+  224  fg
+  225  ll
+  226  p4 opened
+  227  fg
+  228  xe ../../.p4config
+  229  p4 diff
+  230  fg
+  231  ll
+  232  fg
+  233  fg
+  234  ll
+  235  pwd
+  236  u2
+  237  exit
+  238  ll
+  239  ls
+  240  pwd
+  241  cd 
+  242  ll
+  243  mkdir 3rdparties
+  244  cd 3rdparties/
+  245  git clone http://git-wip-us.apache.org/repos/asf/cassandra.git
+  246  ll
+  247  cd cassandra/
+  248  ll
+  249  cd src/
+  250  ll
+  251  ll java/
+  252  cd
+  253  home
+  254  ls
+  255  u2
+  256  exit
+  257  home
+  258  cd p4/src/storage/block_file/
+  259  p4 diff
+  260  p4 diff
+  261  python
+  262  p4 diff
+  263  p4 diff
+  264  p4 diff
+  265  pwd
+  266  grep -R TODO *
+  267  grep -R TODO * | grep -v '~'
+  268  u1
+  269  exit
+  270  u1
+  271  u2
+  272  tmux
+  273  tmux
+  274  u2
+  275  u1
+  276  pwd
+  277  ls
+  278  cd
+  279  exit
+  280  u2.sh
+  281  u2
+  282  xe ~/.ssh/known_hosts
+  283  u2
+  284  fg
+  285  xe ~/.ssh/known_hosts
+  286  u2
+  287  pwd
+  288  ll
+  289  exit
+  290  pwd
+  291  ls
+  292  pwd
+  293  home
+  294  pwd
+  295  ls
+  296  cd p4/
+  297  ls
+  298  cd src/
+  299  ls
+  300  cd storage/
+  301  p4 diff
+  302  p4 diff
+  303  p4 diff
+  304  p4 diff
+  305  cd ..
+  306  p4 diff
+  307  pwd
+  308  home
+  309  cd p4/src/
+  310  p4 diff
+  311  which p4 
+  312  p4 diff
+  313  p4 opened
+  314  p4 diff
+  315  p4 opened
+  316  p4 submit
+  317  p4 diff
+  318  cd
+  319  pwd
+  320  ll
+  321  ll
+  322  cd env
+  323  git status
+  324  more bin/install_desktop.sh
+  325  which tig
+  326  tig status
+  327  h | grep git | grep push
+  328  git push origin master
+  329  git push origin master
+  330  pwd
+  331  ll
+  332  ls
+  333  cd ..
+  334  ll
+  335  mount
+  336  ll /mnt/NFS
+  337  umount /mnt/NFS
+  338  su
+  339  su
+  340  ls
+  341  more bin/install_desktop.sh
+  342  mount -a
+  343  su
+  344  pwd
+  345  mount
+  346  ls /mnt/NF
+  347  ls /mnt/NFS
+  348  su
+  349  ll
+  350  home
+  351  ls
+  352  cd p4/src/storage/
+  353  ll
+  354  p4 diff
+  355  p4 diff
+  356  p4 diff
+  357  p4 submit
+  358  home
+  359  cd p4/src/
+  360  ll
+  361  cd storage/
+  362  p4 status
+  363  p4 opened
+  364  home
+  365  cd p4/src/storage/
+  366  p4 diff
+  367  u2
+  368  exit
+  369  mount
+  370  home
+  371  mount
+  372  mount
+  373  h | grep emacs
+  374  pwd
+  375  lls
+  376  ls
+  377  more /etc/fstab
+  378  more bin/install_desktop.sh
+  379  emacs /etc/fstab
+  380  su
+  381  home
+  382  pwd
+  383  ll
+  384  pwd
+  385  ll
+  386  df -h
+  387  ll
+  388  cd
+  389  ll
+  390  ls
+  391  mkdir Backup
+  392  home
+  393  mv blackbox_* ~/Backup/
+  394  ll
+  395  sudo mv blackbox_etc_ssh ~/Backup/
+  396  sudo mv blackbox_etc_ssh/* ~/Backup/blackbox_etc_ssh/
+  397  ll
+  398  cd blackbox_etc_ssh/
+  399  ll
+  400  ll ssh
+  401  ll
+  402  cd ..
+  403  ll
+  404  ll
+  405  pwd
+  406  ls
+  407  home
+  408  ls
+  409  ll
+  410  pwd
+  411  cd
+  412  pwd
+  413  ln -s /home/users/jwu NFS
+  414  ll
+  415  pwd
+  416  ll
+  417  home
+  418  ls
+  419  pwd
+  420  ll
+  421  rm -rf blackbox_etc_ssh
+  422  sudo rm -rf blackbox_etc_ssh
+  423  ll
+  424  cd blackbox_etc_ssh/
+  425  ll
+  426  cd ssh/
+  427  ll
+  428  rm -rf *
+  429  sudo chmod 777 *
+  430  ll
+  431  ls -ag
+  432  chmod a+w *
+  433  ll
+  434  ll
+  435  pwd
+  436  cd ..
+  437  ll
+  438  su
+  439  ll
+  440  cd ..
+  441  ll
+  442  rm -rf blackbox_etc_ssh
+  443  ll
+  444  ls
+  445  ls -l
+  446  ll ~/Temp
+  447  mv Temp/* ~/Temp/
+  448  home
+  449  ls
+  450  ll
+  451  rm Local
+  452  ll
+  453  ll
+  454  ll
+  455  home
+  456  ls
+  457  cd p4/src/
+  458  ll
+  459  cd up
+  460  p4 diff
+  461  pushd .
+  462  cd
+  463  cd /tmp
+  464  ls
+  465  ll
+  466  u1
+  467  u1
+  468  u2
+  469  exit
+  470  exit
+  471  u2
+  472  exit
+  473  python
+  474  exit
+  475  u2
+  476  u2
+  477  u2
+  478  u2
+  479  u2
+  480  ping upad02
+  481  ping upad02.upthere.com
+  482  man strtol
+  483  h | grep upadmin
+  484  exit
+  485  u2
+  486  exit
+  487  man getaddrinfo
+  488  man connect
+  489  exit
+  490  man epoll_wait
+  491  man epoll
+  492  man epoll_wait
+  493  exit
+  494  u1
+  495  man strtok
+  496  man iswps
+  497  man epoll
+  498  man epoll_wait
+  499  u2
+  500  exit
+  501  home
+  502  cd p4/src/
+  503  p4 diff
+  504  p4 diff
+  505  p4 logs
+  506  p4 changes | more
+  507  p4 describe 1281
+  508  p4 diff -c 1281
+  509  p4 diff 1281
+  510  p4 describe 1281 | tkdiff
+  511  p4 describe -S 1281
+  512  p4 describe -S 1281 | diff
+  513  xe ~/bin/p4diff
+  514  sh ~/bin/p4diff 1281
+  515  fg
+  516  xe ~/bin/p4diff
+  517  chmod a+x ~/bin/p4diff
+  518  p4diff 
+  519  p4diff 1281
+  520  more ~/bin/p4diff
+  521  p4 opened -c 1281
+  522  which p4v
+  523  p4 describe 1281 | grep '#' | cut -d"#" -f1|cut -d" " -f2 | xargs p4 diff
+  524  p4 describe 1281 | grep '#' | cut -d"#" -f1|cut -d" " -f2 | xargs p4 diff2
+  525  p4 describe 1281 | grep '#' | cut -d"#" -f1|cut -d" " -f2 
+  526  p4 describe 1281 | grep '#' | cut -d"#" -f1|cut -d" " -f2 
+  527  p4 diff2 ...@1281 ...@1280
+  528  p4 opened
+  529  p4 pending
+  530  p4 diff
+  531  ll
+  532  h
+  533  h >> ~/history
