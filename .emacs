@@ -1,11 +1,13 @@
 ;;; James Wu's emacs file
 ; 1/15/2014
 (add-to-list 'load-path "~/.emacs.d/lisp/")
+(require 'go-mode-load)
+(add-hook 'before-save-hook #'gofmt-before-save)
+;;
 
-(load-library "p4")
+;;; (load-library "p4")
 (load-library "google-c-style")
 (add-hook 'c-mode-common-hook 'google-set-c-style)
-
 (setq line-number-mode t)
 (setq column-number-mode t)
 

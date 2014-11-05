@@ -1,0 +1,4350 @@
+   72  grep plot ~/history 
+   73  grep gnuplot ~/README/*
+   74  grep -R gnuplot ~/README/*
+   75  pwd
+   76  scp upac07:/disk/a/logs/repo/*113* .
+   77  echo "plot 'tick_11335'; pause 5" | gnuplot
+   78  fg
+   79  xe report.py
+   80  grep -R gnuplot ~/README/* | grep plot
+   81  h | grep gnuplot
+   82  ls ~
+   83  grep -R gnuplot ~/env/* | grep plot
+   84  echo "plot 'tick_11335'; pause 5" | gnuplot
+   85  echo "plot 'tick_11335'; pause 500" | gnuplot
+   86  ll
+   87  echo "plot 'check_time_11336'; pause 500" | gnuplot
+   88  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' check_time_11336
+   89  awk '{sum+=$1} END { print "Average = ",sum/NR}' check_time_11336
+   90  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' tick_11335 
+   91  awk '{sum+=$1} END { print "Average = ",sum/NR}' tick_11335
+   92  xe ~/bin/average.sh
+   93  sh ~/bin/average.sh tick_11335 
+   94  fg
+   95  xe ~/bin/average.sh
+   96  echo "plot 'tick_11335'; pause 500" | gnuplot
+   97  bg
+   98  echo "plot 'check_time_113356'; pause 5000" | gnuplot
+   99  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  100  echo "plot 'tick_11335'; pause 5000" | gnuplot &
+  101  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  102  ssh upac07
+  103  ssh upac07
+  104  ssh upac07
+  105  ssh upac07
+  106  ssh upac07
+  107  python
+  108  ssh upac07
+  109  ssh upac07
+  110  ssh upac07
+  111  ssh upac07
+  112  ssh upac07
+  113  ssh upac07
+  114  ssh upac07
+  115  ssh upac07exit
+  116  exit
+  117  archhome
+  118  alias gate
+  119  alias
+  120  ssh upuser@cogate.upthere.com
+  121  ssh upuser@cogate.upthere.com
+  122  man curl
+  123  ssh upuser scbaby
+  124  ssh upuser scbaby.prod.upthere.com
+  125  ssh upuser scbabysitter.prod.upthere.com
+  126  ssh upuser@scbaby.prod.upthere.com
+  127  ssh scmaster
+  128  ssh scab01
+  129  ssh upsetup@scab01
+  130  ssh upsetup@scab01
+  131  ssh upsetup@scmaster
+  132  ssh upsetup@scmaster.prodz.upthere.com
+  133  ssh upsetup@scbaby.prodz.upthere.com
+  134  archhome
+  135  archhome
+  136  archhome
+  137  ssh cogate.upthere.com
+  138  gate
+  139  gate
+  140  gate
+  141  gate
+  142  gate
+  143  ssh upac07
+  144  ssh upac07
+  145  ssh upac07
+  146  ssh upac07
+  147  ssh upac07
+  148  ssh upac07
+  149  ssh upac07
+  150  ssh upac07
+  151  ssh upac07
+  152  arch
+  153  cd
+  154  ll
+  155  h | grep sshfs
+  156  grep sshfs ~/history 
+  157  mkdir tm_sshfs
+  158  alias archhome
+  159  sudo sshfs -o allow_other jwu@172.16.31.22:/home/jwu tm_sshfs/
+  160  pwd
+  161  ls
+  162  ll
+  163  ll tm_sshfs/
+  164  ping 172.16.2.22
+  165  ping 172.16.31.22
+  166  ifconfig
+  167  alias arch
+  168  alias archhome
+  169  ping 172.16.31.22
+  170  archhome
+  171  archhome
+  172  ping 172.16.31.22
+  173  ping 172.16.31.1
+  174  ll
+  175  archhome
+  176  archhome
+  177  archhome
+  178  archhome
+  179  ll
+  180  cd git
+  181  ll
+  182  svn checkout http://google-glog.googlecode.com/svn/trunk/ google-glog-read-only
+  183  cd google-glog-read-only/
+  184  ll
+  185  cd src
+  186  ll
+  187  xe logging.cc 
+  188  pwd
+  189  cd ..
+  190  cd ..
+  191  svn checkout http://google-breakpad.googlecode.com/svn/trunk/ google-breakpad-read-only
+  192  ll
+  193  cd google-breakpad-read-only/
+  194  ll
+  195  cd src/
+  196  ll
+  197  cd google_breakpad/
+  198  ll
+  199  cd processor/
+  200  ll
+  201  cd ..
+  202  ll common/
+  203  cd common/
+  204  ll
+  205  xe minidump_cpu_x86.h 
+  206  u7
+  207  ssh upac07
+  208  ssh scaa14
+  209  ssh upsetup@scaa14
+  210  ssh upuser@scaa14
+  211  ssh upadmin@scaa14
+  212  ssh upsetup@scaa14
+  213  ssh upac07
+  214  ssh upac07
+  215  ssh upsetup@upac07
+  216  alias
+  217  archhome
+  218  archhome
+  219  archhome
+  220  archhome
+  221  archhome
+  222  archhome
+  223  archhome
+  224  cd git
+  225  ls
+  226  svn checkout http://python-gflags.googlecode.com/svn/trunk/ python-gflags-read-onl
+  227  cd python-gflags-read-onl/
+  228  ll
+  229  ll debian/
+  230  ll
+  231  xe gflags.py 
+  232  ll
+  233  cd
+  234  ls
+  235  cd Temp
+  236  ll
+  237  ll M
+  238  cd M
+  239  cd mirror
+  240  ll
+  241  cd system/
+  242  l
+  243  ll
+  244  cd
+  245  ls
+  246  cd
+  247  cd Temp
+  248  ls
+  249  mv cd.ip M
+  250  cd M
+  251  ls
+  252  mv cd.ip mirror
+  253  ll
+  254  cd mirror
+  255  ll
+  256  mv cd.ip cd.zip
+  257  zip
+  258  which unzip
+  259  unzip cd.zip 
+  260  ls
+  261  ll
+  262  rm -rf cd.zip
+  263  ll
+  264  tar xvf cd.tar 
+  265  ll
+  266  rm -rf cd.tar 
+  267  ll
+  268  cd cd
+  269  ls
+  270  ll
+  271  cd base/
+  272  ll
+  273  cd src/
+  274  ll
+  275  xe timer.cpp
+  276  exit
+  277  ssh upac07
+  278  exit
+  279  ll
+  280  ssh upac07
+  281  exit
+  282  ssh upprod1@upac04
+  283  exit
+  284  ssh upprod1@upac05
+  285  exit
+  286  ssh upac07
+  287  ssh upac07
+  288  ssh upprod1@upac06
+  289  ssh upprod1@upac06
+  290  ssh upprod1@upac06
+  291  ssh upprod1@upac06
+  292  ssh upprod1@upac06
+  293  ssh upprod1@upac06
+  294  exit
+  295  ssh upprod1@upac03
+  296  ssh upadmin@upac05
+  297  ssh upadmin@upac05
+  298  exit
+  299  ssh upac07
+  300  ssh upadmin@upac06
+  301  ssh upadmin@upac06
+  302  ssh upadmin@upac06
+  303  ssh upadmin@upac06
+  304  ssh upadmin@upac06
+  305  gate
+  306  gate
+  307  gate
+  308  ssh upprod1@upac06
+  309  ssh upprod1@upac06
+  310  exit
+  311  ll
+  312  pwd
+  313  ssh upac07
+  314  ssh upac07
+  315  exit
+  316  ssh upac07
+  317  ssh upac07
+  318  exit
+  319  ping 172.16.3.127
+  320  ssh 172.16.3.127
+  321  exit
+  322  ssh 10.0.2.15
+  323  ssh root@10.0.2.15
+  324  ping 10.0.2.15
+  325  ifconfig
+  326  ssh root@10.0.2.15
+  327  ssh jwu@10.0.2.15
+  328  ssh jwu@10.0.2.15
+  329  ping 10.0.2.15
+  330  ifconfig
+  331  ping 10.0.2.15
+  332  ping 10.0.2.15
+  333  ping 10.0.2.15
+  334  ifconfig
+  335  ping 10.0.2.15
+  336  ssh jwu@10.0.2.15
+  337  ssh root@10.0.2.15
+  338  netstat -al | more
+  339  ping 10.0.2.15
+  340  ping 10.0.2.1
+  341  ping 10.0.2.2
+  342  ping 10.0.2.3
+  343  ping 10.0.2.15
+  344  ping 10.0.2.15
+  345  ping 10.0.2.15
+  346  ssh jwu@10.0.2.15
+  347  ssh -v jwu@10.0.2.15
+  348  ssh -v jwu@10.0.2.15
+  349  exit
+  350  ssh upadmin@upac07
+  351  ssh upadmin@upac07
+  352  ssh upadmin@upac07
+  353  ssh upadmin@upac07
+  354  ssh upadmin@upac07
+  355  ssh upadmin@upac07
+  356  ssh upadmin@upac07
+  357  ssh upadmin@upac06
+  358  ssh upadmin@upac06
+  359  ssh upadmin@upac06
+  360  ssh upac07
+  361  ssh upac07
+  362  exit
+  363  ssh upsetup@upac07
+  364  ssh upsetup@upac07
+  365  ssh upsetup@upac07
+  366  ssh -l upsetup@upac07
+  367  ssh upsetup@upac07
+  368  ssh upsetup@upac07
+  369  ssh upsetup@upac07
+  370  ssh upsetup@upac07
+  371  gate
+  372  gate
+  373  ssh upsetup@upac07
+  374  ssh upsetup@upac07
+  375  ssh upsetup@upac07
+  376  exit
+  377  ssh upadmin@upac07
+  378  ssh upadmin@upac07
+  379  ssh upadmin@upac03
+  380  ssh upadmin@upac07
+  381  ssh upadmin@upac07
+  382  exit
+  383  ssh upadmin@upac05
+  384  exit
+  385  ping baby.prodz.upthere.com
+  386  ssh upac07
+  387  ssh scbaby
+  388  ssh scbaby.prodz
+  389  ssh scbaby.prodz.upthere.com
+  390  ssh upadmin@scbaby.prodz.upthere.com
+  391  ssh upsetup@scbaby.prodz.upthere.com
+  392  ssh upsetup@scbaby.prodz.upthere.com
+  393  ssh upsetup@upac07
+  394  desktop
+  395  alias
+  396  ssh bin/desktop.sh
+  397  ssh 172.16.1.238
+  398  sh bin/desktop.sh
+  399  xe bin/desktop.sh
+  400  ll
+  401  cd Downloads/
+  402  ll
+  403  scp elasticsearch-1.3.2.zip 172.16.1.238:/tmp
+  404  ssh upac07
+  405  ssh upac07
+  406  ssh upac07
+  407  ssh upac07
+  408  ssh upac07
+  409  ssh upadmin@scbaby.prodz.upthere.com
+  410  ssh upsetup@scbaby.prodz.upthere.com
+  411  ssh upadmin@scbaby.prodz.upthere.com
+  412  ssh upsetup@scbaby.prodz.upthere.com
+  413  ssh upsetup@scbaby.prodz.upthere.com
+  414  ssh upsetup@scbaby.prodz.upthere.com
+  415  ssh upac07upadmin@upac05
+  416  ssh upac07
+  417  ssh upac07
+  418  ssh upac07
+  419  ssh upac07
+  420  ssh upac07
+  421  ssh upac07
+  422  ssh upac07
+  423  ssh upac07
+  424  ssh upac07
+  425  ssh upac07
+  426  ssh upac07
+  427  more .ssh/id_rsa.pub 
+  428  pwd
+  429  cd git
+  430  ll
+  431  git clone git.upthere.com
+  432  pwd
+  433  git clone git.upthere.com/backend
+  434  git clone ssh://git.upthere.com/backend
+  435  gitlab@git.corp.upthere.com:backend/infra.git
+  436  git clone gitlab@git.corp.upthere.com:backend/infra.git
+  437  git clone gitlab@git.corp.upthere.com:backend/ops.git
+  438  git clone gitlab@git.corp.upthere.com:backend/uplinux.git
+  439  ssh upac05
+  440  ssh upprod1@upac05
+  441  ssh upprod1@scab05
+  442  cd Downloads/
+  443  ll
+  444  ls *.pdf
+  445  rm -rf James*.pdf
+  446  ll
+  447  scp elasticsearch-1.3.2.zip upac07://tmp/
+  448  ls
+  449  unzip elasticsearch-1.3.2
+  450  ls
+  451  cd elasticsearch-1.3.2
+  452  ll
+  453  cd ..
+  454  scp -r elasticsearch-1.3.2 upac07:/tmp
+  455  exit
+  456  astype
+  457  ll
+  458  cd Temp
+  459  ll
+  460  ll M
+  461  cd M
+  462  ll
+  463  cd mirror
+  464  ll
+  465  cd cd
+  466  ll
+  467  cd base
+  468  ll
+  469  cd inc/
+  470  ll
+  471  cd base/
+  472  ll
+  473  more cycle_counter.hpp 
+  474  ll
+  475  more base.hpp 
+  476  more cycle_counter.hpp 
+  477  ll
+  478  cd ..
+  479  ll
+  480  cd ..
+  481  ll
+  482  grep -r start_rdtsc
+  483  grep -r start_rdtsc *
+  484  cd ..
+  485  ll
+  486  grep -r start_rdtsc *
+  487  cd storage/block_file/tst/perf_test.cpp 
+  488  xe storage/block_file/tst/perf_test.cpp 
+  489  fg
+  490  more base/inc/base/cycle_counter.hpp 
+  491  more base/inc/base/internal_types.hpp 
+  492  python
+  493  exit
+  494  ssh upuser@scab11
+  495  ssh upadmin@scab11
+  496  ssh upadmin@scab03
+  497  ssh upuser@scab03
+  498  exit
+  499  ssh upuser@scab11
+  500  ssh upuser@scab11
+  501  ssh upadmin@scab11
+  502  ssh upadmin@scab03
+  503  curl -XDELETE http://scab03:9200/mmmfotos
+  504  curl -XDELETE http://scab03:9200/mmm
+  505  curl -XDELETE http://scab03:9200/myfotos
+  506  curl -XDELETE http://scab03:9200/clients
+  507  curl -XDELETE http://scab03:9200/mmm
+  508  curl -XDELETE http://scab03:9200/mmfotos
+  509  curl -XDELETE http://scab03:9200/fotos
+  510  curl -XDELETE http://scab03:9200/mfotos
+  511  curl -XPUT http://scab03:9200/fotos -d '                                                                                                                                            
+{
+    "settings" : {
+            "number_of_shards" : 16,
+            "number_of_replicas" : 1
+    },
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  512  curl -XDELETE http://scab03:9200/fotos
+  513  curl -XDELETE http://scab03:9200/fotos
+  514  curl -XDELETE http://scab04:9200/fotos
+  515  curl -XDELETE http://scab03:9200/myfotos
+  516  curl -XDELETE http://scab03:9200/mmfotos
+  517  curl -XDELETE http://scab03:9200/mmmfotos
+  518  curl -XDELETE http://scab03:9200/mfotos
+  519  curl -XDELETE http://scab03:9200/mmm
+  520  curl -XDELETE http://scab03:9200/clients
+  521  curl -XDELETE http://scab03:9200/clients
+  522  curl -XDELETE http://scab03:9200/mmm
+  523  curl -XDELETE http://scab03:9200/fotos
+  524  curl -XDELETE http://scab03:9200/fotos
+  525  curl -XDELETE http://scab03:9200/fotos
+  526  curl -XDELETE http://scab03:9200/fotos
+  527  curl -XDELETE http://scab03:9200/myfotos
+  528  curl -XDELETE http://scab03:9200/clients
+  529  curl -XDELETE http://scab03:9200/mmm
+  530  curl -XDELETE http://scab03:9200/mmfotos
+  531  curl -XDELETE http://scab03:9200/fotos
+  532  curl -XDELETE http://scab03:9200/mfotos
+  533  curl -XDELETE http://scab03:9200/mmmfotos
+  534  curl -XDELETE http://scab03:9200/mmmfotos
+  535  curl -XDELETE http://scab03:9200/mfotos
+  536  curl -XDELETE http://scab03:9200/fotos
+  537  curl -XDELETE http://scab03:9200/mfotos
+  538  curl -XDELETE http://scab03:9200/clients
+  539  curl -XDELETE http://scab03:9200/myfotos
+  540  curl -XDELETE http://scab03:9200/mmm
+  541* 
+  542  curl -XDELETE http://scab03:9200/mmm
+  543  curl -XDELETE http://scab03:9200/myfotos
+  544  curl -XDELETE http://scab03:9200/mmfotos
+  545  curl -XDELETE http://scab03:9200/clients
+  546  curl -XDELETE http://scab03:9200/fotos
+  547  curl -XDELETE http://scab03:9200/mmmfotos
+  548  curl -XDELETE http://scab03:9200/mfotos
+  549  curl -XPUT http://scab03:9200/fotos -d '                                                                                                                                            
+{
+    "settings" : {
+            "number_of_shards" : 16,
+            "number_of_replicas" : 1
+    },
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  550  curl -XDELETE http://scab03:9200/myfotos
+  551  h | grep DELETE
+  552  xe delete_all_index.sh
+  553  sh delete_all_index.sh 
+  554  python
+  555  sh delete_all_index.sh 
+  556  python
+  557  sh delete_all_index.sh 
+  558  sh delete_all_index.sh 
+  559  sh delete_all_index.sh 
+  560  sh delete_all_index.sh 
+  561  python
+  562  sh delete_all_index.sh 
+  563  python
+  564  sh delete_all_index.sh 
+  565  python
+  566  sh delete_all_index.sh 
+  567  sh delete_all_index.sh 
+  568  curl -XPUT http://scab03:9200/fotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  569  history
+  570  history > ~/history 
+  571  history > env/History/history.macpro
+   50  ll
+   51  ls
+   52  ls -l
+   53  cd 
+   54  cd Desktop/
+   55  ll
+   56  cd Upthere/
+   57  ll
+   58  cd PerfReports/
+   59  ll
+   60  more report.py
+   61  cp report.py ~/Temp
+   62  cd 
+   63  cd Temp
+   64  ll
+   65  xe report.py 
+   66  scp report.py upac07:/tmp/
+   67  grep plot ~/history 
+   68  grep gnuplot ~/README/*
+   69  grep -R gnuplot ~/README/*
+   70  pwd
+   71  scp upac07:/disk/a/logs/repo/*113* .
+   72  echo "plot 'tick_11335'; pause 5" | gnuplot
+   73  fg
+   74  xe report.py
+   75  grep -R gnuplot ~/README/* | grep plot
+   76  h | grep gnuplot
+   77  ls ~
+   78  grep -R gnuplot ~/env/* | grep plot
+   79  echo "plot 'tick_11335'; pause 5" | gnuplot
+   80  echo "plot 'tick_11335'; pause 500" | gnuplot
+   81  ll
+   82  echo "plot 'check_time_11336'; pause 500" | gnuplot
+   83  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' check_time_11336
+   84  awk '{sum+=$1} END { print "Average = ",sum/NR}' check_time_11336
+   85  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' tick_11335 
+   86  awk '{sum+=$1} END { print "Average = ",sum/NR}' tick_11335
+   87  xe ~/bin/average.sh
+   88  sh ~/bin/average.sh tick_11335 
+   89  fg
+   90  xe ~/bin/average.sh
+   91  echo "plot 'tick_11335'; pause 500" | gnuplot
+   92  bg
+   93  echo "plot 'check_time_113356'; pause 5000" | gnuplot
+   94  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+   95  echo "plot 'tick_11335'; pause 5000" | gnuplot &
+   96  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+   97  ssh upac07
+   98  ssh upac07
+   99  ssh upac07
+  100  ssh upac07
+  101  ssh upac07
+  102  python
+  103  ssh upac07
+  104  ssh upac07
+  105  ssh upac07
+  106  ssh upac07
+  107  ssh upac07
+  108  ssh upac07
+  109  ssh upac07
+  110  ssh upac07exit
+  111  exit
+  112  archhome
+  113  alias gate
+  114  alias
+  115  ssh upuser@cogate.upthere.com
+  116  ssh upuser@cogate.upthere.com
+  117  man curl
+  118  ssh upuser scbaby
+  119  ssh upuser scbaby.prod.upthere.com
+  120  ssh upuser scbabysitter.prod.upthere.com
+  121  ssh upuser@scbaby.prod.upthere.com
+  122  ssh scmaster
+  123  ssh scab01
+  124  ssh upsetup@scab01
+  125  ssh upsetup@scab01
+  126  ssh upsetup@scmaster
+  127  ssh upsetup@scmaster.prodz.upthere.com
+  128  ssh upsetup@scbaby.prodz.upthere.com
+  129  archhome
+  130  archhome
+  131  archhome
+  132  ssh cogate.upthere.com
+  133  gate
+  134  gate
+  135  gate
+  136  gate
+  137  gate
+  138  ssh upac07
+  139  ssh upac07
+  140  ssh upac07
+  141  ssh upac07
+  142  ssh upac07
+  143  ssh upac07
+  144  ssh upac07
+  145  ssh upac07
+  146  ssh upac07
+  147  arch
+  148  cd
+  149  ll
+  150  h | grep sshfs
+  151  grep sshfs ~/history 
+  152  mkdir tm_sshfs
+  153  alias archhome
+  154  sudo sshfs -o allow_other jwu@172.16.31.22:/home/jwu tm_sshfs/
+  155  pwd
+  156  ls
+  157  ll
+  158  ll tm_sshfs/
+  159  ping 172.16.2.22
+  160  ping 172.16.31.22
+  161  ifconfig
+  162  alias arch
+  163  alias archhome
+  164  ping 172.16.31.22
+  165  archhome
+  166  archhome
+  167  ping 172.16.31.22
+  168  ping 172.16.31.1
+  169  ll
+  170  archhome
+  171  archhome
+  172  archhome
+  173  archhome
+  174  ll
+  175  cd git
+  176  ll
+  177  svn checkout http://google-glog.googlecode.com/svn/trunk/ google-glog-read-only
+  178  cd google-glog-read-only/
+  179  ll
+  180  cd src
+  181  ll
+  182  xe logging.cc 
+  183  pwd
+  184  cd ..
+  185  cd ..
+  186  svn checkout http://google-breakpad.googlecode.com/svn/trunk/ google-breakpad-read-only
+  187  ll
+  188  cd google-breakpad-read-only/
+  189  ll
+  190  cd src/
+  191  ll
+  192  cd google_breakpad/
+  193  ll
+  194  cd processor/
+  195  ll
+  196  cd ..
+  197  ll common/
+  198  cd common/
+  199  ll
+  200  xe minidump_cpu_x86.h 
+  201  u7
+  202  ssh upac07
+  203  ssh scaa14
+  204  ssh upsetup@scaa14
+  205  ssh upuser@scaa14
+  206  ssh upadmin@scaa14
+  207  ssh upsetup@scaa14
+  208  ssh upac07
+  209  ssh upac07
+  210  ssh upsetup@upac07
+  211  alias
+  212  archhome
+  213  archhome
+  214  archhome
+  215  archhome
+  216  archhome
+  217  archhome
+  218  archhome
+  219  cd git
+  220  ls
+  221  svn checkout http://python-gflags.googlecode.com/svn/trunk/ python-gflags-read-onl
+  222  cd python-gflags-read-onl/
+  223  ll
+  224  ll debian/
+  225  ll
+  226  xe gflags.py 
+  227  ll
+  228  cd
+  229  ls
+  230  cd Temp
+  231  ll
+  232  ll M
+  233  cd M
+  234  cd mirror
+  235  ll
+  236  cd system/
+  237  l
+  238  ll
+  239  cd
+  240  ls
+  241  cd
+  242  cd Temp
+  243  ls
+  244  mv cd.ip M
+  245  cd M
+  246  ls
+  247  mv cd.ip mirror
+  248  ll
+  249  cd mirror
+  250  ll
+  251  mv cd.ip cd.zip
+  252  zip
+  253  which unzip
+  254  unzip cd.zip 
+  255  ls
+  256  ll
+  257  rm -rf cd.zip
+  258  ll
+  259  tar xvf cd.tar 
+  260  ll
+  261  rm -rf cd.tar 
+  262  ll
+  263  cd cd
+  264  ls
+  265  ll
+  266  cd base/
+  267  ll
+  268  cd src/
+  269  ll
+  270  xe timer.cpp
+  271  exit
+  272  ssh upac07
+  273  exit
+  274  ll
+  275  ssh upac07
+  276  exit
+  277  ssh upprod1@upac04
+  278  exit
+  279  ssh upprod1@upac05
+  280  exit
+  281  ssh upac07
+  282  ssh upac07
+  283  ssh upprod1@upac06
+  284  ssh upprod1@upac06
+  285  ssh upprod1@upac06
+  286  ssh upprod1@upac06
+  287  ssh upprod1@upac06
+  288  ssh upprod1@upac06
+  289  exit
+  290  ssh upprod1@upac03
+  291  ssh upadmin@upac05
+  292  ssh upadmin@upac05
+  293  exit
+  294  ssh upac07
+  295  ssh upadmin@upac06
+  296  ssh upadmin@upac06
+  297  ssh upadmin@upac06
+  298  ssh upadmin@upac06
+  299  ssh upadmin@upac06
+  300  gate
+  301  gate
+  302  gate
+  303  ssh upprod1@upac06
+  304  ssh upprod1@upac06
+  305  exit
+  306  ll
+  307  pwd
+  308  ssh upac07
+  309  ssh upac07
+  310  exit
+  311  ssh upac07
+  312  ssh upac07
+  313  exit
+  314  ping 172.16.3.127
+  315  ssh 172.16.3.127
+  316  exit
+  317  ssh 10.0.2.15
+  318  ssh root@10.0.2.15
+  319  ping 10.0.2.15
+  320  ifconfig
+  321  ssh root@10.0.2.15
+  322  ssh jwu@10.0.2.15
+  323  ssh jwu@10.0.2.15
+  324  ping 10.0.2.15
+  325  ifconfig
+  326  ping 10.0.2.15
+  327  ping 10.0.2.15
+  328  ping 10.0.2.15
+  329  ifconfig
+  330  ping 10.0.2.15
+  331  ssh jwu@10.0.2.15
+  332  ssh root@10.0.2.15
+  333  netstat -al | more
+  334  ping 10.0.2.15
+  335  ping 10.0.2.1
+  336  ping 10.0.2.2
+  337  ping 10.0.2.3
+  338  ping 10.0.2.15
+  339  ping 10.0.2.15
+  340  ping 10.0.2.15
+  341  ssh jwu@10.0.2.15
+  342  ssh -v jwu@10.0.2.15
+  343  ssh -v jwu@10.0.2.15
+  344  exit
+  345  ssh upadmin@upac07
+  346  ssh upadmin@upac07
+  347  ssh upadmin@upac07
+  348  ssh upadmin@upac07
+  349  ssh upadmin@upac07
+  350  ssh upadmin@upac07
+  351  ssh upadmin@upac07
+  352  ssh upadmin@upac06
+  353  ssh upadmin@upac06
+  354  ssh upadmin@upac06
+  355  ssh upac07
+  356  ssh upac07
+  357  exit
+  358  ssh upsetup@upac07
+  359  ssh upsetup@upac07
+  360  ssh upsetup@upac07
+  361  ssh -l upsetup@upac07
+  362  ssh upsetup@upac07
+  363  ssh upsetup@upac07
+  364  ssh upsetup@upac07
+  365  ssh upsetup@upac07
+  366  gate
+  367  gate
+  368  ssh upsetup@upac07
+  369  ssh upsetup@upac07
+  370  ssh upsetup@upac07
+  371  exit
+  372  ssh upadmin@upac07
+  373  ssh upadmin@upac07
+  374  ssh upadmin@upac03
+  375  ssh upadmin@upac07
+  376  ssh upadmin@upac07
+  377  exit
+  378  ssh upadmin@upac05
+  379  exit
+  380  ping baby.prodz.upthere.com
+  381  ssh upac07
+  382  ssh scbaby
+  383  ssh scbaby.prodz
+  384  ssh scbaby.prodz.upthere.com
+  385  ssh upadmin@scbaby.prodz.upthere.com
+  386  ssh upsetup@scbaby.prodz.upthere.com
+  387  ssh upsetup@scbaby.prodz.upthere.com
+  388  ssh upsetup@upac07
+  389  desktop
+  390  alias
+  391  ssh bin/desktop.sh
+  392  ssh 172.16.1.238
+  393  sh bin/desktop.sh
+  394  xe bin/desktop.sh
+  395  ll
+  396  cd Downloads/
+  397  ll
+  398  scp elasticsearch-1.3.2.zip 172.16.1.238:/tmp
+  399  ssh upac07
+  400  ssh upac07
+  401  ssh upac07
+  402  ssh upac07
+  403  ssh upac07
+  404  ssh upadmin@scbaby.prodz.upthere.com
+  405  ssh upsetup@scbaby.prodz.upthere.com
+  406  ssh upadmin@scbaby.prodz.upthere.com
+  407  ssh upsetup@scbaby.prodz.upthere.com
+  408  ssh upsetup@scbaby.prodz.upthere.com
+  409  ssh upsetup@scbaby.prodz.upthere.com
+  410  ssh upac07upadmin@upac05
+  411  ssh upac07
+  412  ssh upac07
+  413  ssh upac07
+  414  ssh upac07
+  415  ssh upac07
+  416  ssh upac07
+  417  ssh upac07
+  418  ssh upac07
+  419  ssh upac07
+  420  ssh upac07
+  421  ssh upac07
+  422  more .ssh/id_rsa.pub 
+  423  pwd
+  424  cd git
+  425  ll
+  426  git clone git.upthere.com
+  427  pwd
+  428  git clone git.upthere.com/backend
+  429  git clone ssh://git.upthere.com/backend
+  430  gitlab@git.corp.upthere.com:backend/infra.git
+  431  git clone gitlab@git.corp.upthere.com:backend/infra.git
+  432  git clone gitlab@git.corp.upthere.com:backend/ops.git
+  433  git clone gitlab@git.corp.upthere.com:backend/uplinux.git
+  434  ssh upac05
+  435  ssh upprod1@upac05
+  436  ssh upprod1@scab05
+  437  cd Downloads/
+  438  ll
+  439  ls *.pdf
+  440  rm -rf James*.pdf
+  441  ll
+  442  scp elasticsearch-1.3.2.zip upac07://tmp/
+  443  ls
+  444  unzip elasticsearch-1.3.2
+  445  ls
+  446  cd elasticsearch-1.3.2
+  447  ll
+  448  cd ..
+  449  scp -r elasticsearch-1.3.2 upac07:/tmp
+  450  exit
+  451  astype
+  452  ll
+  453  cd Temp
+  454  ll
+  455  ll M
+  456  cd M
+  457  ll
+  458  cd mirror
+  459  ll
+  460  cd cd
+  461  ll
+  462  cd base
+  463  ll
+  464  cd inc/
+  465  ll
+  466  cd base/
+  467  ll
+  468  more cycle_counter.hpp 
+  469  ll
+  470  more base.hpp 
+  471  more cycle_counter.hpp 
+  472  ll
+  473  cd ..
+  474  ll
+  475  cd ..
+  476  ll
+  477  grep -r start_rdtsc
+  478  grep -r start_rdtsc *
+  479  cd ..
+  480  ll
+  481  grep -r start_rdtsc *
+  482  cd storage/block_file/tst/perf_test.cpp 
+  483  xe storage/block_file/tst/perf_test.cpp 
+  484  fg
+  485  more base/inc/base/cycle_counter.hpp 
+  486  more base/inc/base/internal_types.hpp 
+  487  python
+  488  exit
+  489  ssh upuser@scab11
+  490  ssh upadmin@scab11
+  491  ssh upadmin@scab03
+  492  ssh upuser@scab03
+  493  exit
+  494  exit
+  495  ssh upuser@scab03
+  496  ssh upuser@scab03
+  497  ssh upuser@scab03
+  498  ssh upuser@scab03
+  499  h | grep scp
+  500  cd Downloads/
+  501  ls elasticsearch-1.3.2*
+  502  scp -r elasticsearch-1.3.2 upadmin@scab07:/disk/a/jobs/up_search/
+  503  ll
+  504  pwd
+  505  python
+  506  ssh upadmin@scab13
+  507  ssh upadmin@scab13
+  508  ll
+  509  cd
+  510  ls
+  511  cd ES
+  512  ll
+  513  xe query_test.py
+  514  python query_test.py
+  515  fg
+  516  python query_test.py
+  517  fg
+  518  python query_test.py
+  519  fg
+  520  python query_test.py
+  521  python query_test.py
+  522  fg
+  523  python query_test.py
+  524  fg
+  525  python query_test.py
+  526  fg
+  527  python query_test.py
+  528  fg
+  529  python query_test.py
+  530  fg
+  531  python query_test.py
+  532  fg
+  533  python query_test.py
+  534  fg
+  535  python query_test.py
+  536  fg
+  537  python query_test.py
+  538  fg
+  539  fg
+  540  python query_test.py
+  541  fg
+  542  pwd
+  543  ll
+  544  more query_test.py
+  545  ll
+  546  ll
+  547  h
+  548   history
+  549   history >> ~/env/History/history.macpro 
+   73  ll
+   74  rm -rf *~
+   75  ll
+   76  xe client.ovpn 
+   77  ll
+   78  rm -rf *~
+   79  ll
+   80  cat *
+   81  exit
+   82  ifconfig
+   83  ping 172.16.31.1
+   84  ping 172.16.31.22
+   85  ssh 172.16.31.22
+   86  exit
+   87  alias arch
+   88  cd
+   89  xe .bashrc
+   90  archhome
+   91  ssh upac07
+   92  c
+   93  cd Perforce/
+   94  ll
+   95  cd ..
+   96  lll
+   97  ll
+   98  ls
+   99  ls -l
+  100  cd 
+  101  cd Desktop/
+  102  ll
+  103  cd Upthere/
+  104  ll
+  105  cd PerfReports/
+  106  ll
+  107  more report.py
+  108  cp report.py ~/Temp
+  109  cd 
+  110  cd Temp
+  111  ll
+  112  xe report.py 
+  113  scp report.py upac07:/tmp/
+  114  grep plot ~/history 
+  115  grep gnuplot ~/README/*
+  116  grep -R gnuplot ~/README/*
+  117  pwd
+  118  scp upac07:/disk/a/logs/repo/*113* .
+  119  echo "plot 'tick_11335'; pause 5" | gnuplot
+  120  fg
+  121  xe report.py
+  122  grep -R gnuplot ~/README/* | grep plot
+  123  h | grep gnuplot
+  124  ls ~
+  125  grep -R gnuplot ~/env/* | grep plot
+  126  echo "plot 'tick_11335'; pause 5" | gnuplot
+  127  echo "plot 'tick_11335'; pause 500" | gnuplot
+  128  ll
+  129  echo "plot 'check_time_11336'; pause 500" | gnuplot
+  130  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' check_time_11336
+  131  awk '{sum+=$1} END { print "Average = ",sum/NR}' check_time_11336
+  132  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' tick_11335 
+  133  awk '{sum+=$1} END { print "Average = ",sum/NR}' tick_11335
+  134  xe ~/bin/average.sh
+  135  sh ~/bin/average.sh tick_11335 
+  136  fg
+  137  xe ~/bin/average.sh
+  138  echo "plot 'tick_11335'; pause 500" | gnuplot
+  139  bg
+  140  echo "plot 'check_time_113356'; pause 5000" | gnuplot
+  141  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  142  echo "plot 'tick_11335'; pause 5000" | gnuplot &
+  143  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  144  ssh upac07
+  145  ssh upac07
+  146  ssh upac07
+  147  ssh upac07
+  148  ssh upac07
+  149  python
+  150  ssh upac07
+  151  ssh upac07
+  152  ssh upac07
+  153  ssh upac07
+  154  ssh upac07
+  155  ssh upac07
+  156  ssh upac07
+  157  ssh upac07exit
+  158  exit
+  159  archhome
+  160  alias gate
+  161  alias
+  162  ssh upuser@cogate.upthere.com
+  163  ssh upuser@cogate.upthere.com
+  164  man curl
+  165  ssh upuser scbaby
+  166  ssh upuser scbaby.prod.upthere.com
+  167  ssh upuser scbabysitter.prod.upthere.com
+  168  ssh upuser@scbaby.prod.upthere.com
+  169  ssh scmaster
+  170  ssh scab01
+  171  ssh upsetup@scab01
+  172  ssh upsetup@scab01
+  173  ssh upsetup@scmaster
+  174  ssh upsetup@scmaster.prodz.upthere.com
+  175  ssh upsetup@scbaby.prodz.upthere.com
+  176  archhome
+  177  archhome
+  178  archhome
+  179  ssh cogate.upthere.com
+  180  gate
+  181  gate
+  182  gate
+  183  gate
+  184  gate
+  185  ssh upac07
+  186  ssh upac07
+  187  ssh upac07
+  188  ssh upac07
+  189  ssh upac07
+  190  ssh upac07
+  191  ssh upac07
+  192  ssh upac07
+  193  ssh upac07
+  194  arch
+  195  cd
+  196  ll
+  197  h | grep sshfs
+  198  grep sshfs ~/history 
+  199  mkdir tm_sshfs
+  200  alias archhome
+  201  sudo sshfs -o allow_other jwu@172.16.31.22:/home/jwu tm_sshfs/
+  202  pwd
+  203  ls
+  204  ll
+  205  ll tm_sshfs/
+  206  ping 172.16.2.22
+  207  ping 172.16.31.22
+  208  ifconfig
+  209  alias arch
+  210  alias archhome
+  211  ping 172.16.31.22
+  212  archhome
+  213  archhome
+  214  ping 172.16.31.22
+  215  ping 172.16.31.1
+  216  ll
+  217  archhome
+  218  archhome
+  219  archhome
+  220  archhome
+  221  ll
+  222  cd git
+  223  ll
+  224  svn checkout http://google-glog.googlecode.com/svn/trunk/ google-glog-read-only
+  225  cd google-glog-read-only/
+  226  ll
+  227  cd src
+  228  ll
+  229  xe logging.cc 
+  230  pwd
+  231  cd ..
+  232  cd ..
+  233  svn checkout http://google-breakpad.googlecode.com/svn/trunk/ google-breakpad-read-only
+  234  ll
+  235  cd google-breakpad-read-only/
+  236  ll
+  237  cd src/
+  238  ll
+  239  cd google_breakpad/
+  240  ll
+  241  cd processor/
+  242  ll
+  243  cd ..
+  244  ll common/
+  245  cd common/
+  246  ll
+  247  xe minidump_cpu_x86.h 
+  248  u7
+  249  ssh upac07
+  250  ssh scaa14
+  251  ssh upsetup@scaa14
+  252  ssh upuser@scaa14
+  253  ssh upadmin@scaa14
+  254  ssh upsetup@scaa14
+  255  ssh upac07
+  256  ssh upac07
+  257  ssh upsetup@upac07
+  258  alias
+  259  archhome
+  260  archhome
+  261  archhome
+  262  archhome
+  263  archhome
+  264  archhome
+  265  archhome
+  266  cd git
+  267  ls
+  268  svn checkout http://python-gflags.googlecode.com/svn/trunk/ python-gflags-read-onl
+  269  cd python-gflags-read-onl/
+  270  ll
+  271  ll debian/
+  272  ll
+  273  xe gflags.py 
+  274  ll
+  275  cd
+  276  ls
+  277  cd Temp
+  278  ll
+  279  ll M
+  280  cd M
+  281  cd mirror
+  282  ll
+  283  cd system/
+  284  l
+  285  ll
+  286  cd
+  287  ls
+  288  cd
+  289  cd Temp
+  290  ls
+  291  mv cd.ip M
+  292  cd M
+  293  ls
+  294  mv cd.ip mirror
+  295  ll
+  296  cd mirror
+  297  ll
+  298  mv cd.ip cd.zip
+  299  zip
+  300  which unzip
+  301  unzip cd.zip 
+  302  ls
+  303  ll
+  304  rm -rf cd.zip
+  305  ll
+  306  tar xvf cd.tar 
+  307  ll
+  308  rm -rf cd.tar 
+  309  ll
+  310  cd cd
+  311  ls
+  312  ll
+  313  cd base/
+  314  ll
+  315  cd src/
+  316  ll
+  317  xe timer.cpp
+  318  exit
+  319  ssh upac07
+  320  exit
+  321  ll
+  322  ssh upac07
+  323  exit
+  324  ssh upprod1@upac04
+  325  exit
+  326  ssh upprod1@upac05
+  327  exit
+  328  ssh upac07
+  329  ssh upac07
+  330  ssh upprod1@upac06
+  331  ssh upprod1@upac06
+  332  ssh upprod1@upac06
+  333  ssh upprod1@upac06
+  334  ssh upprod1@upac06
+  335  ssh upprod1@upac06
+  336  exit
+  337  ssh upprod1@upac03
+  338  ssh upadmin@upac05
+  339  ssh upadmin@upac05
+  340  exit
+  341  ssh upac07
+  342  ssh upadmin@upac06
+  343  ssh upadmin@upac06
+  344  ssh upadmin@upac06
+  345  ssh upadmin@upac06
+  346  ssh upadmin@upac06
+  347  gate
+  348  gate
+  349  gate
+  350  ssh upprod1@upac06
+  351  ssh upprod1@upac06
+  352  exit
+  353  ll
+  354  pwd
+  355  ssh upac07
+  356  ssh upac07
+  357  exit
+  358  ssh upac07
+  359  ssh upac07
+  360  exit
+  361  ping 172.16.3.127
+  362  ssh 172.16.3.127
+  363  exit
+  364  ssh 10.0.2.15
+  365  ssh root@10.0.2.15
+  366  ping 10.0.2.15
+  367  ifconfig
+  368  ssh root@10.0.2.15
+  369  ssh jwu@10.0.2.15
+  370  ssh jwu@10.0.2.15
+  371  ping 10.0.2.15
+  372  ifconfig
+  373  ping 10.0.2.15
+  374  ping 10.0.2.15
+  375  ping 10.0.2.15
+  376  ifconfig
+  377  ping 10.0.2.15
+  378  ssh jwu@10.0.2.15
+  379  ssh root@10.0.2.15
+  380  netstat -al | more
+  381  ping 10.0.2.15
+  382  ping 10.0.2.1
+  383  ping 10.0.2.2
+  384  ping 10.0.2.3
+  385  ping 10.0.2.15
+  386  ping 10.0.2.15
+  387  ping 10.0.2.15
+  388  ssh jwu@10.0.2.15
+  389  ssh -v jwu@10.0.2.15
+  390  ssh -v jwu@10.0.2.15
+  391  exit
+  392  ssh upadmin@upac07
+  393  ssh upadmin@upac07
+  394  ssh upadmin@upac07
+  395  ssh upadmin@upac07
+  396  ssh upadmin@upac07
+  397  ssh upadmin@upac07
+  398  ssh upadmin@upac07
+  399  ssh upadmin@upac06
+  400  ssh upadmin@upac06
+  401  ssh upadmin@upac06
+  402  ssh upac07
+  403  ssh upac07
+  404  exit
+  405  ssh upsetup@upac07
+  406  ssh upsetup@upac07
+  407  ssh upsetup@upac07
+  408  ssh -l upsetup@upac07
+  409  ssh upsetup@upac07
+  410  ssh upsetup@upac07
+  411  ssh upsetup@upac07
+  412  ssh upsetup@upac07
+  413  gate
+  414  gate
+  415  ssh upsetup@upac07
+  416  ssh upsetup@upac07
+  417  ssh upsetup@upac07
+  418  exit
+  419  ssh upadmin@upac07
+  420  ssh upadmin@upac07
+  421  ssh upadmin@upac03
+  422  ssh upadmin@upac07
+  423  ssh upadmin@upac07
+  424  exit
+  425  ssh upadmin@upac05
+  426  exit
+  427  ping baby.prodz.upthere.com
+  428  ssh upac07
+  429  ssh scbaby
+  430  ssh scbaby.prodz
+  431  ssh scbaby.prodz.upthere.com
+  432  ssh upadmin@scbaby.prodz.upthere.com
+  433  ssh upsetup@scbaby.prodz.upthere.com
+  434  ssh upsetup@scbaby.prodz.upthere.com
+  435  ssh upsetup@upac07
+  436  desktop
+  437  alias
+  438  ssh bin/desktop.sh
+  439  ssh 172.16.1.238
+  440  sh bin/desktop.sh
+  441  xe bin/desktop.sh
+  442  ll
+  443  cd Downloads/
+  444  ll
+  445  scp elasticsearch-1.3.2.zip 172.16.1.238:/tmp
+  446  ssh upac07
+  447  ssh upac07
+  448  ssh upac07
+  449  ssh upac07
+  450  ssh upac07
+  451  ssh upadmin@scbaby.prodz.upthere.com
+  452  ssh upsetup@scbaby.prodz.upthere.com
+  453  ssh upadmin@scbaby.prodz.upthere.com
+  454  ssh upsetup@scbaby.prodz.upthere.com
+  455  ssh upsetup@scbaby.prodz.upthere.com
+  456  ssh upsetup@scbaby.prodz.upthere.com
+  457  ssh upac07upadmin@upac05
+  458  ssh upac07
+  459  ssh upac07
+  460  ssh upac07
+  461  ssh upac07
+  462  ssh upac07
+  463  ssh upac07
+  464  ssh upac07
+  465  ssh upac07
+  466  ssh upac07
+  467  ssh upac07
+  468  ssh upac07
+  469  more .ssh/id_rsa.pub 
+  470  pwd
+  471  cd git
+  472  ll
+  473  git clone git.upthere.com
+  474  pwd
+  475  git clone git.upthere.com/backend
+  476  git clone ssh://git.upthere.com/backend
+  477  gitlab@git.corp.upthere.com:backend/infra.git
+  478  git clone gitlab@git.corp.upthere.com:backend/infra.git
+  479  git clone gitlab@git.corp.upthere.com:backend/ops.git
+  480  git clone gitlab@git.corp.upthere.com:backend/uplinux.git
+  481  ssh upac05
+  482  ssh upprod1@upac05
+  483  ssh upprod1@scab05
+  484  cd Downloads/
+  485  ll
+  486  ls *.pdf
+  487  rm -rf James*.pdf
+  488  ll
+  489  scp elasticsearch-1.3.2.zip upac07://tmp/
+  490  ls
+  491  unzip elasticsearch-1.3.2
+  492  ls
+  493  cd elasticsearch-1.3.2
+  494  ll
+  495  cd ..
+  496  scp -r elasticsearch-1.3.2 upac07:/tmp
+  497  exit
+  498  astype
+  499  ssh scab03
+  500  ssh upadmin@scab03
+  501  ifconfig
+  502  ssh upadmin@scab07
+  503   scp upuser@scab11:/tmp/shard2.json .
+  504  curl -XPUT http://scab03:9200/myfotos  -d '                                                                                                                                                
+{                                                                                                                                                                                       
+"mappings" : {                                                                                                                                                                          
+"_default_" : {                                                                                                                                                                         
+    "properties" : {                                                                                                                                                                    
+    "user" : {"type": "string", "index" : "not_analyzed" },                                                                                                                             
+    "photo_id" : { "type" : "integer" },                                                                                                                                                
+    "timestamp" : { "type" : "date",                                                                                                                                                    
+                    "format" : "yyMMdd HH:mm:ss.SSSSSS" },                                                                                                                              
+    "lonlat" : { "type" : "geo_point",                                                                                                                                                  
+                 "fielddata" : {                                                                                                                                                        
+                   "format" : "compressed",                                                                                                                                             
+                   "precision" : "1cm"                                                                                                                                                  
+                 }                                                                                                                                                                      
+               },                                                                                                                                                                       
+    "data" : {"type": "string", "index" : "not_analyzed" },                                                                                                                             
+  }                                                                                                                                                                                     
+}'
+  505  curl -XPUT http://scab03:9200/myfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}’;
+
+;
+'
+  506  curl -XPUT http://scab03:9200/myfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}'
+  507  curl -XDELETE 'http://scab03:9200/fotos/'
+  508  curl -XPUT http://scab03:9200/mfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}';
+  509* 
+  510  ls *.json
+  511* 
+  512  time curl -XPUT scab03:9200/_bulk --data-binary @shard2.json
+  513  curl -XPUT http://scab03:9200/mfotos -d '
+{
+ "mappings" : {
+  "_default_" : {
+   "properties" : {
+    “user” : {"type": "string", "index" : "not_analyzed" },
+    "play_name" : {"type": "string", "index" : "not_analyzed" },
+    photo_id" : { "type" : "integer" },
+    “timestamp” : { "type" : “date”,
+  }
+   }
+  }
+ }
+ "settings" : {
+        "index" : {
+            "number_of_shards" : 16,
+            "number_of_replicas" : 2
+        }
+ }
+}
+';
+  514  curl -XPUT http://scab03:9200/mfotos -d '
+{
+ "mappings" : {
+  "_default_" : {
+   "properties" : {
+    “user” : {"type": "string", "index" : "not_analyzed" },
+    "play_name" : {"type": "string", "index" : "not_analyzed" },
+    photo_id" : { "type" : "integer" },
+    “timestamp” : { "type" : “date”,
+  }
+   }
+  }
+ }
+ "settings" : {
+        "index" : {
+            "number_of_shards" : 16,
+            "number_of_replicas" : 2
+        }
+ }
+}
+';
+  515  curl -XPUT http://scab03:9200/mfotos -d '                                                                                                                                            
+{
+ "settings" : {
+        "index" : {
+            "number_of_shards" : 16,
+            "number_of_replicas" : 2
+        }
+ }
+
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}';
+  516  curl -XPUT http://scab03:9200/mfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  517  curl -XPUT http://scab03:9200/mfotos -d '                                                                                                                                            
+{
+ "settings" : {
+        "index" : {
+            "number_of_shards" : 16,
+            "number_of_replicas" : 2
+        }
+ }
+}';
+  518  curl -XPUT http://scab03:9200/mmfotos -d '                                                                                                                                            
+{
+    "settings" : {
+        "index" : {
+            "number_of_shards" : 16,
+            "number_of_replicas" : 2
+        }
+    },
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  519  curl -XPUT http://scab03:9200/mmmfotos -d '                                                                                                                                            
+{
+    "settings" : {
+            "number_of_shards" : 16,
+            "number_of_replicas" : 4
+    },
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  520  curl -XPUT http://scab03:9200/mmm -d '{
+    "settings" : {
+            "number_of_shards" : 16,
+            "number_of_replicas" : 4
+    }
+}';
+  521  curl -XPUT http://scab03:9200/mmm -d '{
+ "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  522  curl -XPUT http://scab03:9200/fotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+;
+  523  curl -XPUT http://scab03:9200/bigfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  524  h  |grep delete
+  525  curl -XDELETE http://scab03:9200/bigfotos
+  526  curl -XPUT http://scab03:9200/bigfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  527  curl -XDELETE http://scab03:9200/bigfotos
+  528  curl -XPUT http://scab03:9200/bigfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        },
+    }
+}
+';
+  529  curl -XPUT http://scab03:9200/bigfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }, "_source" : { "enabled" : false }
+    }
+}
+';
+  530  curl -XGET http://scab03:9200/bigfotos/_mapping
+  531   curl -XPUT http://scab03:9200/bigfotos/_mapping -d '{"bigfotos":{"mappings":{"photo":{"properties":{"data":{"type":"string"},, "store": false },"lonlat":{"type":"double"},"photo_id":{"type":"long"},"timestamp":{"type":"string"},"user":{"type":"string"}}}}}}'
+  532   curl -XPUT http://scab03:9200/bigfotos/_mapping -d '{"bigfotos":{"mappings":{"photo":{"properties":{"data":{"type":"string", "store":false },"lonlat":{"type":"double"},"photo_id":{"type":"long"},"timestamp":{"type":"string"},"user":{"type":"string"}}}}}}'
+  533   curl -XPUT http://scab03:9200/bigfotos/_mapping -d '{"bigfotos":{"mappings":{"photo":{"properties":{"data":{"type":"string"},"lonlat":{"type":"double"},"photo_id":{"type":"long"},"timestamp":{"type":"string"},"user":{"type":"string"}}}}}}'
+  534  curl -XGET http://scab03:9200/bigfotos/_mapping
+  535  curl -XGET http://scab03:9200/bigfotos/_mapping
+  536  curl -XPUT http://scab03:9200/bigfotos/_mapping -d '{"bigfotos":{"mappings":{"photo":{"properties":{"data":{"type":"string"},"lonlat":{"type":"double"},"photo_id":{"type":"long"},"timestamp":{"type":"string"},"user":{"type":"string"}}}}}}'
+  537  curl -XPUT http://scab03:9200/bigfotos/_mapping -d '{"photo":{"properties":{"data":{"type":"string"},"lonlat":{"type":"double"},"photo_id":{"type":"long"},"timestamp":{"type":"string"},"user":{"type":"string"}}}}'
+  538  curl -XPUT http://scab03:9200/bigfotos/_mapping -d '{"photo":{"properties":{"data":{"type":"string"},"lonlat":{"type":"double"},"photo_id":{"type":"long"},"timestamp":{"type":"string"},"user":{"type":"string"}}}'
+  539  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{"properties":{"data":{"type":"string"},"lonlat":{"type":"double"},"photo_id":{"type":"long"},"timestamp":{"type":"string"},"user":{"type":"string"}}}}'
+  540  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{"properties":{"data":{"type":"string", "store": false},"lonlat":{"type":"double"},"photo_id":{"type":"long"},"timestamp":{"type":"string"},"user":{"type":"string"}}}}'
+  541  curl -XGET http://scab03:9200/bigfotos/_mapping
+  542  curl -XGET http://scab03:9200/bigfotos/photo/_mapping
+  543  curl -XDELETE http://scab03:9200/bigfotos
+  544  curl -XPUT http://scab03:9200/bigfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed", "store": false
+                }
+            }
+        }, "_source" : { "enabled" : false }
+    }
+}
+';
+  545  curl -XDELETE http://scab03:9200/bigfotos
+  546  curl -XPUT http://scab03:9200/bigfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  547  curl -XDELETE http://scab03:9200/bigfotos
+  548  curl -XPUT http://scab03:9200/bigfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  549  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{"properties":{"data":{"type":"string", "store": false},"lonlat":{"type":"double"},"photo_id":{"type":"long"},"timestamp":{"type":"string"},"user":{"type":"string"}}}}'
+  550  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{"properties":{"data":{_source" : {"excludes": ["data"]}}}'
+  551  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{_source" : {"excludes": ["data"]}}}'
+  552  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{ "_source" : {"excludes": ["data"]}}}'
+  553  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{ "_all" : {"excludes": ["data"]}}}'
+  554  curl -XDELETE http://scab03:9200/bigfotos
+  555  curl -XPUT http://scab03:9200/bigfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  556  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{ "_all" : {"excludes": ["data"]}}}'
+  557  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{ "_source" : {"excludes": ["data"]}}}'
+  558  h | tail
+  559  h | tail 20
+  560  h | tail -n 20
+  561  h | tail -n 50
+  562  curl -XDELETE http://scab03:9200/bigfotos
+  563  curl -XPUT http://scab03:9200/bigfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed", "include_in_all" : false
+                }
+            }
+        }
+    }
+}
+';
+  564  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{ "_source" : {"excludes": ["data"]}}}'
+  565  curl -XGET http://scab03:9200/bigfotos/photo/_mapping
+  566  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{ "_all" : {"enabled" : false}}}'
+  567  curl -XGET http://scab03:9200/bigfotos/photo/_mapping
+  568  curl -XDELETE http://scab03:9200/bigfotos
+  569  curl -XPUT http://scab03:9200/bigfotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed", "include_in_all" : false
+                }
+            }
+        }
+    }
+}
+';
+  570  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{ "_all" : {"enabled" : false}}}'
+  571  curl -XPUT http://scab03:9200/bigfotos/photo/_mapping -d '{"photo":{ "_source" : {"excludes": ["data"]}}}'
+  572   history >> ~/env/History/history.macpro 
+   14  nc upac06 50001
+   15  nc upac06 50001
+   16  nc upac06 50001
+   17  nc upac06 50001
+   18  nc upac06 50001
+   19  nc upac06 50001
+   20  nc upac06 50001
+   21  alias
+   22  ssh upac07
+   23  exit
+   24  ssh upadmin@upac07
+   25  ssh upadmin@upac07
+   26  ssh upadmin@upac07
+   27  exit
+   28  ssh upadmin@upac06
+   29  ssh upadmin@upac06
+   30  ssh upadmin@upac06
+   31  ssh upadmin@upac06
+   32  exit
+   33  ssh upadmin@upac06
+   34  ssh upadmin@upac06
+   35  ssh upadmin@upac06
+   36  ssh upadmin@upac06
+   37  ssh upadmin@upac06
+   38  exit
+   39  ssh upadmin@upac06
+   40  ssh upadmin@upac07
+   41  ssh upadmin@upac07
+   42  ssh upadmin@upac07
+   43  ssh upadmin@upac07
+   44  ssh upadmin@upac07
+   45  ssh upadmin@upac07
+   46  exit
+   47  service iptables status
+   48  alias arch
+   49  ping 192.168.2.22
+   50  ping 172.16.31.22
+   51  ping 172.16.31.1
+   52  ping  211.144.76.8
+   53  ping  211.144.76.8
+   54  ifconfig
+   55  arch
+   56  exit
+   57  arch
+   58  cd
+   59  cd Desktop/
+   60  ll
+   61  ll
+   62  cd TM_VPN.tblk/
+   63  ll
+   64  xe client.ovpn 
+   65  pwd
+   66  ll
+   67  cd ..
+   68  ll
+   69  cd TM_us.tblk/
+   70  grep wx5sgxc4sxlr0000gn *
+   71  ll
+   72  xe client.ovpn 
+   73  ll
+   74  rm -rf *~
+   75  ll
+   76  xe client.ovpn 
+   77  ll
+   78  rm -rf *~
+   79  ll
+   80  cat *
+   81  exit
+   82  ifconfig
+   83  ping 172.16.31.1
+   84  ping 172.16.31.22
+   85  ssh 172.16.31.22
+   86  exit
+   87  alias arch
+   88  cd
+   89  xe .bashrc
+   90  archhome
+   91  ssh upac07
+   92  c
+   93  cd Perforce/
+   94  ll
+   95  cd ..
+   96  lll
+   97  ll
+   98  ls
+   99  ls -l
+  100  cd 
+  101  cd Desktop/
+  102  ll
+  103  cd Upthere/
+  104  ll
+  105  cd PerfReports/
+  106  ll
+  107  more report.py
+  108  cp report.py ~/Temp
+  109  cd 
+  110  cd Temp
+  111  ll
+  112  xe report.py 
+  113  scp report.py upac07:/tmp/
+  114  grep plot ~/history 
+  115  grep gnuplot ~/README/*
+  116  grep -R gnuplot ~/README/*
+  117  pwd
+  118  scp upac07:/disk/a/logs/repo/*113* .
+  119  echo "plot 'tick_11335'; pause 5" | gnuplot
+  120  fg
+  121  xe report.py
+  122  grep -R gnuplot ~/README/* | grep plot
+  123  h | grep gnuplot
+  124  ls ~
+  125  grep -R gnuplot ~/env/* | grep plot
+  126  echo "plot 'tick_11335'; pause 5" | gnuplot
+  127  echo "plot 'tick_11335'; pause 500" | gnuplot
+  128  ll
+  129  echo "plot 'check_time_11336'; pause 500" | gnuplot
+  130  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' check_time_11336
+  131  awk '{sum+=$1} END { print "Average = ",sum/NR}' check_time_11336
+  132  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' tick_11335 
+  133  awk '{sum+=$1} END { print "Average = ",sum/NR}' tick_11335
+  134  xe ~/bin/average.sh
+  135  sh ~/bin/average.sh tick_11335 
+  136  fg
+  137  xe ~/bin/average.sh
+  138  echo "plot 'tick_11335'; pause 500" | gnuplot
+  139  bg
+  140  echo "plot 'check_time_113356'; pause 5000" | gnuplot
+  141  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  142  echo "plot 'tick_11335'; pause 5000" | gnuplot &
+  143  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  144  ssh upac07
+  145  ssh upac07
+  146  ssh upac07
+  147  ssh upac07
+  148  ssh upac07
+  149  python
+  150  ssh upac07
+  151  ssh upac07
+  152  ssh upac07
+  153  ssh upac07
+  154  ssh upac07
+  155  ssh upac07
+  156  ssh upac07
+  157  ssh upac07exit
+  158  exit
+  159  archhome
+  160  alias gate
+  161  alias
+  162  ssh upuser@cogate.upthere.com
+  163  ssh upuser@cogate.upthere.com
+  164  man curl
+  165  ssh upuser scbaby
+  166  ssh upuser scbaby.prod.upthere.com
+  167  ssh upuser scbabysitter.prod.upthere.com
+  168  ssh upuser@scbaby.prod.upthere.com
+  169  ssh scmaster
+  170  ssh scab01
+  171  ssh upsetup@scab01
+  172  ssh upsetup@scab01
+  173  ssh upsetup@scmaster
+  174  ssh upsetup@scmaster.prodz.upthere.com
+  175  ssh upsetup@scbaby.prodz.upthere.com
+  176  archhome
+  177  archhome
+  178  archhome
+  179  ssh cogate.upthere.com
+  180  gate
+  181  gate
+  182  gate
+  183  gate
+  184  gate
+  185  ssh upac07
+  186  ssh upac07
+  187  ssh upac07
+  188  ssh upac07
+  189  ssh upac07
+  190  ssh upac07
+  191  ssh upac07
+  192  ssh upac07
+  193  ssh upac07
+  194  arch
+  195  cd
+  196  ll
+  197  h | grep sshfs
+  198  grep sshfs ~/history 
+  199  mkdir tm_sshfs
+  200  alias archhome
+  201  sudo sshfs -o allow_other jwu@172.16.31.22:/home/jwu tm_sshfs/
+  202  pwd
+  203  ls
+  204  ll
+  205  ll tm_sshfs/
+  206  ping 172.16.2.22
+  207  ping 172.16.31.22
+  208  ifconfig
+  209  alias arch
+  210  alias archhome
+  211  ping 172.16.31.22
+  212  archhome
+  213  archhome
+  214  ping 172.16.31.22
+  215  ping 172.16.31.1
+  216  ll
+  217  archhome
+  218  archhome
+  219  archhome
+  220  archhome
+  221  ll
+  222  cd git
+  223  ll
+  224  svn checkout http://google-glog.googlecode.com/svn/trunk/ google-glog-read-only
+  225  cd google-glog-read-only/
+  226  ll
+  227  cd src
+  228  ll
+  229  xe logging.cc 
+  230  pwd
+  231  cd ..
+  232  cd ..
+  233  svn checkout http://google-breakpad.googlecode.com/svn/trunk/ google-breakpad-read-only
+  234  ll
+  235  cd google-breakpad-read-only/
+  236  ll
+  237  cd src/
+  238  ll
+  239  cd google_breakpad/
+  240  ll
+  241  cd processor/
+  242  ll
+  243  cd ..
+  244  ll common/
+  245  cd common/
+  246  ll
+  247  xe minidump_cpu_x86.h 
+  248  u7
+  249  ssh upac07
+  250  ssh scaa14
+  251  ssh upsetup@scaa14
+  252  ssh upuser@scaa14
+  253  ssh upadmin@scaa14
+  254  ssh upsetup@scaa14
+  255  ssh upac07
+  256  ssh upac07
+  257  ssh upsetup@upac07
+  258  alias
+  259  archhome
+  260  archhome
+  261  archhome
+  262  archhome
+  263  archhome
+  264  archhome
+  265  archhome
+  266  cd git
+  267  ls
+  268  svn checkout http://python-gflags.googlecode.com/svn/trunk/ python-gflags-read-onl
+  269  cd python-gflags-read-onl/
+  270  ll
+  271  ll debian/
+  272  ll
+  273  xe gflags.py 
+  274  ll
+  275  cd
+  276  ls
+  277  cd Temp
+  278  ll
+  279  ll M
+  280  cd M
+  281  cd mirror
+  282  ll
+  283  cd system/
+  284  l
+  285  ll
+  286  cd
+  287  ls
+  288  cd
+  289  cd Temp
+  290  ls
+  291  mv cd.ip M
+  292  cd M
+  293  ls
+  294  mv cd.ip mirror
+  295  ll
+  296  cd mirror
+  297  ll
+  298  mv cd.ip cd.zip
+  299  zip
+  300  which unzip
+  301  unzip cd.zip 
+  302  ls
+  303  ll
+  304  rm -rf cd.zip
+  305  ll
+  306  tar xvf cd.tar 
+  307  ll
+  308  rm -rf cd.tar 
+  309  ll
+  310  cd cd
+  311  ls
+  312  ll
+  313  cd base/
+  314  ll
+  315  cd src/
+  316  ll
+  317  xe timer.cpp
+  318  exit
+  319  ssh upac07
+  320  exit
+  321  ll
+  322  ssh upac07
+  323  exit
+  324  ssh upprod1@upac04
+  325  exit
+  326  ssh upprod1@upac05
+  327  exit
+  328  ssh upac07
+  329  ssh upac07
+  330  ssh upprod1@upac06
+  331  ssh upprod1@upac06
+  332  ssh upprod1@upac06
+  333  ssh upprod1@upac06
+  334  ssh upprod1@upac06
+  335  ssh upprod1@upac06
+  336  exit
+  337  ssh upprod1@upac03
+  338  ssh upadmin@upac05
+  339  ssh upadmin@upac05
+  340  exit
+  341  ssh upac07
+  342  ssh upadmin@upac06
+  343  ssh upadmin@upac06
+  344  ssh upadmin@upac06
+  345  ssh upadmin@upac06
+  346  ssh upadmin@upac06
+  347  gate
+  348  gate
+  349  gate
+  350  ssh upprod1@upac06
+  351  ssh upprod1@upac06
+  352  exit
+  353  ll
+  354  pwd
+  355  ssh upac07
+  356  ssh upac07
+  357  exit
+  358  ssh upac07
+  359  ssh upac07
+  360  exit
+  361  ping 172.16.3.127
+  362  ssh 172.16.3.127
+  363  exit
+  364  ssh 10.0.2.15
+  365  ssh root@10.0.2.15
+  366  ping 10.0.2.15
+  367  ifconfig
+  368  ssh root@10.0.2.15
+  369  ssh jwu@10.0.2.15
+  370  ssh jwu@10.0.2.15
+  371  ping 10.0.2.15
+  372  ifconfig
+  373  ping 10.0.2.15
+  374  ping 10.0.2.15
+  375  ping 10.0.2.15
+  376  ifconfig
+  377  ping 10.0.2.15
+  378  ssh jwu@10.0.2.15
+  379  ssh root@10.0.2.15
+  380  netstat -al | more
+  381  ping 10.0.2.15
+  382  ping 10.0.2.1
+  383  ping 10.0.2.2
+  384  ping 10.0.2.3
+  385  ping 10.0.2.15
+  386  ping 10.0.2.15
+  387  ping 10.0.2.15
+  388  ssh jwu@10.0.2.15
+  389  ssh -v jwu@10.0.2.15
+  390  ssh -v jwu@10.0.2.15
+  391  exit
+  392  ssh upadmin@upac07
+  393  ssh upadmin@upac07
+  394  ssh upadmin@upac07
+  395  ssh upadmin@upac07
+  396  ssh upadmin@upac07
+  397  ssh upadmin@upac07
+  398  ssh upadmin@upac07
+  399  ssh upadmin@upac06
+  400  ssh upadmin@upac06
+  401  ssh upadmin@upac06
+  402  ssh upac07
+  403  ssh upac07
+  404  exit
+  405  ssh upsetup@upac07
+  406  ssh upsetup@upac07
+  407  ssh upsetup@upac07
+  408  ssh -l upsetup@upac07
+  409  ssh upsetup@upac07
+  410  ssh upsetup@upac07
+  411  ssh upsetup@upac07
+  412  ssh upsetup@upac07
+  413  gate
+  414  gate
+  415  ssh upsetup@upac07
+  416  ssh upsetup@upac07
+  417  ssh upsetup@upac07
+  418  exit
+  419  ssh upadmin@upac07
+  420  ssh upadmin@upac07
+  421  ssh upadmin@upac03
+  422  ssh upadmin@upac07
+  423  ssh upadmin@upac07
+  424  exit
+  425  ssh upadmin@upac05
+  426  exit
+  427  ping baby.prodz.upthere.com
+  428  ssh upac07
+  429  ssh scbaby
+  430  ssh scbaby.prodz
+  431  ssh scbaby.prodz.upthere.com
+  432  ssh upadmin@scbaby.prodz.upthere.com
+  433  ssh upsetup@scbaby.prodz.upthere.com
+  434  ssh upsetup@scbaby.prodz.upthere.com
+  435  ssh upsetup@upac07
+  436  desktop
+  437  alias
+  438  ssh bin/desktop.sh
+  439  ssh 172.16.1.238
+  440  sh bin/desktop.sh
+  441  xe bin/desktop.sh
+  442  ll
+  443  cd Downloads/
+  444  ll
+  445  scp elasticsearch-1.3.2.zip 172.16.1.238:/tmp
+  446  ssh upac07
+  447  ssh upac07
+  448  ssh upac07
+  449  ssh upac07
+  450  ssh upac07
+  451  ssh upadmin@scbaby.prodz.upthere.com
+  452  ssh upsetup@scbaby.prodz.upthere.com
+  453  ssh upadmin@scbaby.prodz.upthere.com
+  454  ssh upsetup@scbaby.prodz.upthere.com
+  455  ssh upsetup@scbaby.prodz.upthere.com
+  456  ssh upsetup@scbaby.prodz.upthere.com
+  457  ssh upac07upadmin@upac05
+  458  ssh upac07
+  459  ssh upac07
+  460  ssh upac07
+  461  ssh upac07
+  462  ssh upac07
+  463  ssh upac07
+  464  ssh upac07
+  465  ssh upac07
+  466  ssh upac07
+  467  ssh upac07
+  468  ssh upac07
+  469  more .ssh/id_rsa.pub 
+  470  pwd
+  471  cd git
+  472  ll
+  473  git clone git.upthere.com
+  474  pwd
+  475  git clone git.upthere.com/backend
+  476  git clone ssh://git.upthere.com/backend
+  477  gitlab@git.corp.upthere.com:backend/infra.git
+  478  git clone gitlab@git.corp.upthere.com:backend/infra.git
+  479  git clone gitlab@git.corp.upthere.com:backend/ops.git
+  480  git clone gitlab@git.corp.upthere.com:backend/uplinux.git
+  481  ssh upac05
+  482  ssh upprod1@upac05
+  483  ssh upprod1@scab05
+  484  cd Downloads/
+  485  ll
+  486  ls *.pdf
+  487  rm -rf James*.pdf
+  488  ll
+  489  scp elasticsearch-1.3.2.zip upac07://tmp/
+  490  ls
+  491  unzip elasticsearch-1.3.2
+  492  ls
+  493  cd elasticsearch-1.3.2
+  494  ll
+  495  cd ..
+  496  scp -r elasticsearch-1.3.2 upac07:/tmp
+  497  exit
+  498  astype
+  499  xe t
+  500  curl -XPUT http://scab03:9200/fotos -d '
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }';
+  501  curl -XPUT http://scab03:9200/fotos -d '
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }}';
+  502  ll
+  503  sh bin/desktop.sh
+  504  sh bin/desktop.sh
+  505  sh bin/desktop.sh
+  506  sh bin/desktop.sh
+  507  sh bin/desktop.sh
+  508  curl -XPUT http://scab03:9200/Tfotos -d '                                                                                                                                               
+{                                                                                                                                                                                       
+"mappings" : {                                                                                                                                                                          
+"_default_" : {                                                                                                                                                                         
+    "properties" : {                                                                                                                                                                    
+    "user" : {"type": "string" },                                                                                                                                                       
+    "photo_id" : { "type" : "integer" },                                                                                                                                                
+    "timestamp" : { "type" : "date",                                                                                                                                                    
+                    "format" : "yyMMdd HH:mm:ss.SSSSSS" },                                                                                                                              
+    "lonlat" : { "type" : "geo_point",                                                                                                                                                  
+                 "fielddata" : {                                                                                                                                                        
+                   "format" : "compressed",                                                                                                                                             
+                   "precision" : "1cm"                                                                                                                                                  
+                 }                                                                                                                                                                      
+               },                                                                                                                                                                       
+  }                                                                                                                                                                                     
+}                                                                                                                                                                                       
+';
+  509  sh bin/desktop.sh
+  510  sh bin/desktop.sh
+  511  sh bin/desktop.sh
+  512  sh bin/desktop.sh
+  513   history >> ~/env/History/history.macpro 
+   21  nc upac06 50001
+   22  alias
+   23  ssh upac07
+   24  exit
+   25  ssh upadmin@upac07
+   26  ssh upadmin@upac07
+   27  ssh upadmin@upac07
+   28  exit
+   29  ssh upadmin@upac06
+   30  ssh upadmin@upac06
+   31  ssh upadmin@upac06
+   32  ssh upadmin@upac06
+   33  exit
+   34  ssh upadmin@upac06
+   35  ssh upadmin@upac06
+   36  ssh upadmin@upac06
+   37  ssh upadmin@upac06
+   38  ssh upadmin@upac06
+   39  exit
+   40  ssh upadmin@upac06
+   41  ssh upadmin@upac07
+   42  ssh upadmin@upac07
+   43  ssh upadmin@upac07
+   44  ssh upadmin@upac07
+   45  ssh upadmin@upac07
+   46  ssh upadmin@upac07
+   47  exit
+   48  service iptables status
+   49  alias arch
+   50  ping 192.168.2.22
+   51  ping 172.16.31.22
+   52  ping 172.16.31.1
+   53  ping  211.144.76.8
+   54  ping  211.144.76.8
+   55  ifconfig
+   56  arch
+   57  exit
+   58  arch
+   59  cd
+   60  cd Desktop/
+   61  ll
+   62  ll
+   63  cd TM_VPN.tblk/
+   64  ll
+   65  xe client.ovpn 
+   66  pwd
+   67  ll
+   68  cd ..
+   69  ll
+   70  cd TM_us.tblk/
+   71  grep wx5sgxc4sxlr0000gn *
+   72  ll
+   73  xe client.ovpn 
+   74  ll
+   75  rm -rf *~
+   76  ll
+   77  xe client.ovpn 
+   78  ll
+   79  rm -rf *~
+   80  ll
+   81  cat *
+   82  exit
+   83  ifconfig
+   84  ping 172.16.31.1
+   85  ping 172.16.31.22
+   86  ssh 172.16.31.22
+   87  exit
+   88  alias arch
+   89  cd
+   90  xe .bashrc
+   91  archhome
+   92  ssh upac07
+   93  c
+   94  cd Perforce/
+   95  ll
+   96  cd ..
+   97  lll
+   98  ll
+   99  ls
+  100  ls -l
+  101  cd 
+  102  cd Desktop/
+  103  ll
+  104  cd Upthere/
+  105  ll
+  106  cd PerfReports/
+  107  ll
+  108  more report.py
+  109  cp report.py ~/Temp
+  110  cd 
+  111  cd Temp
+  112  ll
+  113  xe report.py 
+  114  scp report.py upac07:/tmp/
+  115  grep plot ~/history 
+  116  grep gnuplot ~/README/*
+  117  grep -R gnuplot ~/README/*
+  118  pwd
+  119  scp upac07:/disk/a/logs/repo/*113* .
+  120  echo "plot 'tick_11335'; pause 5" | gnuplot
+  121  fg
+  122  xe report.py
+  123  grep -R gnuplot ~/README/* | grep plot
+  124  h | grep gnuplot
+  125  ls ~
+  126  grep -R gnuplot ~/env/* | grep plot
+  127  echo "plot 'tick_11335'; pause 5" | gnuplot
+  128  echo "plot 'tick_11335'; pause 500" | gnuplot
+  129  ll
+  130  echo "plot 'check_time_11336'; pause 500" | gnuplot
+  131  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' check_time_11336
+  132  awk '{sum+=$1} END { print "Average = ",sum/NR}' check_time_11336
+  133  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' tick_11335 
+  134  awk '{sum+=$1} END { print "Average = ",sum/NR}' tick_11335
+  135  xe ~/bin/average.sh
+  136  sh ~/bin/average.sh tick_11335 
+  137  fg
+  138  xe ~/bin/average.sh
+  139  echo "plot 'tick_11335'; pause 500" | gnuplot
+  140  bg
+  141  echo "plot 'check_time_113356'; pause 5000" | gnuplot
+  142  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  143  echo "plot 'tick_11335'; pause 5000" | gnuplot &
+  144  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  145  ssh upac07
+  146  ssh upac07
+  147  ssh upac07
+  148  ssh upac07
+  149  ssh upac07
+  150  python
+  151  ssh upac07
+  152  ssh upac07
+  153  ssh upac07
+  154  ssh upac07
+  155  ssh upac07
+  156  ssh upac07
+  157  ssh upac07
+  158  ssh upac07exit
+  159  exit
+  160  archhome
+  161  alias gate
+  162  alias
+  163  ssh upuser@cogate.upthere.com
+  164  ssh upuser@cogate.upthere.com
+  165  man curl
+  166  ssh upuser scbaby
+  167  ssh upuser scbaby.prod.upthere.com
+  168  ssh upuser scbabysitter.prod.upthere.com
+  169  ssh upuser@scbaby.prod.upthere.com
+  170  ssh scmaster
+  171  ssh scab01
+  172  ssh upsetup@scab01
+  173  ssh upsetup@scab01
+  174  ssh upsetup@scmaster
+  175  ssh upsetup@scmaster.prodz.upthere.com
+  176  ssh upsetup@scbaby.prodz.upthere.com
+  177  archhome
+  178  archhome
+  179  archhome
+  180  ssh cogate.upthere.com
+  181  gate
+  182  gate
+  183  gate
+  184  gate
+  185  gate
+  186  ssh upac07
+  187  ssh upac07
+  188  ssh upac07
+  189  ssh upac07
+  190  ssh upac07
+  191  ssh upac07
+  192  ssh upac07
+  193  ssh upac07
+  194  ssh upac07
+  195  arch
+  196  cd
+  197  ll
+  198  h | grep sshfs
+  199  grep sshfs ~/history 
+  200  mkdir tm_sshfs
+  201  alias archhome
+  202  sudo sshfs -o allow_other jwu@172.16.31.22:/home/jwu tm_sshfs/
+  203  pwd
+  204  ls
+  205  ll
+  206  ll tm_sshfs/
+  207  ping 172.16.2.22
+  208  ping 172.16.31.22
+  209  ifconfig
+  210  alias arch
+  211  alias archhome
+  212  ping 172.16.31.22
+  213  archhome
+  214  archhome
+  215  ping 172.16.31.22
+  216  ping 172.16.31.1
+  217  ll
+  218  archhome
+  219  archhome
+  220  archhome
+  221  archhome
+  222  ll
+  223  cd git
+  224  ll
+  225  svn checkout http://google-glog.googlecode.com/svn/trunk/ google-glog-read-only
+  226  cd google-glog-read-only/
+  227  ll
+  228  cd src
+  229  ll
+  230  xe logging.cc 
+  231  pwd
+  232  cd ..
+  233  cd ..
+  234  svn checkout http://google-breakpad.googlecode.com/svn/trunk/ google-breakpad-read-only
+  235  ll
+  236  cd google-breakpad-read-only/
+  237  ll
+  238  cd src/
+  239  ll
+  240  cd google_breakpad/
+  241  ll
+  242  cd processor/
+  243  ll
+  244  cd ..
+  245  ll common/
+  246  cd common/
+  247  ll
+  248  xe minidump_cpu_x86.h 
+  249  u7
+  250  ssh upac07
+  251  ssh scaa14
+  252  ssh upsetup@scaa14
+  253  ssh upuser@scaa14
+  254  ssh upadmin@scaa14
+  255  ssh upsetup@scaa14
+  256  ssh upac07
+  257  ssh upac07
+  258  ssh upsetup@upac07
+  259  alias
+  260  archhome
+  261  archhome
+  262  archhome
+  263  archhome
+  264  archhome
+  265  archhome
+  266  archhome
+  267  cd git
+  268  ls
+  269  svn checkout http://python-gflags.googlecode.com/svn/trunk/ python-gflags-read-onl
+  270  cd python-gflags-read-onl/
+  271  ll
+  272  ll debian/
+  273  ll
+  274  xe gflags.py 
+  275  ll
+  276  cd
+  277  ls
+  278  cd Temp
+  279  ll
+  280  ll M
+  281  cd M
+  282  cd mirror
+  283  ll
+  284  cd system/
+  285  l
+  286  ll
+  287  cd
+  288  ls
+  289  cd
+  290  cd Temp
+  291  ls
+  292  mv cd.ip M
+  293  cd M
+  294  ls
+  295  mv cd.ip mirror
+  296  ll
+  297  cd mirror
+  298  ll
+  299  mv cd.ip cd.zip
+  300  zip
+  301  which unzip
+  302  unzip cd.zip 
+  303  ls
+  304  ll
+  305  rm -rf cd.zip
+  306  ll
+  307  tar xvf cd.tar 
+  308  ll
+  309  rm -rf cd.tar 
+  310  ll
+  311  cd cd
+  312  ls
+  313  ll
+  314  cd base/
+  315  ll
+  316  cd src/
+  317  ll
+  318  xe timer.cpp
+  319  exit
+  320  ssh upac07
+  321  exit
+  322  ll
+  323  ssh upac07
+  324  exit
+  325  ssh upprod1@upac04
+  326  exit
+  327  ssh upprod1@upac05
+  328  exit
+  329  ssh upac07
+  330  ssh upac07
+  331  ssh upprod1@upac06
+  332  ssh upprod1@upac06
+  333  ssh upprod1@upac06
+  334  ssh upprod1@upac06
+  335  ssh upprod1@upac06
+  336  ssh upprod1@upac06
+  337  exit
+  338  ssh upprod1@upac03
+  339  ssh upadmin@upac05
+  340  ssh upadmin@upac05
+  341  exit
+  342  ssh upac07
+  343  ssh upadmin@upac06
+  344  ssh upadmin@upac06
+  345  ssh upadmin@upac06
+  346  ssh upadmin@upac06
+  347  ssh upadmin@upac06
+  348  gate
+  349  gate
+  350  gate
+  351  ssh upprod1@upac06
+  352  ssh upprod1@upac06
+  353  exit
+  354  ll
+  355  pwd
+  356  ssh upac07
+  357  ssh upac07
+  358  exit
+  359  ssh upac07
+  360  ssh upac07
+  361  exit
+  362  ping 172.16.3.127
+  363  ssh 172.16.3.127
+  364  exit
+  365  ssh 10.0.2.15
+  366  ssh root@10.0.2.15
+  367  ping 10.0.2.15
+  368  ifconfig
+  369  ssh root@10.0.2.15
+  370  ssh jwu@10.0.2.15
+  371  ssh jwu@10.0.2.15
+  372  ping 10.0.2.15
+  373  ifconfig
+  374  ping 10.0.2.15
+  375  ping 10.0.2.15
+  376  ping 10.0.2.15
+  377  ifconfig
+  378  ping 10.0.2.15
+  379  ssh jwu@10.0.2.15
+  380  ssh root@10.0.2.15
+  381  netstat -al | more
+  382  ping 10.0.2.15
+  383  ping 10.0.2.1
+  384  ping 10.0.2.2
+  385  ping 10.0.2.3
+  386  ping 10.0.2.15
+  387  ping 10.0.2.15
+  388  ping 10.0.2.15
+  389  ssh jwu@10.0.2.15
+  390  ssh -v jwu@10.0.2.15
+  391  ssh -v jwu@10.0.2.15
+  392  exit
+  393  ssh upadmin@upac07
+  394  ssh upadmin@upac07
+  395  ssh upadmin@upac07
+  396  ssh upadmin@upac07
+  397  ssh upadmin@upac07
+  398  ssh upadmin@upac07
+  399  ssh upadmin@upac07
+  400  ssh upadmin@upac06
+  401  ssh upadmin@upac06
+  402  ssh upadmin@upac06
+  403  ssh upac07
+  404  ssh upac07
+  405  exit
+  406  ssh upsetup@upac07
+  407  ssh upsetup@upac07
+  408  ssh upsetup@upac07
+  409  ssh -l upsetup@upac07
+  410  ssh upsetup@upac07
+  411  ssh upsetup@upac07
+  412  ssh upsetup@upac07
+  413  ssh upsetup@upac07
+  414  gate
+  415  gate
+  416  ssh upsetup@upac07
+  417  ssh upsetup@upac07
+  418  ssh upsetup@upac07
+  419  exit
+  420  ssh upadmin@upac07
+  421  ssh upadmin@upac07
+  422  ssh upadmin@upac03
+  423  ssh upadmin@upac07
+  424  ssh upadmin@upac07
+  425  exit
+  426  ssh upadmin@upac05
+  427  exit
+  428  ping baby.prodz.upthere.com
+  429  ssh upac07
+  430  ssh scbaby
+  431  ssh scbaby.prodz
+  432  ssh scbaby.prodz.upthere.com
+  433  ssh upadmin@scbaby.prodz.upthere.com
+  434  ssh upsetup@scbaby.prodz.upthere.com
+  435  ssh upsetup@scbaby.prodz.upthere.com
+  436  ssh upsetup@upac07
+  437  desktop
+  438  alias
+  439  ssh bin/desktop.sh
+  440  ssh 172.16.1.238
+  441  sh bin/desktop.sh
+  442  xe bin/desktop.sh
+  443  ll
+  444  cd Downloads/
+  445  ll
+  446  scp elasticsearch-1.3.2.zip 172.16.1.238:/tmp
+  447  ssh upac07
+  448  ssh upac07
+  449  ssh upac07
+  450  ssh upac07
+  451  ssh upac07
+  452  ssh upadmin@scbaby.prodz.upthere.com
+  453  ssh upsetup@scbaby.prodz.upthere.com
+  454  ssh upadmin@scbaby.prodz.upthere.com
+  455  ssh upsetup@scbaby.prodz.upthere.com
+  456  ssh upsetup@scbaby.prodz.upthere.com
+  457  ssh upsetup@scbaby.prodz.upthere.com
+  458  ssh upac07upadmin@upac05
+  459  ssh upac07
+  460  ssh upac07
+  461  ssh upac07
+  462  ssh upac07
+  463  ssh upac07
+  464  ssh upac07
+  465  ssh upac07
+  466  ssh upac07
+  467  ssh upac07
+  468  ssh upac07
+  469  ssh upac07
+  470  more .ssh/id_rsa.pub 
+  471  pwd
+  472  cd git
+  473  ll
+  474  git clone git.upthere.com
+  475  pwd
+  476  git clone git.upthere.com/backend
+  477  git clone ssh://git.upthere.com/backend
+  478  gitlab@git.corp.upthere.com:backend/infra.git
+  479  git clone gitlab@git.corp.upthere.com:backend/infra.git
+  480  git clone gitlab@git.corp.upthere.com:backend/ops.git
+  481  git clone gitlab@git.corp.upthere.com:backend/uplinux.git
+  482  ssh upac05
+  483  ssh upprod1@upac05
+  484  ssh upprod1@scab05
+  485  cd Downloads/
+  486  ll
+  487  ls *.pdf
+  488  rm -rf James*.pdf
+  489  ll
+  490  scp elasticsearch-1.3.2.zip upac07://tmp/
+  491  ls
+  492  unzip elasticsearch-1.3.2
+  493  ls
+  494  cd elasticsearch-1.3.2
+  495  ll
+  496  cd ..
+  497  scp -r elasticsearch-1.3.2 upac07:/tmp
+  498  exit
+  499  ssh upadmin@scab05
+  500  nano /etc/apache2/users/USERNAME.conf
+  501  xe /etc/apache2/users/jwu.conf 
+  502  sudo apachectl start
+  503  cd Downloads/
+  504  ll
+  505  cd kibana-3.1.0/
+  506  ll
+  507  more /etc/apache2/users/jwu.conf 
+  508  ls /Users/jameswu/
+  509  cd ..
+  510  mv kibana-3.1.0   /Users/jameswu/
+  511  cd /Users/jameswu/
+  512  mv kibana-3.1.0 Sites
+  513  cd Sites/
+  514  ll
+  515  ll
+  516  pwd
+  517  xe config.js 
+  518  xe config.js 
+  519  pwd
+  520   history >> ~/env/History/history.macpro 
+    3  ping 172.16.31.22
+    4  ping 172.16.31.1
+    5  ping  211.144.76.8
+    6  ping  211.144.76.8
+    7  ifconfig
+    8  arch
+    9  exit
+   10  arch
+   11  cd
+   12  cd Desktop/
+   13  ll
+   14  ll
+   15  cd TM_VPN.tblk/
+   16  ll
+   17  xe client.ovpn 
+   18  pwd
+   19  ll
+   20  cd ..
+   21  ll
+   22  cd TM_us.tblk/
+   23  grep wx5sgxc4sxlr0000gn *
+   24  ll
+   25  xe client.ovpn 
+   26  ll
+   27  rm -rf *~
+   28  ll
+   29  xe client.ovpn 
+   30  ll
+   31  rm -rf *~
+   32  ll
+   33  cat *
+   34  exit
+   35  ifconfig
+   36  ping 172.16.31.1
+   37  ping 172.16.31.22
+   38  ssh 172.16.31.22
+   39  exit
+   40  alias arch
+   41  cd
+   42  xe .bashrc
+   43  archhome
+   44  ssh upac07
+   45  c
+   46  cd Perforce/
+   47  ll
+   48  cd ..
+   49  lll
+   50  ll
+   51  ls
+   52  ls -l
+   53  cd 
+   54  cd Desktop/
+   55  ll
+   56  cd Upthere/
+   57  ll
+   58  cd PerfReports/
+   59  ll
+   60  more report.py
+   61  cp report.py ~/Temp
+   62  cd 
+   63  cd Temp
+   64  ll
+   65  xe report.py 
+   66  scp report.py upac07:/tmp/
+   67  grep plot ~/history 
+   68  grep gnuplot ~/README/*
+   69  grep -R gnuplot ~/README/*
+   70  pwd
+   71  scp upac07:/disk/a/logs/repo/*113* .
+   72  echo "plot 'tick_11335'; pause 5" | gnuplot
+   73  fg
+   74  xe report.py
+   75  grep -R gnuplot ~/README/* | grep plot
+   76  h | grep gnuplot
+   77  ls ~
+   78  grep -R gnuplot ~/env/* | grep plot
+   79  echo "plot 'tick_11335'; pause 5" | gnuplot
+   80  echo "plot 'tick_11335'; pause 500" | gnuplot
+   81  ll
+   82  echo "plot 'check_time_11336'; pause 500" | gnuplot
+   83  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' check_time_11336
+   84  awk '{sum+=$1} END { print "Average = ",sum/NR}' check_time_11336
+   85  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' tick_11335 
+   86  awk '{sum+=$1} END { print "Average = ",sum/NR}' tick_11335
+   87  xe ~/bin/average.sh
+   88  sh ~/bin/average.sh tick_11335 
+   89  fg
+   90  xe ~/bin/average.sh
+   91  echo "plot 'tick_11335'; pause 500" | gnuplot
+   92  bg
+   93  echo "plot 'check_time_113356'; pause 5000" | gnuplot
+   94  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+   95  echo "plot 'tick_11335'; pause 5000" | gnuplot &
+   96  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+   97  ssh upac07
+   98  ssh upac07
+   99  ssh upac07
+  100  ssh upac07
+  101  ssh upac07
+  102  python
+  103  ssh upac07
+  104  ssh upac07
+  105  ssh upac07
+  106  ssh upac07
+  107  ssh upac07
+  108  ssh upac07
+  109  ssh upac07
+  110  ssh upac07exit
+  111  exit
+  112  archhome
+  113  alias gate
+  114  alias
+  115  ssh upuser@cogate.upthere.com
+  116  ssh upuser@cogate.upthere.com
+  117  man curl
+  118  ssh upuser scbaby
+  119  ssh upuser scbaby.prod.upthere.com
+  120  ssh upuser scbabysitter.prod.upthere.com
+  121  ssh upuser@scbaby.prod.upthere.com
+  122  ssh scmaster
+  123  ssh scab01
+  124  ssh upsetup@scab01
+  125  ssh upsetup@scab01
+  126  ssh upsetup@scmaster
+  127  ssh upsetup@scmaster.prodz.upthere.com
+  128  ssh upsetup@scbaby.prodz.upthere.com
+  129  archhome
+  130  archhome
+  131  archhome
+  132  ssh cogate.upthere.com
+  133  gate
+  134  gate
+  135  gate
+  136  gate
+  137  gate
+  138  ssh upac07
+  139  ssh upac07
+  140  ssh upac07
+  141  ssh upac07
+  142  ssh upac07
+  143  ssh upac07
+  144  ssh upac07
+  145  ssh upac07
+  146  ssh upac07
+  147  arch
+  148  cd
+  149  ll
+  150  h | grep sshfs
+  151  grep sshfs ~/history 
+  152  mkdir tm_sshfs
+  153  alias archhome
+  154  sudo sshfs -o allow_other jwu@172.16.31.22:/home/jwu tm_sshfs/
+  155  pwd
+  156  ls
+  157  ll
+  158  ll tm_sshfs/
+  159  ping 172.16.2.22
+  160  ping 172.16.31.22
+  161  ifconfig
+  162  alias arch
+  163  alias archhome
+  164  ping 172.16.31.22
+  165  archhome
+  166  archhome
+  167  ping 172.16.31.22
+  168  ping 172.16.31.1
+  169  ll
+  170  archhome
+  171  archhome
+  172  archhome
+  173  archhome
+  174  ll
+  175  cd git
+  176  ll
+  177  svn checkout http://google-glog.googlecode.com/svn/trunk/ google-glog-read-only
+  178  cd google-glog-read-only/
+  179  ll
+  180  cd src
+  181  ll
+  182  xe logging.cc 
+  183  pwd
+  184  cd ..
+  185  cd ..
+  186  svn checkout http://google-breakpad.googlecode.com/svn/trunk/ google-breakpad-read-only
+  187  ll
+  188  cd google-breakpad-read-only/
+  189  ll
+  190  cd src/
+  191  ll
+  192  cd google_breakpad/
+  193  ll
+  194  cd processor/
+  195  ll
+  196  cd ..
+  197  ll common/
+  198  cd common/
+  199  ll
+  200  xe minidump_cpu_x86.h 
+  201  u7
+  202  ssh upac07
+  203  ssh scaa14
+  204  ssh upsetup@scaa14
+  205  ssh upuser@scaa14
+  206  ssh upadmin@scaa14
+  207  ssh upsetup@scaa14
+  208  ssh upac07
+  209  ssh upac07
+  210  ssh upsetup@upac07
+  211  alias
+  212  archhome
+  213  archhome
+  214  archhome
+  215  archhome
+  216  archhome
+  217  archhome
+  218  archhome
+  219  cd git
+  220  ls
+  221  svn checkout http://python-gflags.googlecode.com/svn/trunk/ python-gflags-read-onl
+  222  cd python-gflags-read-onl/
+  223  ll
+  224  ll debian/
+  225  ll
+  226  xe gflags.py 
+  227  ll
+  228  cd
+  229  ls
+  230  cd Temp
+  231  ll
+  232  ll M
+  233  cd M
+  234  cd mirror
+  235  ll
+  236  cd system/
+  237  l
+  238  ll
+  239  cd
+  240  ls
+  241  cd
+  242  cd Temp
+  243  ls
+  244  mv cd.ip M
+  245  cd M
+  246  ls
+  247  mv cd.ip mirror
+  248  ll
+  249  cd mirror
+  250  ll
+  251  mv cd.ip cd.zip
+  252  zip
+  253  which unzip
+  254  unzip cd.zip 
+  255  ls
+  256  ll
+  257  rm -rf cd.zip
+  258  ll
+  259  tar xvf cd.tar 
+  260  ll
+  261  rm -rf cd.tar 
+  262  ll
+  263  cd cd
+  264  ls
+  265  ll
+  266  cd base/
+  267  ll
+  268  cd src/
+  269  ll
+  270  xe timer.cpp
+  271  exit
+  272  ssh upac07
+  273  exit
+  274  ll
+  275  ssh upac07
+  276  exit
+  277  ssh upprod1@upac04
+  278  exit
+  279  ssh upprod1@upac05
+  280  exit
+  281  ssh upac07
+  282  ssh upac07
+  283  ssh upprod1@upac06
+  284  ssh upprod1@upac06
+  285  ssh upprod1@upac06
+  286  ssh upprod1@upac06
+  287  ssh upprod1@upac06
+  288  ssh upprod1@upac06
+  289  exit
+  290  ssh upprod1@upac03
+  291  ssh upadmin@upac05
+  292  ssh upadmin@upac05
+  293  exit
+  294  ssh upac07
+  295  ssh upadmin@upac06
+  296  ssh upadmin@upac06
+  297  ssh upadmin@upac06
+  298  ssh upadmin@upac06
+  299  ssh upadmin@upac06
+  300  gate
+  301  gate
+  302  gate
+  303  ssh upprod1@upac06
+  304  ssh upprod1@upac06
+  305  exit
+  306  ll
+  307  pwd
+  308  ssh upac07
+  309  ssh upac07
+  310  exit
+  311  ssh upac07
+  312  ssh upac07
+  313  exit
+  314  ping 172.16.3.127
+  315  ssh 172.16.3.127
+  316  exit
+  317  ssh 10.0.2.15
+  318  ssh root@10.0.2.15
+  319  ping 10.0.2.15
+  320  ifconfig
+  321  ssh root@10.0.2.15
+  322  ssh jwu@10.0.2.15
+  323  ssh jwu@10.0.2.15
+  324  ping 10.0.2.15
+  325  ifconfig
+  326  ping 10.0.2.15
+  327  ping 10.0.2.15
+  328  ping 10.0.2.15
+  329  ifconfig
+  330  ping 10.0.2.15
+  331  ssh jwu@10.0.2.15
+  332  ssh root@10.0.2.15
+  333  netstat -al | more
+  334  ping 10.0.2.15
+  335  ping 10.0.2.1
+  336  ping 10.0.2.2
+  337  ping 10.0.2.3
+  338  ping 10.0.2.15
+  339  ping 10.0.2.15
+  340  ping 10.0.2.15
+  341  ssh jwu@10.0.2.15
+  342  ssh -v jwu@10.0.2.15
+  343  ssh -v jwu@10.0.2.15
+  344  exit
+  345  ssh upadmin@upac07
+  346  ssh upadmin@upac07
+  347  ssh upadmin@upac07
+  348  ssh upadmin@upac07
+  349  ssh upadmin@upac07
+  350  ssh upadmin@upac07
+  351  ssh upadmin@upac07
+  352  ssh upadmin@upac06
+  353  ssh upadmin@upac06
+  354  ssh upadmin@upac06
+  355  ssh upac07
+  356  ssh upac07
+  357  exit
+  358  ssh upsetup@upac07
+  359  ssh upsetup@upac07
+  360  ssh upsetup@upac07
+  361  ssh -l upsetup@upac07
+  362  ssh upsetup@upac07
+  363  ssh upsetup@upac07
+  364  ssh upsetup@upac07
+  365  ssh upsetup@upac07
+  366  gate
+  367  gate
+  368  ssh upsetup@upac07
+  369  ssh upsetup@upac07
+  370  ssh upsetup@upac07
+  371  exit
+  372  ssh upadmin@upac07
+  373  ssh upadmin@upac07
+  374  ssh upadmin@upac03
+  375  ssh upadmin@upac07
+  376  ssh upadmin@upac07
+  377  exit
+  378  ssh upadmin@upac05
+  379  exit
+  380  ping baby.prodz.upthere.com
+  381  ssh upac07
+  382  ssh scbaby
+  383  ssh scbaby.prodz
+  384  ssh scbaby.prodz.upthere.com
+  385  ssh upadmin@scbaby.prodz.upthere.com
+  386  ssh upsetup@scbaby.prodz.upthere.com
+  387  ssh upsetup@scbaby.prodz.upthere.com
+  388  ssh upsetup@upac07
+  389  desktop
+  390  alias
+  391  ssh bin/desktop.sh
+  392  ssh 172.16.1.238
+  393  sh bin/desktop.sh
+  394  xe bin/desktop.sh
+  395  ll
+  396  cd Downloads/
+  397  ll
+  398  scp elasticsearch-1.3.2.zip 172.16.1.238:/tmp
+  399  ssh upac07
+  400  ssh upac07
+  401  ssh upac07
+  402  ssh upac07
+  403  ssh upac07
+  404  ssh upadmin@scbaby.prodz.upthere.com
+  405  ssh upsetup@scbaby.prodz.upthere.com
+  406  ssh upadmin@scbaby.prodz.upthere.com
+  407  ssh upsetup@scbaby.prodz.upthere.com
+  408  ssh upsetup@scbaby.prodz.upthere.com
+  409  ssh upsetup@scbaby.prodz.upthere.com
+  410  ssh upac07upadmin@upac05
+  411  ssh upac07
+  412  ssh upac07
+  413  ssh upac07
+  414  ssh upac07
+  415  ssh upac07
+  416  ssh upac07
+  417  ssh upac07
+  418  ssh upac07
+  419  ssh upac07
+  420  ssh upac07
+  421  ssh upac07
+  422  more .ssh/id_rsa.pub 
+  423  pwd
+  424  cd git
+  425  ll
+  426  git clone git.upthere.com
+  427  pwd
+  428  git clone git.upthere.com/backend
+  429  git clone ssh://git.upthere.com/backend
+  430  gitlab@git.corp.upthere.com:backend/infra.git
+  431  git clone gitlab@git.corp.upthere.com:backend/infra.git
+  432  git clone gitlab@git.corp.upthere.com:backend/ops.git
+  433  git clone gitlab@git.corp.upthere.com:backend/uplinux.git
+  434  ssh upac05
+  435  ssh upprod1@upac05
+  436  ssh upprod1@scab05
+  437  cd Downloads/
+  438  ll
+  439  ls *.pdf
+  440  rm -rf James*.pdf
+  441  ll
+  442  scp elasticsearch-1.3.2.zip upac07://tmp/
+  443  ls
+  444  unzip elasticsearch-1.3.2
+  445  ls
+  446  cd elasticsearch-1.3.2
+  447  ll
+  448  cd ..
+  449  scp -r elasticsearch-1.3.2 upac07:/tmp
+  450  exit
+  451  astype
+  452  ll
+  453  cd Temp
+  454  ll
+  455  ll M
+  456  cd M
+  457  ll
+  458  cd mirror
+  459  ll
+  460  cd cd
+  461  ll
+  462  cd base
+  463  ll
+  464  cd inc/
+  465  ll
+  466  cd base/
+  467  ll
+  468  more cycle_counter.hpp 
+  469  ll
+  470  more base.hpp 
+  471  more cycle_counter.hpp 
+  472  ll
+  473  cd ..
+  474  ll
+  475  cd ..
+  476  ll
+  477  grep -r start_rdtsc
+  478  grep -r start_rdtsc *
+  479  cd ..
+  480  ll
+  481  grep -r start_rdtsc *
+  482  cd storage/block_file/tst/perf_test.cpp 
+  483  xe storage/block_file/tst/perf_test.cpp 
+  484  fg
+  485  more base/inc/base/cycle_counter.hpp 
+  486  more base/inc/base/internal_types.hpp 
+  487  python
+  488  exit
+  489  ssh upuser@scab11
+  490  ssh upadmin@scab11
+  491  ssh upadmin@scab03
+  492  ssh upuser@scab03
+  493  exit
+  494  exit
+  495  ssh upuser@scab03
+  496  ssh upuser@scab03
+  497  ssh upuser@scab03
+  498  ssh upuser@scab03
+  499  ssh upadmin@scab07
+  500  ssh upadmin@scab07
+  501  ssh upadmin@scab07
+  502   history >> ~/env/History/history.macpro 
+    3  which emacs
+    4  emacs
+    5  pwd
+    6  cd
+    7  cd bin
+    8  ls
+    9  xe babysitter.sh
+   10  which nc
+   11  nc upac06:50001
+   12  nc upac06 50001
+   13  adfadf
+   14  adfadf
+   15  nc upac06 50001
+   16  nc upac06 50001
+   17  nc upac06 50001
+   18  nc upac06 50001
+   19  nc upac06 50001
+   20  nc upac06 50001
+   21  nc upac06 50001
+   22  nc upac06 50001
+   23  nc upac06 50001
+   24  nc upac06 50001
+   25  nc upac06 50001
+   26  nc upac06 50001
+   27  nc upac06 50001
+   28  nc upac06 50001
+   29  nc upac06 50001
+   30  nc upac06 50001
+   31  nc upac06 50001
+   32  nc upac06 50001
+   33  nc upac06 50001
+   34  nc upac06 50001
+   35  nc upac06 50001
+   36  alias
+   37  ssh upac07
+   38  exit
+   39  ssh upadmin@upac07
+   40  ssh upadmin@upac07
+   41  ssh upadmin@upac07
+   42  exit
+   43  ssh upadmin@upac06
+   44  ssh upadmin@upac06
+   45  ssh upadmin@upac06
+   46  ssh upadmin@upac06
+   47  exit
+   48  ssh upadmin@upac06
+   49  ssh upadmin@upac06
+   50  ssh upadmin@upac06
+   51  ssh upadmin@upac06
+   52  ssh upadmin@upac06
+   53  exit
+   54  ssh upadmin@upac06
+   55  ssh upadmin@upac07
+   56  ssh upadmin@upac07
+   57  ssh upadmin@upac07
+   58  ssh upadmin@upac07
+   59  ssh upadmin@upac07
+   60  ssh upadmin@upac07
+   61  exit
+   62  service iptables status
+   63  alias arch
+   64  ping 192.168.2.22
+   65  ping 172.16.31.22
+   66  ping 172.16.31.1
+   67  ping  211.144.76.8
+   68  ping  211.144.76.8
+   69  ifconfig
+   70  arch
+   71  exit
+   72  arch
+   73  cd
+   74  cd Desktop/
+   75  ll
+   76  ll
+   77  cd TM_VPN.tblk/
+   78  ll
+   79  xe client.ovpn 
+   80  pwd
+   81  ll
+   82  cd ..
+   83  ll
+   84  cd TM_us.tblk/
+   85  grep wx5sgxc4sxlr0000gn *
+   86  ll
+   87  xe client.ovpn 
+   88  ll
+   89  rm -rf *~
+   90  ll
+   91  xe client.ovpn 
+   92  ll
+   93  rm -rf *~
+   94  ll
+   95  cat *
+   96  exit
+   97  ifconfig
+   98  ping 172.16.31.1
+   99  ping 172.16.31.22
+  100  ssh 172.16.31.22
+  101  exit
+  102  alias arch
+  103  cd
+  104  xe .bashrc
+  105  archhome
+  106  ssh upac07
+  107  c
+  108  cd Perforce/
+  109  ll
+  110  cd ..
+  111  lll
+  112  ll
+  113  ls
+  114  ls -l
+  115  cd 
+  116  cd Desktop/
+  117  ll
+  118  cd Upthere/
+  119  ll
+  120  cd PerfReports/
+  121  ll
+  122  more report.py
+  123  cp report.py ~/Temp
+  124  cd 
+  125  cd Temp
+  126  ll
+  127  xe report.py 
+  128  scp report.py upac07:/tmp/
+  129  grep plot ~/history 
+  130  grep gnuplot ~/README/*
+  131  grep -R gnuplot ~/README/*
+  132  pwd
+  133  scp upac07:/disk/a/logs/repo/*113* .
+  134  echo "plot 'tick_11335'; pause 5" | gnuplot
+  135  fg
+  136  xe report.py
+  137  grep -R gnuplot ~/README/* | grep plot
+  138  h | grep gnuplot
+  139  ls ~
+  140  grep -R gnuplot ~/env/* | grep plot
+  141  echo "plot 'tick_11335'; pause 5" | gnuplot
+  142  echo "plot 'tick_11335'; pause 500" | gnuplot
+  143  ll
+  144  echo "plot 'check_time_11336'; pause 500" | gnuplot
+  145  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' check_time_11336
+  146  awk '{sum+=$1} END { print "Average = ",sum/NR}' check_time_11336
+  147  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' tick_11335 
+  148  awk '{sum+=$1} END { print "Average = ",sum/NR}' tick_11335
+  149  xe ~/bin/average.sh
+  150  sh ~/bin/average.sh tick_11335 
+  151  fg
+  152  xe ~/bin/average.sh
+  153  echo "plot 'tick_11335'; pause 500" | gnuplot
+  154  bg
+  155  echo "plot 'check_time_113356'; pause 5000" | gnuplot
+  156  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  157  echo "plot 'tick_11335'; pause 5000" | gnuplot &
+  158  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  159  ssh upac07
+  160  ssh upac07
+  161  ssh upac07
+  162  ssh upac07
+  163  ssh upac07
+  164  python
+  165  ssh upac07
+  166  ssh upac07
+  167  ssh upac07
+  168  ssh upac07
+  169  ssh upac07
+  170  ssh upac07
+  171  ssh upac07
+  172  ssh upac07exit
+  173  exit
+  174  archhome
+  175  alias gate
+  176  alias
+  177  ssh upuser@cogate.upthere.com
+  178  ssh upuser@cogate.upthere.com
+  179  man curl
+  180  ssh upuser scbaby
+  181  ssh upuser scbaby.prod.upthere.com
+  182  ssh upuser scbabysitter.prod.upthere.com
+  183  ssh upuser@scbaby.prod.upthere.com
+  184  ssh scmaster
+  185  ssh scab01
+  186  ssh upsetup@scab01
+  187  ssh upsetup@scab01
+  188  ssh upsetup@scmaster
+  189  ssh upsetup@scmaster.prodz.upthere.com
+  190  ssh upsetup@scbaby.prodz.upthere.com
+  191  archhome
+  192  archhome
+  193  archhome
+  194  ssh cogate.upthere.com
+  195  gate
+  196  gate
+  197  gate
+  198  gate
+  199  gate
+  200  ssh upac07
+  201  ssh upac07
+  202  ssh upac07
+  203  ssh upac07
+  204  ssh upac07
+  205  ssh upac07
+  206  ssh upac07
+  207  ssh upac07
+  208  ssh upac07
+  209  arch
+  210  cd
+  211  ll
+  212  h | grep sshfs
+  213  grep sshfs ~/history 
+  214  mkdir tm_sshfs
+  215  alias archhome
+  216  sudo sshfs -o allow_other jwu@172.16.31.22:/home/jwu tm_sshfs/
+  217  pwd
+  218  ls
+  219  ll
+  220  ll tm_sshfs/
+  221  ping 172.16.2.22
+  222  ping 172.16.31.22
+  223  ifconfig
+  224  alias arch
+  225  alias archhome
+  226  ping 172.16.31.22
+  227  archhome
+  228  archhome
+  229  ping 172.16.31.22
+  230  ping 172.16.31.1
+  231  ll
+  232  archhome
+  233  archhome
+  234  archhome
+  235  archhome
+  236  ll
+  237  cd git
+  238  ll
+  239  svn checkout http://google-glog.googlecode.com/svn/trunk/ google-glog-read-only
+  240  cd google-glog-read-only/
+  241  ll
+  242  cd src
+  243  ll
+  244  xe logging.cc 
+  245  pwd
+  246  cd ..
+  247  cd ..
+  248  svn checkout http://google-breakpad.googlecode.com/svn/trunk/ google-breakpad-read-only
+  249  ll
+  250  cd google-breakpad-read-only/
+  251  ll
+  252  cd src/
+  253  ll
+  254  cd google_breakpad/
+  255  ll
+  256  cd processor/
+  257  ll
+  258  cd ..
+  259  ll common/
+  260  cd common/
+  261  ll
+  262  xe minidump_cpu_x86.h 
+  263  u7
+  264  ssh upac07
+  265  ssh scaa14
+  266  ssh upsetup@scaa14
+  267  ssh upuser@scaa14
+  268  ssh upadmin@scaa14
+  269  ssh upsetup@scaa14
+  270  ssh upac07
+  271  ssh upac07
+  272  ssh upsetup@upac07
+  273  alias
+  274  archhome
+  275  archhome
+  276  archhome
+  277  archhome
+  278  archhome
+  279  archhome
+  280  archhome
+  281  cd git
+  282  ls
+  283  svn checkout http://python-gflags.googlecode.com/svn/trunk/ python-gflags-read-onl
+  284  cd python-gflags-read-onl/
+  285  ll
+  286  ll debian/
+  287  ll
+  288  xe gflags.py 
+  289  ll
+  290  cd
+  291  ls
+  292  cd Temp
+  293  ll
+  294  ll M
+  295  cd M
+  296  cd mirror
+  297  ll
+  298  cd system/
+  299  l
+  300  ll
+  301  cd
+  302  ls
+  303  cd
+  304  cd Temp
+  305  ls
+  306  mv cd.ip M
+  307  cd M
+  308  ls
+  309  mv cd.ip mirror
+  310  ll
+  311  cd mirror
+  312  ll
+  313  mv cd.ip cd.zip
+  314  zip
+  315  which unzip
+  316  unzip cd.zip 
+  317  ls
+  318  ll
+  319  rm -rf cd.zip
+  320  ll
+  321  tar xvf cd.tar 
+  322  ll
+  323  rm -rf cd.tar 
+  324  ll
+  325  cd cd
+  326  ls
+  327  ll
+  328  cd base/
+  329  ll
+  330  cd src/
+  331  ll
+  332  xe timer.cpp
+  333  exit
+  334  ssh upac07
+  335  exit
+  336  ll
+  337  ssh upac07
+  338  exit
+  339  ssh upprod1@upac04
+  340  exit
+  341  ssh upprod1@upac05
+  342  exit
+  343  ssh upac07
+  344  ssh upac07
+  345  ssh upprod1@upac06
+  346  ssh upprod1@upac06
+  347  ssh upprod1@upac06
+  348  ssh upprod1@upac06
+  349  ssh upprod1@upac06
+  350  ssh upprod1@upac06
+  351  exit
+  352  ssh upprod1@upac03
+  353  ssh upadmin@upac05
+  354  ssh upadmin@upac05
+  355  exit
+  356  ssh upac07
+  357  ssh upadmin@upac06
+  358  ssh upadmin@upac06
+  359  ssh upadmin@upac06
+  360  ssh upadmin@upac06
+  361  ssh upadmin@upac06
+  362  gate
+  363  gate
+  364  gate
+  365  ssh upprod1@upac06
+  366  ssh upprod1@upac06
+  367  exit
+  368  ll
+  369  pwd
+  370  ssh upac07
+  371  ssh upac07
+  372  exit
+  373  ssh upac07
+  374  ssh upac07
+  375  exit
+  376  ping 172.16.3.127
+  377  ssh 172.16.3.127
+  378  exit
+  379  ssh 10.0.2.15
+  380  ssh root@10.0.2.15
+  381  ping 10.0.2.15
+  382  ifconfig
+  383  ssh root@10.0.2.15
+  384  ssh jwu@10.0.2.15
+  385  ssh jwu@10.0.2.15
+  386  ping 10.0.2.15
+  387  ifconfig
+  388  ping 10.0.2.15
+  389  ping 10.0.2.15
+  390  ping 10.0.2.15
+  391  ifconfig
+  392  ping 10.0.2.15
+  393  ssh jwu@10.0.2.15
+  394  ssh root@10.0.2.15
+  395  netstat -al | more
+  396  ping 10.0.2.15
+  397  ping 10.0.2.1
+  398  ping 10.0.2.2
+  399  ping 10.0.2.3
+  400  ping 10.0.2.15
+  401  ping 10.0.2.15
+  402  ping 10.0.2.15
+  403  ssh jwu@10.0.2.15
+  404  ssh -v jwu@10.0.2.15
+  405  ssh -v jwu@10.0.2.15
+  406  exit
+  407  ssh upadmin@upac07
+  408  ssh upadmin@upac07
+  409  ssh upadmin@upac07
+  410  ssh upadmin@upac07
+  411  ssh upadmin@upac07
+  412  ssh upadmin@upac07
+  413  ssh upadmin@upac07
+  414  ssh upadmin@upac06
+  415  ssh upadmin@upac06
+  416  ssh upadmin@upac06
+  417  ssh upac07
+  418  ssh upac07
+  419  exit
+  420  ssh upsetup@upac07
+  421  ssh upsetup@upac07
+  422  ssh upsetup@upac07
+  423  ssh -l upsetup@upac07
+  424  ssh upsetup@upac07
+  425  ssh upsetup@upac07
+  426  ssh upsetup@upac07
+  427  ssh upsetup@upac07
+  428  gate
+  429  gate
+  430  ssh upsetup@upac07
+  431  ssh upsetup@upac07
+  432  ssh upsetup@upac07
+  433  exit
+  434  ssh upadmin@upac07
+  435  ssh upadmin@upac07
+  436  ssh upadmin@upac03
+  437  ssh upadmin@upac07
+  438  ssh upadmin@upac07
+  439  exit
+  440  ssh upadmin@upac05
+  441  exit
+  442  ping baby.prodz.upthere.com
+  443  ssh upac07
+  444  ssh scbaby
+  445  ssh scbaby.prodz
+  446  ssh scbaby.prodz.upthere.com
+  447  ssh upadmin@scbaby.prodz.upthere.com
+  448  ssh upsetup@scbaby.prodz.upthere.com
+  449  ssh upsetup@scbaby.prodz.upthere.com
+  450  ssh upsetup@upac07
+  451  desktop
+  452  alias
+  453  ssh bin/desktop.sh
+  454  ssh 172.16.1.238
+  455  sh bin/desktop.sh
+  456  xe bin/desktop.sh
+  457  ll
+  458  cd Downloads/
+  459  ll
+  460  scp elasticsearch-1.3.2.zip 172.16.1.238:/tmp
+  461  ssh upac07
+  462  ssh upac07
+  463  ssh upac07
+  464  ssh upac07
+  465  ssh upac07
+  466  ssh upadmin@scbaby.prodz.upthere.com
+  467  ssh upsetup@scbaby.prodz.upthere.com
+  468  ssh upadmin@scbaby.prodz.upthere.com
+  469  ssh upsetup@scbaby.prodz.upthere.com
+  470  ssh upsetup@scbaby.prodz.upthere.com
+  471  ssh upsetup@scbaby.prodz.upthere.com
+  472  ssh upac07upadmin@upac05
+  473  ssh upac07
+  474  ssh upac07
+  475  ssh upac07
+  476  ssh upac07
+  477  ssh upac07
+  478  ssh upac07
+  479  ssh upac07
+  480  ssh upac07
+  481  ssh upac07
+  482  ssh upac07
+  483  ssh upac07
+  484  more .ssh/id_rsa.pub 
+  485  pwd
+  486  cd git
+  487  ll
+  488  git clone git.upthere.com
+  489  pwd
+  490  git clone git.upthere.com/backend
+  491  git clone ssh://git.upthere.com/backend
+  492  gitlab@git.corp.upthere.com:backend/infra.git
+  493  git clone gitlab@git.corp.upthere.com:backend/infra.git
+  494  git clone gitlab@git.corp.upthere.com:backend/ops.git
+  495  git clone gitlab@git.corp.upthere.com:backend/uplinux.git
+  496  ssh upac05
+  497  ssh upprod1@upac05
+  498  ssh upprod1@scab05
+  499  ssh upac07
+  500  ssh upac07
+  501  h
+  502         history >> ~/env/History/history.macpro 
