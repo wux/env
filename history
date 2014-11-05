@@ -12498,3 +12498,1104 @@
   616  rm su_his 
   617  ll
   618  h >> ~/env/history
+   71  scp report.py upac07:/tmp/
+   72  grep plot ~/history 
+   73  grep gnuplot ~/README/*
+   74  grep -R gnuplot ~/README/*
+   75  pwd
+   76  scp upac07:/disk/a/logs/repo/*113* .
+   77  echo "plot 'tick_11335'; pause 5" | gnuplot
+   78  fg
+   79  xe report.py
+   80  grep -R gnuplot ~/README/* | grep plot
+   81  h | grep gnuplot
+   82  ls ~
+   83  grep -R gnuplot ~/env/* | grep plot
+   84  echo "plot 'tick_11335'; pause 5" | gnuplot
+   85  echo "plot 'tick_11335'; pause 500" | gnuplot
+   86  ll
+   87  echo "plot 'check_time_11336'; pause 500" | gnuplot
+   88  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' check_time_11336
+   89  awk '{sum+=$1} END { print "Average = ",sum/NR}' check_time_11336
+   90  awk '{x[NR]=$0; s+=$0} END{a=s/NR; for (i in x){ss += (x[i]-a)^2} sd = sqrt(ss/NR); print "SD = "sd}' tick_11335 
+   91  awk '{sum+=$1} END { print "Average = ",sum/NR}' tick_11335
+   92  xe ~/bin/average.sh
+   93  sh ~/bin/average.sh tick_11335 
+   94  fg
+   95  xe ~/bin/average.sh
+   96  echo "plot 'tick_11335'; pause 500" | gnuplot
+   97  bg
+   98  echo "plot 'check_time_113356'; pause 5000" | gnuplot
+   99  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  100  echo "plot 'tick_11335'; pause 5000" | gnuplot &
+  101  echo "plot 'check_time_11336'; pause 5000" | gnuplot
+  102  ssh upac07
+  103  ssh upac07
+  104  ssh upac07
+  105  ssh upac07
+  106  ssh upac07
+  107  python
+  108  ssh upac07
+  109  ssh upac07
+  110  ssh upac07
+  111  ssh upac07
+  112  ssh upac07
+  113  ssh upac07
+  114  ssh upac07
+  115  ssh upac07exit
+  116  exit
+  117  archhome
+  118  alias gate
+  119  alias
+  120  ssh upuser@cogate.upthere.com
+  121  ssh upuser@cogate.upthere.com
+  122  man curl
+  123  ssh upuser scbaby
+  124  ssh upuser scbaby.prod.upthere.com
+  125  ssh upuser scbabysitter.prod.upthere.com
+  126  ssh upuser@scbaby.prod.upthere.com
+  127  ssh scmaster
+  128  ssh scab01
+  129  ssh upsetup@scab01
+  130  ssh upsetup@scab01
+  131  ssh upsetup@scmaster
+  132  ssh upsetup@scmaster.prodz.upthere.com
+  133  ssh upsetup@scbaby.prodz.upthere.com
+  134  archhome
+  135  archhome
+  136  archhome
+  137  ssh cogate.upthere.com
+  138  gate
+  139  gate
+  140  gate
+  141  gate
+  142  gate
+  143  ssh upac07
+  144  ssh upac07
+  145  ssh upac07
+  146  ssh upac07
+  147  ssh upac07
+  148  ssh upac07
+  149  ssh upac07
+  150  ssh upac07
+  151  ssh upac07
+  152  arch
+  153  cd
+  154  ll
+  155  h | grep sshfs
+  156  grep sshfs ~/history 
+  157  mkdir tm_sshfs
+  158  alias archhome
+  159  sudo sshfs -o allow_other jwu@172.16.31.22:/home/jwu tm_sshfs/
+  160  pwd
+  161  ls
+  162  ll
+  163  ll tm_sshfs/
+  164  ping 172.16.2.22
+  165  ping 172.16.31.22
+  166  ifconfig
+  167  alias arch
+  168  alias archhome
+  169  ping 172.16.31.22
+  170  archhome
+  171  archhome
+  172  ping 172.16.31.22
+  173  ping 172.16.31.1
+  174  ll
+  175  archhome
+  176  archhome
+  177  archhome
+  178  archhome
+  179  ll
+  180  cd git
+  181  ll
+  182  svn checkout http://google-glog.googlecode.com/svn/trunk/ google-glog-read-only
+  183  cd google-glog-read-only/
+  184  ll
+  185  cd src
+  186  ll
+  187  xe logging.cc 
+  188  pwd
+  189  cd ..
+  190  cd ..
+  191  svn checkout http://google-breakpad.googlecode.com/svn/trunk/ google-breakpad-read-only
+  192  ll
+  193  cd google-breakpad-read-only/
+  194  ll
+  195  cd src/
+  196  ll
+  197  cd google_breakpad/
+  198  ll
+  199  cd processor/
+  200  ll
+  201  cd ..
+  202  ll common/
+  203  cd common/
+  204  ll
+  205  xe minidump_cpu_x86.h 
+  206  u7
+  207  ssh upac07
+  208  ssh scaa14
+  209  ssh upsetup@scaa14
+  210  ssh upuser@scaa14
+  211  ssh upadmin@scaa14
+  212  ssh upsetup@scaa14
+  213  ssh upac07
+  214  ssh upac07
+  215  ssh upsetup@upac07
+  216  alias
+  217  archhome
+  218  archhome
+  219  archhome
+  220  archhome
+  221  archhome
+  222  archhome
+  223  archhome
+  224  cd git
+  225  ls
+  226  svn checkout http://python-gflags.googlecode.com/svn/trunk/ python-gflags-read-onl
+  227  cd python-gflags-read-onl/
+  228  ll
+  229  ll debian/
+  230  ll
+  231  xe gflags.py 
+  232  ll
+  233  cd
+  234  ls
+  235  cd Temp
+  236  ll
+  237  ll M
+  238  cd M
+  239  cd mirror
+  240  ll
+  241  cd system/
+  242  l
+  243  ll
+  244  cd
+  245  ls
+  246  cd
+  247  cd Temp
+  248  ls
+  249  mv cd.ip M
+  250  cd M
+  251  ls
+  252  mv cd.ip mirror
+  253  ll
+  254  cd mirror
+  255  ll
+  256  mv cd.ip cd.zip
+  257  zip
+  258  which unzip
+  259  unzip cd.zip 
+  260  ls
+  261  ll
+  262  rm -rf cd.zip
+  263  ll
+  264  tar xvf cd.tar 
+  265  ll
+  266  rm -rf cd.tar 
+  267  ll
+  268  cd cd
+  269  ls
+  270  ll
+  271  cd base/
+  272  ll
+  273  cd src/
+  274  ll
+  275  xe timer.cpp
+  276  exit
+  277  ssh upac07
+  278  exit
+  279  ll
+  280  ssh upac07
+  281  exit
+  282  ssh upprod1@upac04
+  283  exit
+  284  ssh upprod1@upac05
+  285  exit
+  286  ssh upac07
+  287  ssh upac07
+  288  ssh upprod1@upac06
+  289  ssh upprod1@upac06
+  290  ssh upprod1@upac06
+  291  ssh upprod1@upac06
+  292  ssh upprod1@upac06
+  293  ssh upprod1@upac06
+  294  exit
+  295  ssh upprod1@upac03
+  296  ssh upadmin@upac05
+  297  ssh upadmin@upac05
+  298  exit
+  299  ssh upac07
+  300  ssh upadmin@upac06
+  301  ssh upadmin@upac06
+  302  ssh upadmin@upac06
+  303  ssh upadmin@upac06
+  304  ssh upadmin@upac06
+  305  gate
+  306  gate
+  307  gate
+  308  ssh upprod1@upac06
+  309  ssh upprod1@upac06
+  310  exit
+  311  ll
+  312  pwd
+  313  ssh upac07
+  314  ssh upac07
+  315  exit
+  316  ssh upac07
+  317  ssh upac07
+  318  exit
+  319  ping 172.16.3.127
+  320  ssh 172.16.3.127
+  321  exit
+  322  ssh 10.0.2.15
+  323  ssh root@10.0.2.15
+  324  ping 10.0.2.15
+  325  ifconfig
+  326  ssh root@10.0.2.15
+  327  ssh jwu@10.0.2.15
+  328  ssh jwu@10.0.2.15
+  329  ping 10.0.2.15
+  330  ifconfig
+  331  ping 10.0.2.15
+  332  ping 10.0.2.15
+  333  ping 10.0.2.15
+  334  ifconfig
+  335  ping 10.0.2.15
+  336  ssh jwu@10.0.2.15
+  337  ssh root@10.0.2.15
+  338  netstat -al | more
+  339  ping 10.0.2.15
+  340  ping 10.0.2.1
+  341  ping 10.0.2.2
+  342  ping 10.0.2.3
+  343  ping 10.0.2.15
+  344  ping 10.0.2.15
+  345  ping 10.0.2.15
+  346  ssh jwu@10.0.2.15
+  347  ssh -v jwu@10.0.2.15
+  348  ssh -v jwu@10.0.2.15
+  349  exit
+  350  ssh upadmin@upac07
+  351  ssh upadmin@upac07
+  352  ssh upadmin@upac07
+  353  ssh upadmin@upac07
+  354  ssh upadmin@upac07
+  355  ssh upadmin@upac07
+  356  ssh upadmin@upac07
+  357  ssh upadmin@upac06
+  358  ssh upadmin@upac06
+  359  ssh upadmin@upac06
+  360  ssh upac07
+  361  ssh upac07
+  362  exit
+  363  ssh upsetup@upac07
+  364  ssh upsetup@upac07
+  365  ssh upsetup@upac07
+  366  ssh -l upsetup@upac07
+  367  ssh upsetup@upac07
+  368  ssh upsetup@upac07
+  369  ssh upsetup@upac07
+  370  ssh upsetup@upac07
+  371  gate
+  372  gate
+  373  ssh upsetup@upac07
+  374  ssh upsetup@upac07
+  375  ssh upsetup@upac07
+  376  exit
+  377  ssh upadmin@upac07
+  378  ssh upadmin@upac07
+  379  ssh upadmin@upac03
+  380  ssh upadmin@upac07
+  381  ssh upadmin@upac07
+  382  exit
+  383  ssh upadmin@upac05
+  384  exit
+  385  ping baby.prodz.upthere.com
+  386  ssh upac07
+  387  ssh scbaby
+  388  ssh scbaby.prodz
+  389  ssh scbaby.prodz.upthere.com
+  390  ssh upadmin@scbaby.prodz.upthere.com
+  391  ssh upsetup@scbaby.prodz.upthere.com
+  392  ssh upsetup@scbaby.prodz.upthere.com
+  393  ssh upsetup@upac07
+  394  desktop
+  395  alias
+  396  ssh bin/desktop.sh
+  397  ssh 172.16.1.238
+  398  sh bin/desktop.sh
+  399  xe bin/desktop.sh
+  400  ll
+  401  cd Downloads/
+  402  ll
+  403  scp elasticsearch-1.3.2.zip 172.16.1.238:/tmp
+  404  ssh upac07
+  405  ssh upac07
+  406  ssh upac07
+  407  ssh upac07
+  408  ssh upac07
+  409  ssh upadmin@scbaby.prodz.upthere.com
+  410  ssh upsetup@scbaby.prodz.upthere.com
+  411  ssh upadmin@scbaby.prodz.upthere.com
+  412  ssh upsetup@scbaby.prodz.upthere.com
+  413  ssh upsetup@scbaby.prodz.upthere.com
+  414  ssh upsetup@scbaby.prodz.upthere.com
+  415  ssh upac07upadmin@upac05
+  416  ssh upac07
+  417  ssh upac07
+  418  ssh upac07
+  419  ssh upac07
+  420  ssh upac07
+  421  ssh upac07
+  422  ssh upac07
+  423  ssh upac07
+  424  ssh upac07
+  425  ssh upac07
+  426  ssh upac07
+  427  more .ssh/id_rsa.pub 
+  428  pwd
+  429  cd git
+  430  ll
+  431  git clone git.upthere.com
+  432  pwd
+  433  git clone git.upthere.com/backend
+  434  git clone ssh://git.upthere.com/backend
+  435  gitlab@git.corp.upthere.com:backend/infra.git
+  436  git clone gitlab@git.corp.upthere.com:backend/infra.git
+  437  git clone gitlab@git.corp.upthere.com:backend/ops.git
+  438  git clone gitlab@git.corp.upthere.com:backend/uplinux.git
+  439  ssh upac05
+  440  ssh upprod1@upac05
+  441  ssh upprod1@scab05
+  442  cd Downloads/
+  443  ll
+  444  ls *.pdf
+  445  rm -rf James*.pdf
+  446  ll
+  447  scp elasticsearch-1.3.2.zip upac07://tmp/
+  448  ls
+  449  unzip elasticsearch-1.3.2
+  450  ls
+  451  cd elasticsearch-1.3.2
+  452  ll
+  453  cd ..
+  454  scp -r elasticsearch-1.3.2 upac07:/tmp
+  455  exit
+  456  astype
+  457  ll
+  458  cd Temp
+  459  ll
+  460  ll M
+  461  cd M
+  462  ll
+  463  cd mirror
+  464  ll
+  465  cd cd
+  466  ll
+  467  cd base
+  468  ll
+  469  cd inc/
+  470  ll
+  471  cd base/
+  472  ll
+  473  more cycle_counter.hpp 
+  474  ll
+  475  more base.hpp 
+  476  more cycle_counter.hpp 
+  477  ll
+  478  cd ..
+  479  ll
+  480  cd ..
+  481  ll
+  482  grep -r start_rdtsc
+  483  grep -r start_rdtsc *
+  484  cd ..
+  485  ll
+  486  grep -r start_rdtsc *
+  487  cd storage/block_file/tst/perf_test.cpp 
+  488  xe storage/block_file/tst/perf_test.cpp 
+  489  fg
+  490  more base/inc/base/cycle_counter.hpp 
+  491  more base/inc/base/internal_types.hpp 
+  492  python
+  493  exit
+  494  ssh upuser@scab11
+  495  ssh upadmin@scab11
+  496  ssh upadmin@scab03
+  497  ssh upuser@scab03
+  498  exit
+  499  ssh upuser@scab11
+  500  ssh upuser@scab11
+  501  ssh upadmin@scab11
+  502  ssh upadmin@scab03
+  503  curl -XDELETE http://scab03:9200/mmmfotos
+  504  curl -XDELETE http://scab03:9200/mmm
+  505  curl -XDELETE http://scab03:9200/myfotos
+  506  curl -XDELETE http://scab03:9200/clients
+  507  curl -XDELETE http://scab03:9200/mmm
+  508  curl -XDELETE http://scab03:9200/mmfotos
+  509  curl -XDELETE http://scab03:9200/fotos
+  510  curl -XDELETE http://scab03:9200/mfotos
+  511  curl -XPUT http://scab03:9200/fotos -d '                                                                                                                                            
+{
+    "settings" : {
+            "number_of_shards" : 16,
+            "number_of_replicas" : 1
+    },
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  512  curl -XDELETE http://scab03:9200/fotos
+  513  curl -XDELETE http://scab03:9200/fotos
+  514  curl -XDELETE http://scab04:9200/fotos
+  515  curl -XDELETE http://scab03:9200/myfotos
+  516  curl -XDELETE http://scab03:9200/mmfotos
+  517  curl -XDELETE http://scab03:9200/mmmfotos
+  518  curl -XDELETE http://scab03:9200/mfotos
+  519  curl -XDELETE http://scab03:9200/mmm
+  520  curl -XDELETE http://scab03:9200/clients
+  521  curl -XDELETE http://scab03:9200/clients
+  522  curl -XDELETE http://scab03:9200/mmm
+  523  curl -XDELETE http://scab03:9200/fotos
+  524  curl -XDELETE http://scab03:9200/fotos
+  525  curl -XDELETE http://scab03:9200/fotos
+  526  curl -XDELETE http://scab03:9200/fotos
+  527  curl -XDELETE http://scab03:9200/myfotos
+  528  curl -XDELETE http://scab03:9200/clients
+  529  curl -XDELETE http://scab03:9200/mmm
+  530  curl -XDELETE http://scab03:9200/mmfotos
+  531  curl -XDELETE http://scab03:9200/fotos
+  532  curl -XDELETE http://scab03:9200/mfotos
+  533  curl -XDELETE http://scab03:9200/mmmfotos
+  534  curl -XDELETE http://scab03:9200/mmmfotos
+  535  curl -XDELETE http://scab03:9200/mfotos
+  536  curl -XDELETE http://scab03:9200/fotos
+  537  curl -XDELETE http://scab03:9200/mfotos
+  538  curl -XDELETE http://scab03:9200/clients
+  539  curl -XDELETE http://scab03:9200/myfotos
+  540  curl -XDELETE http://scab03:9200/mmm
+  541* 
+  542  curl -XDELETE http://scab03:9200/mmm
+  543  curl -XDELETE http://scab03:9200/myfotos
+  544  curl -XDELETE http://scab03:9200/mmfotos
+  545  curl -XDELETE http://scab03:9200/clients
+  546  curl -XDELETE http://scab03:9200/fotos
+  547  curl -XDELETE http://scab03:9200/mmmfotos
+  548  curl -XDELETE http://scab03:9200/mfotos
+  549  curl -XPUT http://scab03:9200/fotos -d '                                                                                                                                            
+{
+    "settings" : {
+            "number_of_shards" : 16,
+            "number_of_replicas" : 1
+    },
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  550  curl -XDELETE http://scab03:9200/myfotos
+  551  h | grep DELETE
+  552  xe delete_all_index.sh
+  553  sh delete_all_index.sh 
+  554  python
+  555  sh delete_all_index.sh 
+  556  python
+  557  sh delete_all_index.sh 
+  558  sh delete_all_index.sh 
+  559  sh delete_all_index.sh 
+  560  sh delete_all_index.sh 
+  561  python
+  562  sh delete_all_index.sh 
+  563  python
+  564  sh delete_all_index.sh 
+  565  python
+  566  sh delete_all_index.sh 
+  567  sh delete_all_index.sh 
+  568  curl -XPUT http://scab03:9200/fotos -d '                                                                                                                                            
+{
+    "mappings": {
+        "_default_": {
+            "properties": {
+                "user": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "photo_id": {
+                    "type": "integer"
+                },
+                "timestamp": {
+                    "type": "date",
+                    "format": "yyMMdd HH:mm:ss.SSSSSS"
+                },
+                "lonlat": {
+                    "type": "geo_point",
+                    "fielddata": {
+                        "format": "compressed",
+                        "precision": "1cm"
+                    }
+                },
+                "data": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
+';
+  569  history
+  570  history > ~/history 
+  162  go run esgo.go | tee load.log 
+  163  fg
+  164  go run esgo.go | tee load.log 
+  165  fg
+  166  fg
+  167  go run esgo.go | tee load.log 
+  168  fg
+  169  go run esgo.go | tee load.log 
+  170  fg
+  171  go run esgo.go | tee load.log 
+  172  fg
+  173  fg
+  174  go run esgo.go | tee load.log 
+  175  fg
+  176  go run esgo.go | tee load.log 
+  177  fg
+  178  fg
+  179  fg
+  180  go run esgo.go | tee load.log 
+  181  fg
+  182  go run esgo.go | tee load.log 
+  183  fg
+  184  go run esgo.go | tee load.log 
+  185  fg
+  186  go run esgo.go | tee load.log 
+  187  fg
+  188  go run esgo.go | tee load.log 
+  189  fg
+  190  go run esgo.go | tee load.log 
+  191  fg
+  192  go run esgo.go | tee load.log 
+  193  fg
+  194  go run esgo.go | tee load.log 
+  195  fg
+  196  go run esgo.go | tee load.log 
+  197  fg
+  198  go run esgo.go | tee load.log 
+  199  fg
+  200  go run esgo.go | tee load.log 
+  201  fg
+  202  go run esgo.go | tee load.log 
+  203  fg
+  204  go run esgo.go | tee load.log 
+  205  pwd
+  206  pwd
+  207  fg
+  208  fg
+  209  exit
+  210  ssh upadmin@scau08
+  211  ls
+  212  cd
+  213  ls
+  214  cd git
+  215  ls
+  216  cd infra/
+  217  ll
+  218  cd
+  219  cd 
+  220  ll
+  221  cd ES/
+  222  ls
+  223  cd ..
+  224  ls
+  225  cd
+  226  cd gocode/
+  227  ls
+  228  cd src/
+  229  ll
+  230  cd github.com/
+  231  ll
+  232  popd
+  233  ls
+  234  cd
+  235  ls
+  236  cd git
+  237  ls
+  238  cd upthere/
+  239  ll
+  240  cd 3rdparty/
+  241  ll
+  242  pwd
+  243  cd ..
+  244  ls
+  245  ll
+  246  cd
+  247  cd bin
+  248  ls
+  249  ll *.py
+  250  xe trans.py
+  251  exit
+  252  cd 
+  253  cd Temp/
+  254  git clone git@github.com:julienschmidt/httprouter.git
+  255  cd
+  256  more .ssh/id_rsa.pub 
+  257  cat .ssh/id_rsa.pub 
+  258  pwd
+  259  ls
+  260  cd
+  261  ls
+  262  cd Temp
+  263  ls
+  264  cd m
+  265  cd 
+  266  cd Temp/
+  267  cd M
+  268  l
+  269  ll
+  270  cd mirror
+  271  ll
+  272  cd system/babysitter/
+  273  xe src/babysitter.py
+  274  fg
+  275  exit
+  276  sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+  277  ll
+  278  pwd
+  279  ll
+  280  ls
+  281  cd git
+  282  ls
+  283  ll
+  284  cd upthere/
+  285  ll
+  286  git remote -v
+  287  git remote -v
+  288  sudo git remote -v
+  289  git remote -v
+  290  ll
+  291  cd ..
+  292  ls
+  293  cd up
+  294  ls
+  295  cd ..
+  296  ls
+  297  ll
+  298  fg
+  299  fg
+  300  fg
+  301  fg
+  302  fg
+  303  ssh upac07
+  304  [jwu@upac07 up_search]$ git reset --hard origin/master
+  305  HEAD is now at 295cb85 Detailed logging of failures when parsing baseOp fields
+  306  [jwu@upac07 up_search]$ git checkout -b up_search
+  307  Switched to a new branch 'up_search'
+  308  [jwu@upac07 up_search]$ git branch -vv
+  309    master    295cb85 [origin/master] Detailed logging of failures when parsing baseOp fields
+  310  * up_search 295cb85 Detailed logging of failures when parsing baseOp fields
+  311  which arc
+  312  ssh upac07
+  313  fg
+  314  desktop.sh
+  315  ssh 172.16.2.233
+  316  top
+  317  ulimit -n
+  318  sudo ulimit -n 5000
+  319  ulimit -n
+  320  more /etc/launchd.conf 
+  321  sudo ulimit -n 5000
+  322  sudo ulimit -n
+  323  pwd
+  324  ls
+  325  xe crazy_load.go
+  326  go run crazy_load.go | tee log
+  327  export GOPATH=/Users/jameswu/gocode
+  328  ulimit -n 5000
+  329  fg
+  330  go get code.google.com/p/rog-go/exp/cmd/godef
+  331  fg
+  332  ls
+  333  go get code.google.com/p/rog-go/exp/cmd/godef
+  334  which go
+  335  ls /usr/local/go/bin/go
+  336  fg
+  337  pwd
+  338  which godef
+  339  which go
+  340  pwd
+  341  env | grep GO
+  342  cp /Users/jameswu/gocode/bin/* /usr/local/go/bin/
+  343  sudo cp /Users/jameswu/gocode/bin/* /usr/local/go/bin/
+  344  which godef
+  345  fg
+  346  go run crazy_load.go | tee log
+  347  go run crazy_load.go | tee log
+  348  fg
+  349  go run crazy_load.go | tee log
+  350  fg
+  351  go run crazy_load.go | tee log
+  352  fg
+  353  pwd
+  354  fg
+  355  h | grep export
+  356  fg
+  357  h | grep go
+  358  env |  grep GO
+  359  export GOROOT=/usr/local/go
+  360  ls /usr/local/go/
+  361  ls /usr/local/go/bin/
+  362  fg
+  363  pwd
+  364  h | grep GO
+  365  env | grep GO
+  366  export PATH=$PATH:$GOROOT/bin
+  367  which go
+  368  fg
+  369  xe crazy_load.go
+  370  pwd
+  371  fg
+  372  go run crazy_load.go | tee log
+  373  fg
+  374  grep WTF log
+  375  fg
+  376  fg
+  377  ll *.go
+  378  go esgo.go | tee log
+  379  go run esgo.go | tee log
+  380  grep 'Query  took' log
+  381  grep 'Query  took' log | wc -l
+  382  fg
+  383  go run crazy_load.go | tee log
+  384  fg
+  385  grep WTF log | wc -l
+  386  fg
+  387  grep 'ERROR!!!!' log | wc -l
+  388  grep "ERRORgrep 'ERROR!!!!' log | wc -lgrep 'ERROR!!!!' log | wc -l" log | wc -l
+  389  grep TIMEOUT log | wc -l
+  390  python
+  391  fg
+  392  go run crazy_load.go | tee log
+  393  fg
+  394  go run crazy_load.go | tee log
+  395  fg
+  396  mv load_test.go load.go
+  397  xe load.go
+  398  go run load.go | tee log
+  399  fg
+  400  fg
+  401  go run load.go | tee log
+  402  fg
+  403  grep Find log
+  404  fg
+  405  go run load.go | tee log
+  406  fg
+  407  fg
+  408  go run load.go | tee log
+  409  fg
+  410  go run load.go | tee log
+  411  fg
+  412  go run load.go | tee log
+  413  fg
+  414  go run load.go | tee log
+  415  grep Final log
+  416  fg
+  417  fg
+  418  grep Final log
+  419  go run load.go | tee log
+  420  grep Final log
+  421  fg
+  422  grep Final log
+  423  go run load.go | tee log
+  424  fg
+  425  wc -l Error log
+  426  grep Error log | wc -l
+  427  fg
+  428  go run load.go | tee log
+  429  fg
+  430  go run load.go | tee log
+  431  go run load.go | tee log
+  432  fg
+  433  grep Early log
+  434  fg
+  435  go run load.go | tee log
+  436  fg
+  437  go run load.go | tee log
+  438  fg
+  439  go run load.go | tee log
+  440  go run load.go | tee log
+  441  fg
+  442  go run load.go | tee log
+  443  fg
+  444  go run load.go | tee log
+  445  grep WTF log
+  446  grep TIMEOUT log
+  447  grep E-TIMEOUT log
+  448  fg
+  449  go run load.go | tee log
+  450  grep E-TIMEOUT log
+  451  fg
+  452  go run load.go | tee log
+  453  fg
+  454  go run load.go | tee log
+  455  fg
+  456  go run load.go | tee log
+  457  go run load.go | tee log
+  458  htop
+  459  top
+  460  fg
+  461  go run load.go | tee log
+  462  fg
+  463  go run load.go | tee log
+  464  fg
+  465  go run load.go | tee log
+  466  fg
+  467  go run load.go | tee log
+  468  fg
+  469  go run load.go | tee log
+  470  fg
+  471  go run load.go | tee log
+  472  fg
+  473  limit
+  474  nlimit -n
+  475  ulimit -n
+  476  ulimit -n 10000
+  477  sudo ulimit -n 10000
+  478  ulimit -n
+  479  sudo ulimit -n
+  480  sudo ulimit -n 10000
+  481  sudo ulimit -n
+  482  ulimit -n
+  483  ls /etc/
+  484  ls /etc/launchd.conf
+  485  touch /etc/launchd.conf
+  486  xe launchd.conf
+  487  sudo mv launchd.conf /etc/
+  488  ls /etc/launchd.conf 
+  489  ll /etc/launchd.conf 
+  490  fg
+  491  xe /etc/profile 
+  492  sudo vi /etc/profile 
+  493  more /etc/profile 
+  494  fg
+  495  ulimit -n
+  496  fg
+  497  fg
+  498  exit
+  499  pwd
+  500  exit
+  501  ll
+  502  ll
+  503  grep qps log*
+  504  grep qps log*
+  505  grep qps log*
+  506  grep qps log*
+  507  grep qps log* | sort
+  508  grep sort ~/bin/*
+  509  grep sort ~/README/*
+  510  grep -R sort ~/README/*
+  511  grep qps log* | sort
+  512  grep -R sort ~/README/* | grep sed
+  513  grep qps log* > all_log
+  514  tail all_log
+  515  cat all_log | sed 's/$log//g'
+  516  cat all_log | sed 's/^log//g'
+  517  grep -R sort ~/README/* | grep sed
+  518  cat all_log | sed 's/^log//g' | sort -b -g 
+  519  grep -R sort ~/README/* | grep cut
+  520  cat all_log | sed 's/^log//g' | sort -b -g | -f 3 -d ' '
+  521  cat all_log | sed 's/^log//g' | sort -b -g | cut -f3 -d ' '
+  522  cat all_log | sed 's/^log//g' | sort -b -g
+  523  cat all_log | sed 's/^log//g' | sort -b -g | cut -f5 -f10 -f11 -f12 -f13 -d ' '
+  524  cat all_log | sed 's/^log//g' | sort -b -g | cut -f5 -f10 -f11 -f12 -f13 -d ' ' > all_qps
+  525  grep -R sort ~/README/* | grep plot
+  526  moe all_qps 
+  527  more all_qps 
+  528  cat all_qps | sed 's/: err//g'
+  529  cat all_qps | sed 's/: err//g' | sed 's/qps//g'
+  530  cat all_qps | sed 's/: err//g' | sed 's/qps//g' > qps.log
+  531  echo 'plot "qps.log"; pause 30' | gnuplot
+  532  xterm
+  533  emacs
+  534  ll
+  535  which gnuplot
+  536  gnupot
+  537  gnuplot
+  538  xterm
+  539  echo 'plot "qps.log"; pause 30' | gnuplot
+  540  more qps.log 
+  541  echo 'plot "qps.log" using 1 title 'error' with lines, "qps.log" using 2 title 'qps' with lines; pause 30' | gnuplot
+  542  echo 'plot "qps.log" using 1 title 'err' with lines, "qps.log" using 2 title 'qps' with lines; pause 30' | gnuplot
+  543  echo 'plot "qps.log" using 1 title "err" with lines, "qps.log" using 2 title "qps" with lines; pause 30' | gnuplot
+  544  echo 'plot "qps.log" using 2 title "err" with lines, "qps.log" using 3 title "qps" with lines; pause 30' | gnuplot
+  545  echo 'plot "qps.log" using 2 title "err" with lines, "qps.log" using 3 title "qps" with lines; pause 30' | gnuplot
+  546  ls
+  547  more qps.log
+  548  echo 'plot "qps.log" using 2 title "err" with lines, "qps.log" using 3 title "qps" with lines; pause 30' | gnuplot
+  549  fg
+  550  ll
+  551  ls *.go
+  552  ls *.sh
+  553  more run_all.sh
+  554  xe avg_all.sh
+  555  fg
+  556  sh avg_all.sh 
+  557  fg
+  558  sh avg_all.sh 
+  559  fg
+  560  sh avg_all.sh 
+  561  fg
+  562  sh avg_all.sh 
+  563  fg
+  564  sh avg_all.sh 
+  565  fg
+  566  sh avg_all.sh 
+  567  fg
+  568  sh avg_all.sh 
+  569  fg
+  570  echo "'"
+  571  fg
+  572  echo "'"
+  573  sh avg_all.sh 
+  574  tail log50
+  575  grep 'Query took' log50 | awk ' { total += $3 } END { print total/NR }'
+  576  grep 'Query took' log50 | awk ' { total += $3 } END { print total }'
+  577  grep 'Query took' log50 | awk ' { total += $3 } END { print total/NR }'
+  578  grep 'Query took' log50 | sed 's/s~//g' | more
+  579  grep 'Query took' log50 | grep ms | sed 's/ms//g' | awk ' { total += $3 } END { print total; print NR }'
+  580  grep 'Query took' log50 | grep -v ms | sed 's/s//g' | awk ' { total += $3 } END { print total; print NR }'
+  581* grep 'Query took' log50 | grep ms | sed 's/ms//g' 
+  582  grep 'Query took' log50 | grep ms | sed 's/ms//g' | awk ' { total += $3 } END { print total; print NR }'
+  583  grep 'Query took' log50 | grep -v ms | sed 's/s//g' | awk ' { total += $3 } END { print total; print NR }'
+  584  python
+  585  more log1
+  586  grep 'Query took' log1 | more
+  587   fg
+  588  fg
+  589  python process_log.py 
+  590  ls log0
+  591  fg
+  592  python process_log.py 
+  593  fg
+  594  fg
+  595  python process_log.py 
+  596  fg
+  597  python process_log.py 
+  598  fg
+  599  python process_log.py 
+  600  fg
+  601  python process_log.py 
+  602  python process_log.py | grep m
+  603  fg
+  604  python process_log.py | grep m
+  605  python process_log.py | grep s
+  606  python process_log.py 
+  607  fg
+  608  python process_log.py 
+  609  fg
+  610  python process_log.py 
+  611  more log1
+  612  more log1
+  613  fg
+  614  python process_log.py 
+  615  fg
+  616  python process_log.py 
+  617  fg
+  618  python process_log.py 
+  619  fg
+  620  fg
+  621  python process_log.py 
+  622  fg
+  623  python process_log.py 
+  624  fg
+  625  python process_log.py 
+  626  fg
+  627  python process_log.py 
+  628  fg
+  629  python process_log.py 
+  630  fg
+  631  python process_log.py 
+  632  fg
+  633  python process_log.py 
+  634  python process_log.py | cut -d',' -f3
+  635  python process_log.py 
+  636  fg
+  637  python process_log.py 
+  638  python process_log.py > all_latency
+  639  echo 'plot "all_latency" using 1 title "avg" with lines, "all_latency" using 2 title "max" with lines; pause 30' | gnuplot
+  640  echo 'plot "all_latency" using 1 title "avg" with lines, "all_latency" using 2 title "max" with lines, "all_latency" using 3 title "min" with lines; pause 30' | gnuplot
+  641  echo 'plot "all_latency" using 1 title "avg" with lines, "all_latency" using 2 title "max" with lines, "all_latency" using 3 title "min" with lines; pause 30' | gnuplot
+  642  fg
+  643  ll
+  644  mkdir Log_single_node
+  645  mv log* Log_single_node/
+  646  ll
+  647  mv qps.log Log_single_node/
+  648  mv all_* Log_single_node/
+  649  ll
+  650  fg
+  651  xe load.go
+  652  h | grep export
+  653  env | grep GO
+  654   export GOPATH=/Users/jameswu/gocode
+  655  fg
+  656  which go
+  657  env | grep GOROOT
+  658   export GOROOT=/usr/local/go
+  659  export PATH=$PATH:$GOROOT/bin
+  660  xe load.go
+  661  h >> ~/history 
