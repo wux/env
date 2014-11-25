@@ -1,0 +1,16 @@
+#!/bin/bash
+
+declare -A keys
+for keyfile in /home/*/.ssh/authorized_keys; do
+    while read line; do
+        echo $line
+        set $(ssh-keygen -lf /dev/stdin <<<$line)
+        keys["${2}"]=$3
+    done <$keyfile
+done
+
+while read port; do
+    set --
+    set $(grep $port /var/log/sshd.log|tail -1)
+    echo ${keys[$(expr match ${15} '\([0-9:a-zA-Z]*\)')]} logged in as $8 from ${10}
+done < (sudo lsof -i|grep -e ssh.*root|grep -v LISTEN|awk '{print $(NF-1)}'|awk -F ':' '{print $NF}')

@@ -39,10 +39,10 @@ it only includes basic header information"
     (insert basename)))
 
 ;; insert a include protection guard pair. 
-;; WARNING the root path is hardcoded to jwu/p4!!
+;; WARNING the root path is hardcoded to jwu/src/depot!!
 (defun add-guard-str (basename)
   (interactive)
-  (string-match "jwu/p4/" basename)
+  (string-match "jwu/src/depot/" basename)
   (let* ((zup_path (substring basename (match-end 0) nil))
          (ident_str (replace-regexp-in-string "/" "_" zup_path))
          (guard_str (concat (upcase ident_str) "_H_")))

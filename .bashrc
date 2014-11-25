@@ -12,6 +12,10 @@ export P4CONFIG=.p4config
 export P4PORT=perforce.corp.upthere.com:1666
 #export EDITOR=emacs  # or whatever else you prefer
 
+export PATH=$HOME/go/bin:$PATH
+export GOROOT=$HOME/go
+export GOPATH=$HOME/gocode
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
  . /etc/bashrc
@@ -86,14 +90,19 @@ function ssh_prd2(){
   ssh $* upadmin@10.1.2.2 -t 'tmux a || tmux || /bin/bash'
 }
 
-eval $(keychain --eval -Q id_rsa)
+#eval $(keychain --eval -Q id_rsa)
 
    alias desktop='ssh -Y jwu@10.0.70.114'
 
    alias p4src='cd /ssd/a/jwu/src/depot'
+
 
    alias svndiff='svn diff --diff-cmd tkdiff'
 
    alias psA='ps auxf'
    alias psE='ps -eLf'
    alias psL='ps -efww ef'
+
+   alias p4dbg='cd /ssd/a/jwu/debug'
+   alias p4opt='cd /ssd/a/jwu/release'
+
