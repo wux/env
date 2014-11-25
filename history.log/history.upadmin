@@ -1,0 +1,500 @@
+   53  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 10; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 >> /tmp/log1 > /dev/null; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+   54  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 10; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 >> /tmp/log1.$$ > /dev/null; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+   55  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 1; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+   56  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 1; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+   57  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 1; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 > /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+   58  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -15 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -15"; sleep 1; while [ $(pgrep -c -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001") -gt 0 ]; do sudo -u upprod1 pkill -u upprod1 -9 -g $(ps --no-headers -o pgid $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); done && echo "Done: pkill -9"; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 > /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ 2>&1 > /dev/null; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+   59  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   60  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   61  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   62  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   63  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   64  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere 
+   65  man ssh
+   66  cd /ssd/a/jwu/src/depot
+   67  ll
+   68  ls
+   69  cd uplinux/setup/
+   70  cd upthere/
+   71  ls
+   72  cd setup/
+   73  python2 remote_executor_type.py
+   74  timeout 10 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upsetup@10.1.2.4 'hostname; sleep 3'
+   75  ssh upsetup@10.1.2.4
+   76  ssh upsetup@10.1.2.5
+   77  cd
+   78  rm -rf /disk/a/logs/repo/monitor.*; tail -f /disk/a/logs/repo/monitor.*;
+   79  tail -f /disk/a/logs/repo/monitor.*
+   80  tail -f /disk/a/logs/repo/monitor.*
+   81  tail -f /disk/a/logs/repo/monitor.*
+   82  emacs -nw /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140724-180413.61082.0000 
+   83  tail -f /disk/a/logs/repo/monitor.*
+   84  emacs -nw /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140724-180413.61082.0000 
+   85  rm -rf /disk/a/logs/repo/monitor.*; tail -f /disk/a/logs/repo/monitor.*;
+   86  emacs -nw /disk/a/logs/repo/monitor.upac07.upadmin.log.INFO.20140724-201002.15883.0000 
+   87  ls
+   88  cd /ssd/a/jwu/src/depot
+   89  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service upac06:50001 --print_only
+   90  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service upac06:50001 --print_only
+   91  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service upac06:50001 --print
+   92  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service upac06:50001 --print True
+   93  ps -ef | grep monitor
+   94  killall monitor
+   95  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service upac06:50001 --print True
+   96  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --print True
+   97  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --print True
+   98  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print True
+   99  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print True
+  100  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print True
+  101  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print True
+  102  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print True
+  103  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print False
+  104  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print=False
+  105  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print True
+  106  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print=False
+  107  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print=False
+  108  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print False
+  109  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_print 0
+  110  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001 --debug_prinfft 0
+  111  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001" --debug_print True
+  112  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001" --debug_print False
+  113  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001" --debug_print 'False'
+  114  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001" --debug_print 'false'
+  115  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001" --debug_print='false'
+  116  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001" --debug_print='false'
+  117  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001" --debug_print='false'
+  118  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001" --debug_print='false'
+  119  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001" --debug_print='false'
+  120  echo $?
+  121  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=$(ps --no-headers -o pgid ${pids}); list=$(printf " -%s" "${pgids[@]}"); echo "sudo -u upprod1 kill -15 ${list:1} 2>/dev/null"; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || echo "sudo -u upprod1 kill -9 ${list:1} 2>/dev/null"; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+  122  echo $?
+  123  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=$(ps --no-headers -o pgid ${pids}); list=$(printf " -%s" "${pgids[@]}"); echo "sudo -u upprod1 kill -15 ${list:1} 2>/dev/null"; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || echo "sudo -u upprod1 kill -9 ${list:1} 2>/dev/null"; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+  124  echo $?
+  125  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 'hostname'
+  126  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 'hostname; sleep 3'
+  127  ssh upadmin@10.1.2.6 'hostname; sleep 3'
+  128  exit
+  129  exit
+  130  ls
+  131  ls
+  132  ls
+  133  cd work
+  134  exit
+  135  c
+  136  cls
+  137  clear
+  138  echo hi; echo hi2; stat -c "%Z" /tmp/foooo; echo $?
+  139  $?
+  140  which loop
+  141  cd /usr/bin/
+  142  emacs launcher 
+  143  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || [ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 120] ]&& { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } )
+  144  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 120]] && { rm -f /tmp/__babysitter_lock.50001 2> /dev/null; } )
+  145  '
+  146  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 120]] && { rm -f /tmp/__babysitter_lock.50001 2> /dev/null; } )'
+  147  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 120]] && { rm -f /tmp/__babysitter_lock.50001 2> /dev/null; } )'
+  148  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1]] && { rm -f /tmp/__babysitter_lock.50001 2> /dev/null; } )'
+  149  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1]] && { rm -f /tmp/__babysitter_lock.50001 2> /dev/null; } )'
+  150  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001 2> /dev/null; } )'
+  151  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001 2> /dev/null; } )'
+  152  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001 2> /dev/null; } )'
+  153  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001 2> /dev/null; } )'
+  154  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2> /dev/null'
+  155  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2> /dev/null'
+  156  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } )  || (exit 1) 2> /dev/null'
+  157  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } )  || (exit 1)'
+  158  $?
+  159  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } )  || (exit 1)'
+  160  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } )  || (exit 1)'
+  161  echo $?
+  162  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } )  || (exit 1) 2 > /dev/null'
+  163  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } )  || (exit 1) 2> /dev/null'
+  164  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } )  || (exit 1) 2>/dev/null'
+  165  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } 2>/dev/null)'
+  166  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2>/dev/null'
+  167  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2>/dev/null || exit 1'
+  168  echo $?
+  169  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ([ $(stat -c "%Z" /tmp/__babysitter_lock.5001) -lt $[$(date +%s) - 1] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2>/dev/null || exit 121'
+  170  echo $?
+  171  man kill
+  172  foo=('foo bar' 'foo baz' 'bar baz'); bar=$(printf ",%s" "${foo[@]}"); bar=${bar:1}; echo $bar
+  173  foo=(123, 456, 789); bar=$(printf ",%s" "${foo[@]}"); bar=${bar:1}; echo $bar
+  174  foo=(123 456 789); bar=$(printf ",%s" "${foo[@]}"); bar=${bar:1}; echo $bar
+  175  foo=(123 456 789); bar=$(printf " -%s" "${foo[@]}"); bar=${bar:1}; echo $bar
+  176  echo $(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")
+  177  man printf
+  178  man bash
+  179  man bash
+  180  man bash
+  181  pids=$(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001”)); list=$(printf " -%s" "${pids[@]}"); [[ ${#pids[*]} -eq 0 ]] || { sudo -u upprod1 kill -15 ${list}; }
+  182  pids=$(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001”)); list=$(printf " -%s" "${pids[@]}");
+  183  pids=($(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001”)); list=$(printf " -%s" "${pids[@]}");
+  184  pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001”)); list=$(printf " -%s" "${pids[@]}");
+  185  pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001”)); 
+  186  pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001”
+  187  pids=$(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); list=$(printf " -%s" "${pids[@]}"); [[ ${#pids[*]} -eq 0 ]] || { sudo -u upprod1 kill -15 ${list}; }
+  188  pids=($(pgrep --oldest -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); list=$(printf " -%s" "${pids[@]}"); [[ ${#pids[*]} -eq 0 ]] || { sudo -u upprod1 kill -15 ${list}; }
+  189  man su
+  190  pacman -Q su
+  191  pacman -Qo su
+  192  which pkgfile
+  193  pacman -Ss su
+  194  clusterstat hw $(hosts upac[1-7])
+  195  kill %
+  196  clusterstat hw $(hosts upac[2-7])
+  197  kill %
+  198  clusterstat hw $(hosts upac[7])
+  199  kill %
+  200  ps
+  201  clusterstat hw upac07
+  202  clusterstat hw upac06
+  203  clusterstat hw upac05
+  204  clusterstat hw $(hosts upac[01-07])
+  205  clusterstat hw $(hosts upac[01-07])
+  206  clusterstat hw -v $(hosts upac[01-07])
+  207  clusterstat hw -v $(hosts upac[01-07])
+  208  clusterstat hw $(hosts upac[01-07])
+  209  clusterstat hw $(hosts scaa[01-20])
+  210  ssh scgate.upthere.com
+  211  ulimit -Sn
+  212  ulimit -Hn
+  213  ulimit -a
+  214  exit
+  215  ulimit -a
+  216  ulimit -n 10240
+  217  sudo ulimit -n 10240
+  218  which ulimit
+  219  sudo ulimit -n 10240
+  220  which ulimit
+  221  ulimit -a
+  222  which ulimit
+  223  man ulimit
+  224  alias ulimit
+  225  which ulimit
+  226  which ls
+  227  which ulimit
+  228  man ulimit
+  229  man ulimit
+  230  sudo su
+  231  sudo
+  232  sudo ulimit -n 10000
+  233  sudo -u upprod1 --shell bash --command "ulimit -n"
+  234  sudo -u upprod1 --shell bash -s "ulimit -n"
+  235  sudo -u upprod1 --shell bash -s "ulimit -n 2048"
+  236  ulimit -n
+  237  ulimit -n 4096
+  238  ulimit -n
+  239  ulimit -n 10000
+  240  ulimit -n 5000
+  241  ulimit -n 2048
+  242  ulimit -n 4096
+  243  sudo -u upprod1 --shell bash -s "ulimit -n 2048"
+  244  ulimit -n 4096
+  245  cat /proc/sys/fs/file-max
+  246  exit
+  247  ping 10.2.0.1
+  248  ssh scab20
+  249  ping scab20
+  250  ssh upac01
+  251  ping 10.2.1.1
+  252  ping 192.168.253.253
+  253  ping 192.168.253.253
+  254  more /etc/rsyncd.conf 
+  255  ls
+  256  man rsyncd.conf
+  257  man rsync
+  258  man rsync
+  259  rsync --daemon
+  260  sudo rsync --daemon
+  261  ps auxf
+  262  kill 36030
+  263  sudo kill 36030
+  264  man rsync
+  265  man rsync
+  266  sudo rsync --daemon --nodetach
+  267  sudo rsync --daemon --no-detach
+  268  man rsync
+  269  man rsync.conf
+  270  man rsyncd.conf
+  271  man rsyncd.conf
+  272  ssh scaa01
+  273  cd work/obj
+  274  exit
+  275  host upac05
+  276  host upac05
+  277  host upac05
+  278  host upac05
+  279  host upac05
+  280  host upac05
+  281  host upac05
+  282  host upac05
+  283  host upac05
+  284  host upac05
+  285  host upac05
+  286  host upac05
+  287  host upac05
+  288  host upac05
+  289  host upac05
+  290  host upac05
+  291  host upac05
+  292  host upac05
+  293  host upac05
+  294  host upac05
+  295  ping upac05
+  296  ping upac05
+  297  ping upac05
+  298  ping upac05
+  299  ping upac05
+  300  ping upac05
+  301  ping upac05
+  302  ping upac05
+  303  ping upac03
+  304  ping upac03
+  305  ping upac03
+  306  ping upac03
+  307  ping upac03
+  308  ping upac03
+  309  ping upac03
+  310  ping upac03
+  311  ping upac03
+  312  cat /etc/resolv.conf
+  313  ping upac03.prod.upthere.com
+  314  ping upac03.prod.upthere.com
+  315  ping upac03.prod.upthere.com
+  316  ping upac03.prod.upthere.com
+  317  ping upac03.prod.upthere.com
+  318  ping upac03.prod.upthere.com
+  319  ping upac03.prod.upthere.com
+  320  ping upac03.prod.upthere.com
+  321  ping upac05.prod.upthere.com
+  322  ping upac05.prod.upthere.com
+  323  ping upac05.prod.upthere.com
+  324  cat /etc/resolv.conf
+  325  ssh upadmin@10.1.2.6 'hostname; sleep 3'
+  326  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 'hostname; sleep 3'
+  327  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=$(ps --no-headers -o pgid ${pids}); list=$(printf " -%s" "${pgids[@]}"); echo "sudo -u upprod1 kill -15 ${list:1} 2>/dev/null"; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || echo "sudo -u upprod1 kill -9 ${list:1} 2>/dev/null"; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+  328  cd /ssd/a/jwu/src/depot
+  329  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001
+  330  ssh upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( (( $(stat -c "%Z" /tmp/__babysitter_lock.50001) < (($(date +%s) - 120)) )) && { rm -f /tmp/__babysitter_lock.50001 > /dev/null; } ) || { echo "Error: babysitter lock failed"; exit 1; }; touch /tmp/__babysitter_lock.50001 || { echo "Error: babysitter touch lock"; exit 1; }; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=$(ps --no-headers -o pgid ${pids}); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || echo "Error: start task failed"; rm -f /tmp/__babysitter_lock.50001 > /dev/null || echo "Error: unlock failed";'
+  331  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50001
+  332  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50000
+  333  ps -ef | grep monitor
+  334  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  335  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001" --debug_print=true
+  336  rm /tmp/__*
+  337  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001"
+  338  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001" &
+  339  rm /tmp/__*
+  340  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001"
+  341  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001"
+  342  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001"
+  343  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service "10.1.2.6:50001"
+  344  echo $?
+  345  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50001 2>/dev/null || exit 122;'
+  346  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50001 2>/dev/null || exit 122;'; echo $?
+  347  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50001 2>/dev/null || exit 122;'; echo $?
+  348  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50001 2>/dev/null || exit 122;'; echo $?
+  349  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50001 2>/dev/null || exit 122;'; echo $?
+  350  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50000
+  351  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50000
+  352  echo $?
+  353  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50000
+  354  echo $?
+  355  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --service 10.1.2.6:50000
+  356  timeout 15 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50000) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50000; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50000 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; rm -f /tmp/__babysitter_lock.50000 2>/dev/null || exit 124;' echo $?
+  357  timeout 15 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50000) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50000; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50000 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; rm -f /tmp/__babysitter_lock.50000 2>/dev/null || exit 124;' echo $?
+  358  ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50000) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50000; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50000 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; rm -f /tmp/__babysitter_lock.50000 2>/dev/null || exit 124;' echo $?
+  359  ssh -T -2 -x -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50000) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50000; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50000 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; rm -f /tmp/__babysitter_lock.50000 2>/dev/null || exit 124;' echo $?
+  360  timeout 15 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50000) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50000; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50000 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; rm -f /tmp/__babysitter_lock.50000 2>/dev/null || exit 124;'; echo $?
+  361  timeout 15 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50000) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50000; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50000 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; rm -f /tmp/__babysitter_lock.50000 2>/dev/null || exit 124;'; echo $?
+  362  timeout 15 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50000) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50000; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50000 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; rm -f /tmp/__babysitter_lock.50000 2>/dev/null || exit 124;'; echo $?
+  363  timeout 15 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50000) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50000; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50000 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; rm -f /tmp/__babysitter_lock.50000 2>/dev/null || exit 124;'; echo $?
+  364  timeout 15 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50000) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50000; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50000 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; rm /tmp/__babysitter_lock.50000 2>/dev/null || exit 124;'; echo $?
+  365  timeout 15 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50000) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50000; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50000 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; sudo -u upprod1 rm /tmp/__babysitter_lock.50000 2>/dev/null || exit 124;'; echo $?
+  366  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  367  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  368  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  369  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  370  history | tail -n 100
+  371  exit
+  372  su
+  373  history | grep many
+  374  cat /upthere/summary 
+  375  exit
+  376  ping scaa01
+  377  sudo vi /etc/resolv.conf
+  378  ping wiki.upthere.com
+  379  pacman -S bind
+  380  sudo pacman -S bind
+  381  sudo pacman -R bind
+  382  cat /etc/pacman.conf
+  383  sudo pacman -R bind-9.9.5.W1
+  384  sudo pacman -R bind-9.9.5.W1-7
+  385  clear
+  386  cd /tmp/
+  387  ls
+  388  curl -O https://aur.archlinux.org/packages/ni/nicstat/nicstat.tar.gz
+  389  tar xvf nicstat.tar.gz 
+  390  cd nicstat/
+  391  makepkg
+  392  ls
+  393  scp nicstat-1.92-3-x86_64.pkg.tar.xz 10.1.2.254
+  394  scp nicstat-1.92-3-x86_64.pkg.tar.xz 10.1.2.254:
+  395  cd /ssd/a/rheath/
+  396  ls
+  397  cd source/
+  398  p4 sync
+  399  cd ..
+  400  ls
+  401  cd settings/
+  402  ls
+  403  exit
+  404  who
+  405  ll
+  406  ls
+  407  cd /ssd/a/jwu/src/depot 
+  408  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  409  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  410  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50001 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; rm -f /tmp/__babysitter_lock.50001 2>/dev/null || exit 124;'
+  411  echo $?
+  412  cls
+  413  ll
+  414  ls
+  415  ls -al
+  416  Babysitter TODO list:
+  417  Python general:
+  418  log lib in python
+  419  python program: variable name should indicate its type/class, in an implicit way.
+  420  ServerType:
+  421  server-type need to move IO out, just take strings or dicts to avoid IO issues.
+  422  ports.db should be parsed as a shared resource.
+  423  range() —> ()
+  424  remove external boundary {} in config.
+  425  raw assignments not fields in a dict. This is mainly to reduce on the typing. 
+  426  read global ports file and make them reserved ports and forbidden any usage.
+  427              if file_name.startswith('.'): continue
+  428              # TODO: how to deal with such a ugly black list of non-service                                                                                                                                 
+  429              # config file? fix ServerType to do the right thing!                                                                                                                                           
+  430              if file_name in ['default.conf', 'prod.conf']: continue;  RemoteExe:;  remote exe get error code of ssh, watch out for timeout and anything right behind the ssh command, don’t get it wrong.; - nohup: We shouldn't need this. Or more accurately, we need to change the system default so that nohup is not required (set in bashrc: shopt -s huponexit). Else we'll have bugs galore.;  Babysitter:;  wiki update, manual for Garrett  ; upadmin —> upsetup; loop.sh —> package.; move together with ops?; babysitter.py should be 2k or 3k, not including remote executor, nor server type (small)
+  431  cluster has 3 things: Data, Executable, (Re)Start/Stop.  Each should be a library kit.  Like the command_lib (baby sitter command line lib) and restart_lib (up_command.py)
+  432  Data:  server-type config files are typical type of data.
+  433  Executable: bin pusher
+  434  Run / Control. 
+  435  babysitter commandline lib/module
+  436  It is all about masking, every parameter is a masking (except delay?)
+  437  babysitter —start =[<server type csv>, like preview, daht, etc. if not in the config, ignore]   <service name service name service name ….> or < service config file service config file>
+  438  babysitter —stop = [ same as start, except don’t do the real start part, only do the killing part]
+  439  - - machine = [m1, m3, m2, config might have m1 — m10000. Q: what if config do not have m2? turn it on m2 as well]
+  440  - - delay = [20s, there is a default lower bound value, say 2s, so that we won’t kill all servers at one time, which will be a service down time.]
+  441  - - force = 1/0 true/false,  [if force is set, delay can be set to <2s, is not set, the command will bark and return]
+  442  - - delay and - - force should be in the ssh/remote executor module. 
+  443  if no service name or service config file is provided, it restarts all services. [WHAT? Yes, every param is a mask, keep it simple like that]; need a dict/map between service name to config files, as we want to separate the ‘creating new file [DATA]’ stage and the ‘really start the service [Run/Control]’ stage; kill command: # kill -15                                                                                                                                                  pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"));[[ ${#pids[*]} -eq 0 ]] || {\pgids=($(ps --no-headers -o pgid ${pids[*]}));  list=$(printf " -%s" "${pgids[@]}”);; Use sed instead. More readable. Also, binpack this command for efficiency. You are doing two separate pass through the PIDs here (pgrep and ps). Wasteful mainly because ps is actually a very expensive operation (does a O(N) search through /proc/<pid> table)
+  444  Compare with:
+  445  ps -o pgid, pid, args | egrep -e "/upthere/bin/loop.sh" -e '--port[ =]50001' | grep -v grep | sed -r 's#(\d+)#-\1#g’
+  446  Basically, do the full "ps | locate what you need | convert to gpids" in one command and assign the result to a gpids var.
+  447  Monitor:
+  448  add some critical logs in release mode.
+  449  using ‘loop back’ to test monitor
+  450  need to use a Global epoll object, shared by everything, like the timer. A binary/lib/function should try to get this epoll object, if not existing, create one. Lazy, Singleton pattern.
+  451  all program should use a single pattern so that the complexity can be dramatically reduced
+  452  history
+  453  pwd
+  454  exit
+  455  cd /ssd/a/jwu/src/depot
+  456  timeout 12 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2>/dev/null || exit 121; touch /tmp/__babysitter_lock.50001 2>/dev/null || exit 122; pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); sudo -u upprod1 kill -15 ${list:1} 2>/dev/null; }; sleep 10; [[ ${#pids[*]} -eq 0 ]] || sudo -u upprod1 kill -9 ${list:1} 2>/dev/null; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || exit 123; rm -f /tmp/__babysitter_lock.50001 2>/dev/null || exit 124; exit 125'
+  457  echo $?
+  458  man timeout
+  459  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  460  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  461  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  462  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  463  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  464  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  465  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  466  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  467  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  468  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  469  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  470  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  471  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  472  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  473  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  474  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  475  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  476  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  477  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   
+  478  man sed
+  479  man ps
+  480  man pgrep
+  481  man pgrep
+  482  which perf
+  483  man perf
+  484  man perf-stat
+  485  man perf-stat
+  486  pacman -Ql perf
+  487  pacman -Qq perf
+  488  pacman -Q perf
+  489  man pacman
+  490  pacman -Ql
+  491  pacman -Ql | grep perf
+  492  pacman -Ql | grep perf-stat
+  493  exit
+  494  exit
+  495  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   --debug_print
+  496  p4dbg
+  497  cd /ssd/a/jwu/src/depot
+  498  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere   --debug_print
+  499  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print
+  500  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True
+  501  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True
+  502  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True
+  503  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  504  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  505  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  506  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  507  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True
+  508  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True
+  509  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  510  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  511  timeout 10 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50001 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50001) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50001; } ) 2>/dev/null || exit 101; touch /tmp/__babysitter_lock.50001 2>/dev/null || exit 102; pgids=($(ps -u upprod1 -o pgid,cmd | egrep -e "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" | sed -r "s/(^[0-9]+).*$/-/g")); [[ ${#pgids[*]} -eq 0 ]] || { sudo -u upprod1 kill -15 ${pgids} 2>/dev/null; sleep 8; sudo -u upprod1 kill -9 ${pgids} 2>/dev/null; }; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1; rc=$?; [[ ${rc} == 0 ]] || exit $((rc + 100)); sleep 1; rm -f /tmp/__babysitter_lock.50001 2>/dev/null || exit 103; exit 100;'
+  512  $?
+  513  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  514  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  515  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  516  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  517  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  518  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  519  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  520  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  521  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  522  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  523  timeout 10 ssh -T -2 -x -q -oCompression=no -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oPubkeyAuthentication=yes -oPasswordAuthentication=no upadmin@10.1.2.6 '[[ ! -f /tmp/__babysitter_lock.50000 ]] || ( [ $(stat -c "%Z" /tmp/__babysitter_lock.50000) -lt $[$(date +%s) - 120] ] && { rm -f /tmp/__babysitter_lock.50000; } ) 2>/dev/null || exit 101; touch /tmp/__babysitter_lock.50000 2>/dev/null || exit 102; pgids=($(ps -u upprod1 -o pgid,cmd | egrep -e "/upthere/bin/loop\.sh .*proxy_server.py.*-port[ |=]50000" | sed -r "s/(^[0-9]+).*$/-\1/g")); [[ ${#pgids[*]} -eq 0 ]] || { sudo -u upprod1 kill -15 ${pgids} 2>/dev/null; sleep 8; sudo -u upprod1 kill -9 ${pgids} 2>/dev/null; }; sudo --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/proxy_server.py --port 50000 --backends upac06:50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50000.upprod1.proxy_server.py.$$ > /dev/null 2>&1; rc=$?; [[ ${rc} == 0 ]] || exit $((rc + 100)); sleep 1; rm -f /tmp/__babysitter_lock.50000 2>/dev/null || exit 103; exit 100;'
+  524  $?
+  525  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  526  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True
+  527  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True
+  528  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True --stop
+  529  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True --stop echo_test.conf
+  530  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True --stop echo_test.conf
+  531  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True --stop echo_test.conf
+  532  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print True --stop echo_test.conf
+  533  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf
+  534  $?
+  535  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo_test.conf
+  536  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --start echo_test.conf,echo_test.conf
+  537  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --restart echo_test.conf,echo_test.conf
+  538  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo_test.conf --hosts upac05,upac04
+  539  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo_test.conf --hosts upac05,upac04
+  540  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo_test.conf --hosts upac05,upac06
+  541  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo_test.conf --hosts upac05,upac06
+  542  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo_test.conf --hosts upac05,upac06
+  543  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo.conf --hosts upac05,upac06
+  544  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo.conf --hosts upac05,upac06 --port 50000,50001
+  545  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo.conf --hosts upac05,upac06 --port 50000
+  546  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --start echo_test.conf,echo.conf --hosts upac05,upac06 --port 50000,50001
+  547  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --restart echo_test.conf,echo.conf --hosts upac05,upac06 --port 50000,50001
+  548  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo.conf --hosts upac05,upac06 --port 50000
+  549  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo.conf --hosts upac05,upac06 --port 50000,50001
+  550  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --restart echo_test.conf,echo.conf --hosts upac05,upac06 --port 50000,50001,50003
+  551  python2 system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere --debug_print False --stop echo_test.conf,echo.conf --hosts upac05,upac06 --port 50000,50001,50003
+  552  history >> /tmp/history.upadmin

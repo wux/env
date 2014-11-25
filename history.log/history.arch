@@ -1,0 +1,1500 @@
+   63  cp *.py ~/Temp
+   64  ll
+   65  cd ../tst/
+   66  ll
+   67  cp * ~/Temp
+   68  more echo_server.py 
+   69  more ../src/echo_server.py 
+   70  cp echo_server.py ~/Temp
+   71  cd
+   72  ll
+   73  cd Temp
+   74  ll
+   75  chmod a+w *
+   76  ll
+   77  rm echo_server.py 
+   78  ll
+   79  ll
+   80  cp -R ~/p4/src/upthere .
+   81  ll
+   82  which manyssh
+   83  more /usr/bin/manyssh 
+   84  cd
+   85  cd  p4/src/
+   86  find . -name manyssh
+   87  xe uplinux/packages/upthere/upthere-tools/bin/manyssh 
+   88  p4 client
+   89  cd ..
+   90  p4 client
+   91  cd 
+   92  cd Local
+   93  ll
+   94  cd src/
+   95  ll
+   96  cp .p4* ~/
+   97  cd
+   98  p4 client
+   99  fg
+  100  cd p4/src/
+  101  p4 client
+  102  cd uplinux/packages/upthere/upthere-tools/bin/
+  103  ll
+  104  more esh
+  105  ll
+  106  more genrdns 
+  107  ll
+  108  more hosts 
+  109  ./hosts sc[aa-ab][1-20,^5]
+  110  ./hosts sc[aa-ab][^5]
+  111  ./hosts sc[aa-ab][4-6,^5]
+  112  ./hosts sc[aa-ab][2-20] -d ,
+  113  ll
+  114  more ifhost 
+  115  more manyssh 
+  116  ll
+  117  ls
+  118  cd
+  119  ll
+  120  cd Temp
+  121  ll
+  122  xe babysitter.py 
+  123  ll
+  124  cd
+  125  ll
+  126  cd p4/src
+  127  ll
+  128  cd system/
+  129  ll
+  130  cd babysitter/
+  131  ll
+  132  cd src/
+  133  ll
+  134  fg
+  135  fg
+  136  ll
+  137  pwd
+  138  ll
+  139  ll configs/
+  140  ll configs/service_groups/
+  141  xe babysitter.py 
+  142  xe babysitter.py 
+  143  fg
+  144  p4 client
+  145  p4src
+  146  ll
+  147  fg
+  148  cd system/babysitter/
+  149  ll
+  150  cd src/
+  151  ll
+  152  xe babysitter.py 
+  153  pwd
+  154  pushd .
+  155  cd 
+  156  p4/src
+  157  ll
+  158  cd p4
+  159  cd src
+  160  ls
+  161  ll
+  162  cd upthere/
+  163  ll
+  164  cd setup
+  165  ll
+  166  python
+  167  fg
+  168  python
+  169  python2
+  170  cd ..
+  171  python
+  172  python2
+  173  python2
+  174  fg
+  175  fg
+  176  fg
+  177  fg
+  178  pwd
+  179  cd ..
+  180  tar cvf bb.tar system/babysitter
+  181  tar cvf sc.tar upthere
+  182  pwd
+  183  ll *.tar
+  184  mv *.tar /tmp
+  185  exit
+  186  tmux a
+  187  exit
+  188  pwd
+  189  tmux a
+  190  ll
+  191  who
+  192  tmux a
+  193  ll
+  194  ll
+  195  fg
+  196  cd p4
+  197  ll
+  198  cd src
+  199  ll
+  200  cd upthere/
+  201  ll
+  202  cd setup/
+  203  cd ..
+  204  cd ..
+  205  ll
+  206  cd system/
+  207  ll
+  208  cd babysitter/
+  209  ll
+  210  cd src
+  211  ll
+  212  xe babysitter_bak.py 
+  213  exit
+  214  cd Temp
+  215  scp upac01:/tmp/*.py .
+  216  exit
+  217  ll
+  218  cd p4/
+  219  ll
+  220  cd src
+  221  ll
+  222  p4 status
+  223  ll
+  224  p4 client
+  225  pwd
+  226  fg
+  227  cd /ssd/a/jwu/
+  228  ll
+  229  cd src
+  230  ll
+  231  ll
+  232  more .p4config
+  233  p4 status
+  234  cd depot/system/babysitter/src/
+  235  ll
+  236  cp /tmp/babysitter.py .
+  237  ll
+  238  cd ..
+  239  cd ..
+  240  cd ..
+  241  cd upthere/
+  242  ll
+  243  cd setup/
+  244  ll
+  245  rm -rf *~
+  246  ll
+  247  rm -rf *.pyc
+  248  ll
+  249  rm -rf __pycache__
+  250  ll
+  251  cd ../config/
+  252  ll
+  253  p4 open default.conf 
+  254  ll /tmp/*.py
+  255  p4 open default.conf 
+  256  cp /tmp/default.conf .
+  257  ll
+  258  p4 diff
+  259  ll
+  260  cd ..
+  261  ifconfig
+  262  ll
+  263  pwd
+  264  ll bin
+  265  cd
+  266  cd p4/debug
+  267  ll
+  268  cd system/
+  269  ll
+  270  cd babysitter/
+  271  ll
+  272  ./monitor 
+  273  exit
+  274  cp p4/debug/system/babysitter/monitor /tmp/a.out
+  275  exit
+  276  ls
+  277  pwd
+  278  ll
+  279  exit
+  280  cd bin
+  281  xe rt.sh
+  282  ping upac02
+  283  fg
+  284  fg
+  285  su jwu -c ls
+  286  which su
+  287  fg
+  288  sudo ls
+  289  exit
+  290  fg
+  291  tmux a
+  292  ll
+  293  who
+  294  cd Temp
+  295  ls
+  296  scp upac01:/tmp/*.tar .
+  297  exit
+  298  ll
+  299  cd src
+  300  ll
+  301  cd p4/src
+  302  ll
+  303  mv /tmp/*.tar .
+  304  ll
+  305  ll *.tar
+  306  ll
+  307  h | grep tar
+  308  cd src/
+  309  cd p4/src
+  310  ll
+  311  mkdir temp
+  312  rm -rf temp
+  313  tar xvf mirror.tar 
+  314  ll
+  315  p4 status
+  316  cd /ssd/a/jwu/src
+  317  ll
+  318  p4 status
+  319  cd depot/
+  320  p4 sync
+  321  p4 changes | more
+  322  ll
+  323  cd system/
+  324  ll
+  325  cd babysitter/
+  326  p4 status
+  327  ll ../../mirror/system/babysitter/src/
+  328  cp ../../mirror/system/babysitter/src/babysitter.py .
+  329  p4 status
+  330  rm babysitter.py 
+  331  p4 open src/babysitter.py
+  332  cp ../../mirror/system/babysitter/src/babysitter.py .
+  333  cp ../../mirror/system/babysitter/src/babysitter.py src/babysitter.py
+  334  p4 diff
+  335  ll
+  336  p4 opened
+  337  p4 submit
+  338  ll ../../mirror/system/babysitter
+  339  ll ../../mirror/system/babysitter/tst
+  340  find ../../mirror/ -name *~
+  341  ll
+  342  p4 diff
+  343  p4 submit
+  344  ll
+  345  pwd
+  346  rm BUILD~
+  347  rm babysitter.py 
+  348  cd ..
+  349  ll
+  350  cd ..
+  351  ll
+  352  cd mirror/
+  353  ll
+  354  cd upthere/
+  355  ll
+  356  ll *
+  357  cd ../../upthere/
+  358  p4 open config/default.conf config/prod.conf setup/remote_executor_type.py 
+  359  pwd
+  360  cp ../mirror/upthere/config/default.conf config/
+  361  cp ../mirror/upthere/config/prod.conf config/
+  362  cp ../mirror/upthere/setup/remote_executor_type.py setup/
+  363  p4 diff
+  364  p4 submit
+  365  exit
+  366  ps -ef  |grep p4
+  367  kill -9 53970
+  368  which manyssh
+  369  manyssh
+  370  manyssh -m -u upuser upac02 -c hostname
+  371  manyssh -u upuser -m upac02 -c hostname
+  372  exit
+  373  manyssh -u upuser -m upac02 -c hostname
+  374  manyssh -u jwu -m upac02 -c hostname
+  375  cls top $(hosts upac[1-7])
+  376  more cls
+  377  which cls
+  378  more `which cls`
+  379   cls help
+  380  cls top $(hosts upac[1-7])
+  381  ssh upac01
+  382  ssh upprod1@upac01
+  383  ssh upuser@upac01
+  384  more /usr/lib/clusterstat
+  385  more /usr/lib/clusterstat/base.py 
+  386  ll/usr/lib/clusterstat/
+  387  ll /usr/lib/clusterstat/
+  388  grep /usr/lib/clusterstat/ ssh
+  389  grep /usr/lib/clusterstat/* ssh
+  390  grep ssh /usr/lib/clusterstat/*
+  391  cat /usr/lib/clusterstat/top
+  392  cat /usr/lib/clusterstat/top.py
+  393  ssh jwu@upac01
+  394  ssh jwu@upac02
+  395  ssh jwu@upac03
+  396  ssh jwu@upac04
+  397  ssh jwu@upac05
+  398  ssh jwu@upac06
+  399  ssh jwu@upac07
+  400  exit
+  401  ssh upac01
+  402  exit
+  403  ll
+  404  cd /ssd/a/jwu/
+  405  ll
+  406  cd src
+  407  ll
+  408  pwd
+  409  cd depot/
+  410  ll
+  411  cd system/babysitter/
+  412  ll
+  413  cd src/
+  414  ll
+  415  xe babysitter.py
+  416  pwd
+  417  cd ..
+  418  cd ..
+  419  python2 babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  420  fg
+  421  python2 babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  422  h  |grep many
+  423  pwd
+  424  cd p4/src
+  425  ll
+  426  pwd
+  427  ll
+  428  cd upthere/
+  429  ll
+  430  cd config/
+  431  ll
+  432  xe echo_test.conf 
+  433  xe echo_test.conf 
+  434  cd /ssd/a/jwu/src/depot/
+  435  ll
+  436  cd upthere/
+  437  ll
+  438  xe config/echo_test.conf 
+  439  ll
+  440  pwd
+  441  python2 ../system/babysitter/src/babysitter.py 
+  442  python2 ../system/babysitter/src/babysitter.py --help
+  443  python2 ../system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  444  rm config/test.conf
+  445  python2 ../system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  446  xe
+  447  fg
+  448  pwd
+  449  cp /ssd/a/jwu/src/depot/mirror/upthere/bin/monitor /tmp/
+  450  fg
+  451  python2 ../system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  452  fg
+  453  python2 ../system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  454  python2 ../system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  455  python2 ../system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  456  python2 ../system/babysitter/src/babysitter.py --upthere_root /ssd/a/jwu/src/depot/upthere
+  457  htop
+  458  ll
+  459  fg
+  460  fg
+  461  ll
+  462  cd /ssh/a/
+  463  ls
+  464  cd /ssd/a/jwu/
+  465  cd src
+  466  ll
+  467  cd depot/
+  468  ll
+  469  cd system/babysitter/
+  470  ll
+  471  cd src
+  472  ll
+  473  xe babysitter.py
+  474  fg
+  475  xe babysitter.py
+  476  tmux -a
+  477  tmux a
+  478  ll
+  479  tmux
+  480  ll
+  481  cd p4
+  482  ll
+  483  cd src
+  484  ]ll
+  485  pwd
+  486  cd /ssd/a/jwu/src/depot/
+  487  ll
+  488  p4 diff
+  489  p4diff
+  490  ll
+  491  which authdb
+  492  alias 
+  493  ll
+  494  who
+  495  ll
+  496  ll
+  497  cd p4/src
+  498  ll
+  499  tmux ls
+  500  tmux a
+  501  ll
+  502  p4src
+  503  ll
+  504  p4 diff
+  505  fg
+  506  xe upthere/config/echo_test.conf
+  507  ll
+  508  cp -R system /tmp
+  509  cp -R upthere /tmp
+  510  which monitor
+  511  pwd
+  512  cd ..
+  513  ll
+  514  cd ..
+  515  ll
+  516  cp debug/system/babysitter/monitor /tmp/
+  517  more /tmp/monitor 
+  518  cp debug/system/babysitter/monitor /tmp/
+  519  ps -ef | grep monitor
+  520  kill -9 13518
+  521  cp debug/system/babysitter/monitor /tmp/
+  522  chmod -R a+rx  /tmp/system
+  523  chmod -R a+rx  /tmp/upthere
+  524  ps -ef | grep monitor
+  525  ps auxf 
+  526  ps auxf  | grep upadmin
+  527  man bash
+  528  fg
+  529  pwd
+  530  cd src/depot/system/babysitter/src/
+  531  xe babysitter.py
+  532  ll
+  533  pwd
+  534  cd ..
+  535  cd ..
+  536  cd ..
+  537  pwd
+  538  cd ..
+  539  cd ..
+  540  ll
+  541  cd ..
+  542  ll
+  543  chmod -R a+rx jwu
+  544  ll jwu
+  545  chmod -x *.cmake
+  546  cd jwu/
+  547  chmod -x *.cmake
+  548  ll
+  549  chmod -x Makefile 
+  550  ll
+  551  cd ..
+  552  ll
+  553  chmod -R -x jwu/
+  554  ll
+  555  chmod +x jwu
+  556  ll
+  557  cd jwu
+  558  find ./ -type d -execdir chmod 755 {} +
+  559  ll
+  560  ll jwu
+  561  ll
+  562  h >> ~/history
+   21  grep TIME log
+   22  grep print log
+   23  grep Print log
+   24  fg
+   25  fg
+   26  xe log
+   27  xe log
+   28  grep print log
+   29  grep Print log
+   30  xe log
+   31  grep "check_services() reset #" log
+   32  fg
+   33  grep " # checked" log
+   34  cd /disk/a/logs/repo
+   35  ls
+   36  ls monitor*
+   37  xe monitor.upac07.jwu.log.INFO.20140729-181912.51265.0000
+   38  top
+   39  ls /proc/52559
+   40  ls /proc/52559/limits 
+   41  cat /proc/52559/limits 
+   42  cat /proc/52559/stat
+   43  which pfile
+   44  pfile 52559
+   45  ls /proc/52559/fd
+   46  ls /proc/52559/fd | wc -l
+   47  ls -s /proc/52559/fd
+   48  fg
+   49  cd
+   50  p4dbg
+   51  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   52  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   53  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   54  python ../src/depot/system/babysitter/tst/local_test_monitor.py 
+   55  python ../src/depot/system/babysitter/tst/local_test_monitor.py 
+   56  xe ../src/depot/system/babysitter/src/run.py
+   57  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   58  ulimit -n 
+   59  ulimit -n 4096
+   60  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   61  fg
+   62  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   63  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor_org 
+   64  fg
+   65  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor_org 
+   66  fg
+   67  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   68  fg
+   69  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   70  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=3 2>&1 | tee log
+   71  xe log
+   72  grep 'Check service' log
+   73  grep 'Check service started' log
+   74  grep 'Check services started' log
+   75  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   76  fg
+   77  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   78  build
+   79  build
+   80  build
+   81  buildfg
+   82  fg
+   83  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   84  fg
+   85  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   86  fg
+   87  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   88  fg
+   89  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   90  fg
+   91  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   92  xe dd
+   93  build
+   94  rm log
+   95  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+   96  xe dd
+   97  xe dd53999
+   98  build
+   99  system/babysitter/expire_queue_test 
+  100  build
+  101  system/babysitter/expire_queue_test 
+  102  build
+  103  system/babysitter/expire_queue_test 
+  104  build
+  105  system/babysitter/expire_queue_test 
+  106  build
+  107  system/babysitter/expire_queue_test 
+  108  build
+  109  system/babysitter/expire_queue_test 
+  110  build
+  111  system/babysitter/expire_queue_test 
+  112  build
+  113  system/babysitter/expire_queue_test 
+  114  build
+  115  system/babysitter/expire_queue_test 
+  116  build
+  117  build
+  118  system/babysitter/expire_queue_test 
+  119  build
+  120  system/babysitter/expire_queue_test 
+  121  fg
+  122  build
+  123  system/babysitter/expire_queue_test 
+  124  build
+  125  system/babysitter/expire_queue_test 
+  126  system/babysitter/expire_queue_test 
+  127  system/babysitter/expire_queue_test 
+  128  system/babysitter/expire_queue_test --logtostderr
+  129  build
+  130  system/babysitter/expire_queue_test --logtostderr
+  131  build
+  132  system/babysitter/expire_queue_test --logtostderr
+  133  gdb system/babysitter/expire_queue_test --logtostderr
+  134  gdb system/babysitter/expire_queue_test
+  135  build
+  136  system/babysitter/expire_queue_test --logtostderr
+  137  build
+  138  system/babysitter/expire_queue_test --logtostderr
+  139  build
+  140  system/babysitter/expire_queue_test --logtostderr
+  141  gdb system/babysitter/expire_queue_test
+  142  build
+  143  system/babysitter/expire_queue_test
+  144  build
+  145  system/babysitter/expire_queue_test
+  146  system/babysitter/expire_queue_test
+  147  system/babysitter/expire_queue_test
+  148  system/babysitter/expire_queue_test
+  149  system/babysitter/expire_queue_test
+  150  system/babysitter/expire_queue_test
+  151  system/babysitter/expire_queue_test
+  152  system/babysitter/expire_queue_test
+  153  build
+  154  system/babysitter/expire_queue_test
+  155  build
+  156  build
+  157  system/babysitter/expire_queue_test
+  158  build
+  159  system/babysitter/expire_queue_test
+  160  build
+  161  system/babysitter/expire_queue_test
+  162  build
+  163  system/babysitter/expire_queue_test
+  164  build
+  165  system/babysitter/expire_queue_test
+  166  build
+  167  system/babysitter/expire_queue_test
+  168  build
+  169  system/babysitter/expire_queue_test
+  170  build
+  171  system/babysitter/expire_queue_test
+  172  build
+  173  system/babysitter/expire_queue_test
+  174  build
+  175  system/babysitter/expire_queue_test
+  176  build
+  177  build
+  178  system/babysitter/expire_queue_test
+  179  build
+  180  system/babysitter/expire_queue_test
+  181  build
+  182  system/babysitter/expire_queue_test
+  183  build
+  184  system/babysitter/expire_queue_test
+  185  build
+  186  system/babysitter/expire_queue_test
+  187  build
+  188  system/babysitter/expire_queue_test
+  189  build
+  190  build
+  191  system/babysitter/expire_queue_test
+  192  build
+  193  system/babysitter/expire_queue_test
+  194  system/babysitter/expire_queue_test
+  195  system/babysitter/expire_queue_test
+  196  build
+  197  system/babysitter/expire_queue_test
+  198  build
+  199  system/babysitter/expire_queue_test
+  200  build
+  201  system/babysitter/expire_queue_test
+  202  system/babysitter/expire_queue_test
+  203  build
+  204  system/babysitter/expire_queue_test
+  205  build
+  206  system/babysitter/expire_queue_test
+  207  build
+  208  system/babysitter/expire_queue_test
+  209  build
+  210  system/babysitter/expire_queue_test
+  211  build
+  212  system/babysitter/expire_queue_test
+  213  build
+  214  system/babysitter/expire_queue_test
+  215  build
+  216  system/babysitter/expire_queue_test
+  217  build
+  218  system/babysitter/expire_queue_test
+  219  build
+  220  system/babysitter/expire_queue_test
+  221  build
+  222  system/babysitter/expire_queue_test
+  223  system/babysitter/expire_queue_test
+  224  gdb system/babysitter/expire_queue_test
+  225  system/babysitter/expire_queue_test
+  226  build
+  227  system/babysitter/expire_queue_test
+  228  build
+  229  system/babysitter/expire_queue_test
+  230  build
+  231  system/babysitter/expire_queue_test
+  232  build
+  233  system/babysitter/expire_queue_test
+  234  build
+  235  system/babysitter/expire_queue_test
+  236  build
+  237  system/babysitter/expire_queue_test
+  238  build
+  239  system/babysitter/expire_queue_test
+  240  build
+  241  system/babysitter/expire_queue_test
+  242  build
+  243  system/babysitter/expire_queue_test
+  244  system/babysitter/expire_queue_test --logtostderr
+  245  build
+  246  system/babysitter/expire_queue_test --logtostderr
+  247  build
+  248  system/babysitter/expire_queue_test --logtostderr
+  249  build
+  250  build
+  251  system/babysitter/expire_queue_test --logtostderr
+  252  build
+  253  system/babysitter/expire_queue_test --logtostderr
+  254  build
+  255  system/babysitter/expire_queue_test --logtostderr
+  256  build
+  257  system/babysitter/expire_queue_test --logtostderr
+  258  build
+  259  system/babysitter/expire_queue_test --logtostderr
+  260  build
+  261  build
+  262  build
+  263  system/babysitter/expire_queue_test --logtostderr
+  264  build
+  265  build
+  266  system/babysitter/expire_queue_test --logtostderr
+  267  build
+  268  build
+  269  system/babysitter/expire_queue_test --logtostderr
+  270  build
+  271  system/babysitter/expire_queue_test --logtostderr
+  272  build
+  273  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  274  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+  275  build
+  276  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  277  ./system/babysitter/monitor
+  278  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  279  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+  280  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 
+  281  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 
+  282  build
+  283  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  284  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+  285  xe dd
+  286  rm dd
+  287  xe dd
+  288  build
+  289  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+  290  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1 
+  291  build
+  292  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1 
+  293  build
+  294  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1 
+  295  build
+  296  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  297  build
+  298  build
+  299  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  300  cd ../release/
+  301  build
+  302  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  303  python ../src/depot/system/babysitter/tst/local_test_monitor.py 
+  304  netstat -al | grep TIME
+  305  netstat -al | grep TIME
+  306  python ../src/depot/system/babysitter/tst/local_test_monitor.py 
+  307  build
+  308  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  309  build
+  310  build
+  311  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  312  build
+  313  build
+  314  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  315  cd ../debug/
+  316  build
+  317  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor_org
+  318  netstat -al | grep TIME | wc -l
+  319  cd ../release/
+  320  build
+  321  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  322  ll
+  323  cd /disk/a/logs/repo
+  324  ls
+  325  cat monitor.upac07.jwu.log.ERROR.20140729-190109.57324.0000 
+  326  ls monitor*
+  327  ll monitor*
+  328  more monitor.upac07.jwu.log.ERROR.20140729-190109.57324.0000
+  329  more monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 
+  330  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 
+  331  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut 
+  332  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2
+  333  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 > ts.txt
+  334  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2
+  335  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | cut -d'Z' -f 1
+  336  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | cut -d'Z' -f 1 | wc -l
+  337  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 
+  338  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | cut -d'Z' -f 1 | wc -l
+  339  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | cut -d'Z' -f 1 | wc -l > time
+  340  mv /tmp/report.py  .
+  341  xe report.py 
+  342  python report.py 
+  343  fg
+  344  python report.py 
+  345  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | cut -d'Z' -f 1  > time
+  346  python report.py 
+  347  which gnuplot
+  348  fg
+  349  fg
+  350  python report.py 
+  351  fg
+  352  python report.py 
+  353  fg
+  354  python
+  355  fg
+  356  python report.py 
+  357  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | more
+  358  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | more
+  359  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | tail
+  360  python report.py 
+  361  xe monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000
+  362  ll monitor*
+  363  ll monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  364  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  365  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  366  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | wc -l
+  367  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | wc -l
+  368  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | wc -l
+  369  grep 51124 monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  370  xe monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  371  grep 51124 monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  372  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | wc -l
+  373  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | head
+  374  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | head
+  375  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | head
+  376  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | head
+  377  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 | head
+  378  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 | wc -l
+  379  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 > log.22672
+  380  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 | head
+  381  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 | wc -l
+  382  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 > log_started_time_11336
+  383  grep 'Check services done' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 7,8,9 | head
+  384  grep 'Check services done' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 8,9 | head
+  385  grep 'Check services done' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 8 | head
+  386  grep 'Check services done' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 8 | wc -l
+  387  grep 'Check services done' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 8 > check_time_11336
+  388  fg
+  389  fg
+  390  python report.py
+  391  python report.py | more
+  392  fg
+  393  python report.py | more
+  394  python report.py | tail
+  395  ll
+  396  rm -rf log_test.upac07.*
+  397  ll
+  398  rm -rf *test.up*
+  399  ll
+  400  python report.py | wc -l
+  401  python report.py > tick_11335
+  402  ll
+  403  pwd
+  404  fg
+  405  ll
+  406  ll
+  407  grep "Check services" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000
+  408  grep "Check services" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000
+  409  grep "Check services" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000
+  410  grep "Check services" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 | wc -l
+  411  grep "Check services started" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 | wc -l
+  412  grep "Check services started" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 
+  413  grep "Check services" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 | head
+  414  grep "Check services done" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 | head
+  415  grep "Check services done" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 | head
+  416  ll
+  417  cat monitor.upac07.jwu.log.ERROR.20140730-013605.2870.0000
+  418  tail monitor.upac07.jwu.log.ERROR.20140730-013605.2870.0000
+  419  ll
+  420  ll
+  421  ll
+  422  ll
+  423  tail monitor.upac07.jwu.log.INFO.20140730-013923.3083.0000
+  424  tail -f monitor.upac07.jwu.log.INFO.20140730-013923.3083.0000
+  425  ll
+  426  rm -rf baby_checker.upac07.jwu.log.INFO.20140709-075028.5146.0000 
+  427  ll
+  428  rm -rf monitor*
+  429  ll
+  430  ll
+  431  ll
+  432  cat monitor.upac07.jwu.log.WARNING.20140730-174532.47210.0000
+  433  ll
+  434  xe monitor.upac07.jwu.log.INFO.20140730-174532.47210.0000 
+  435  ll
+  436  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140730-174532.47210.0000
+  437  ll
+  438  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140730-200730.3869.0000
+  439  ll
+  440  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140730-200955.30647.0000
+  441  top
+  442  ll
+  443  netstat -al 
+  444  netstat -al | grep TIME
+  445  netstat -al | grep TIME
+  446  netstat -al | grep TIME | wc -l
+  447  netstat -al | grep upac02.prod.upthe:50
+  448  netstat -al | grep upac02
+  449  netstat -al | grep upac02
+  450  netstat -al
+  451  netstat -al | grep 10.1.2.2:50
+  452  netstat -al | grep 10.1.2.2:50 | wc -l
+  453  ll
+  454  fg
+  455  fg
+  456  xe monitor.upac07.jwu.log.INFO.20140730-215047.12958.0000
+  457  fg
+  458  ll
+  459  tail monitor.upac07.jwu.log.INFO.20140730-231837.34541.0000
+  460  xe monitor.upac07.jwu.log.INFO.20140730-231837.34541.0000
+  461  ll
+  462  xe monitor_org.upac07.jwu.log.INFO.20140731-045816.49815.0000
+  463  ll
+  464  fg
+  465  xe monitor.upac07.jwu.log.INFO.20140731-041157.38994.0000
+  466  netstat -al | more
+  467  netstat -al | grep '10.1.2.4:5'
+  468  netstat -al | grep '10.1.2.4:5' | wc -l
+  469  netstat -al | grep '10.1.2.?:5' | wc -l
+  470  netstat -al | grep "10.1.2.?:5" | wc -l
+  471  netstat -al | egrep "10.1.2.?:5" | wc -l
+  472  netstat -al | grep '10.1.2.4:5' | wc -l
+  473  netstat -al | grep '10.1.2.?:5' | wc -l
+  474  netstat -al | grep '10.1.2..:5' | wc -l
+  475  netstat -al | grep '10.1.2..:5' | wc -l
+  476  netstat -al | grep '10.1.2..:5' | wc -l
+  477  netstat -al | grep '10.1.2..:5' 
+  478  netstat -al | grep '10.1.2..:5' 
+  479  netstat -al | grep '10.1.2..:5'  | wc -l
+  480  netstat -al | grep '10.1.2..:5'  | wc -l
+  481  netstat -al | grep '10.1.2..:5'  | wc -l
+  482  netstat -al | grep '10.1.2..:5'  | wc -l
+  483  netstat -al 
+  484  netstat -al | grep TIME_WAIT  | wc -l
+  485  ls
+  486  ll
+  487  fg
+  488  p4src
+  489  ll
+  490  p4 sync
+  491  ls
+  492  ls -l
+  493  emacs -nw system/babysitter/src/babysitter.py
+  494  ps -ef | grep jwu
+  495  ps -o pid,pgid,cmd 5023 59983
+  496  fg
+  497  man kill
+  498  fg
+  499  fg
+  500  tmux
+  501  p4dbg
+  502  netstat -al 
+  503  netstat -al | wc -l
+  504  netstat -al | grep TIME
+  505  tail log
+  506  tail -n50 log
+  507  build
+  508  netstat -al | grep TIME | wc -l
+  509  ls
+  510  tail log
+  511  xe log
+  512  grep "monitor.cpp:549" log
+  513  fg
+  514  ll log
+  515  tail log
+  516  xe log
+  517  man signal
+  518  build
+  519  man signal
+  520  history >> ~/history 
+   76  fg
+   77  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   78  build
+   79  build
+   80  build
+   81  buildfg
+   82  fg
+   83  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   84  fg
+   85  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   86  fg
+   87  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   88  fg
+   89  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   90  fg
+   91  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+   92  xe dd
+   93  build
+   94  rm log
+   95  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+   96  xe dd
+   97  xe dd53999
+   98  build
+   99  system/babysitter/expire_queue_test 
+  100  build
+  101  system/babysitter/expire_queue_test 
+  102  build
+  103  system/babysitter/expire_queue_test 
+  104  build
+  105  system/babysitter/expire_queue_test 
+  106  build
+  107  system/babysitter/expire_queue_test 
+  108  build
+  109  system/babysitter/expire_queue_test 
+  110  build
+  111  system/babysitter/expire_queue_test 
+  112  build
+  113  system/babysitter/expire_queue_test 
+  114  build
+  115  system/babysitter/expire_queue_test 
+  116  build
+  117  build
+  118  system/babysitter/expire_queue_test 
+  119  build
+  120  system/babysitter/expire_queue_test 
+  121  fg
+  122  build
+  123  system/babysitter/expire_queue_test 
+  124  build
+  125  system/babysitter/expire_queue_test 
+  126  system/babysitter/expire_queue_test 
+  127  system/babysitter/expire_queue_test 
+  128  system/babysitter/expire_queue_test --logtostderr
+  129  build
+  130  system/babysitter/expire_queue_test --logtostderr
+  131  build
+  132  system/babysitter/expire_queue_test --logtostderr
+  133  gdb system/babysitter/expire_queue_test --logtostderr
+  134  gdb system/babysitter/expire_queue_test
+  135  build
+  136  system/babysitter/expire_queue_test --logtostderr
+  137  build
+  138  system/babysitter/expire_queue_test --logtostderr
+  139  build
+  140  system/babysitter/expire_queue_test --logtostderr
+  141  gdb system/babysitter/expire_queue_test
+  142  build
+  143  system/babysitter/expire_queue_test
+  144  build
+  145  system/babysitter/expire_queue_test
+  146  system/babysitter/expire_queue_test
+  147  system/babysitter/expire_queue_test
+  148  system/babysitter/expire_queue_test
+  149  system/babysitter/expire_queue_test
+  150  system/babysitter/expire_queue_test
+  151  system/babysitter/expire_queue_test
+  152  system/babysitter/expire_queue_test
+  153  build
+  154  system/babysitter/expire_queue_test
+  155  build
+  156  build
+  157  system/babysitter/expire_queue_test
+  158  build
+  159  system/babysitter/expire_queue_test
+  160  build
+  161  system/babysitter/expire_queue_test
+  162  build
+  163  system/babysitter/expire_queue_test
+  164  build
+  165  system/babysitter/expire_queue_test
+  166  build
+  167  system/babysitter/expire_queue_test
+  168  build
+  169  system/babysitter/expire_queue_test
+  170  build
+  171  system/babysitter/expire_queue_test
+  172  build
+  173  system/babysitter/expire_queue_test
+  174  build
+  175  system/babysitter/expire_queue_test
+  176  build
+  177  build
+  178  system/babysitter/expire_queue_test
+  179  build
+  180  system/babysitter/expire_queue_test
+  181  build
+  182  system/babysitter/expire_queue_test
+  183  build
+  184  system/babysitter/expire_queue_test
+  185  build
+  186  system/babysitter/expire_queue_test
+  187  build
+  188  system/babysitter/expire_queue_test
+  189  build
+  190  build
+  191  system/babysitter/expire_queue_test
+  192  build
+  193  system/babysitter/expire_queue_test
+  194  system/babysitter/expire_queue_test
+  195  system/babysitter/expire_queue_test
+  196  build
+  197  system/babysitter/expire_queue_test
+  198  build
+  199  system/babysitter/expire_queue_test
+  200  build
+  201  system/babysitter/expire_queue_test
+  202  system/babysitter/expire_queue_test
+  203  build
+  204  system/babysitter/expire_queue_test
+  205  build
+  206  system/babysitter/expire_queue_test
+  207  build
+  208  system/babysitter/expire_queue_test
+  209  build
+  210  system/babysitter/expire_queue_test
+  211  build
+  212  system/babysitter/expire_queue_test
+  213  build
+  214  system/babysitter/expire_queue_test
+  215  build
+  216  system/babysitter/expire_queue_test
+  217  build
+  218  system/babysitter/expire_queue_test
+  219  build
+  220  system/babysitter/expire_queue_test
+  221  build
+  222  system/babysitter/expire_queue_test
+  223  system/babysitter/expire_queue_test
+  224  gdb system/babysitter/expire_queue_test
+  225  system/babysitter/expire_queue_test
+  226  build
+  227  system/babysitter/expire_queue_test
+  228  build
+  229  system/babysitter/expire_queue_test
+  230  build
+  231  system/babysitter/expire_queue_test
+  232  build
+  233  system/babysitter/expire_queue_test
+  234  build
+  235  system/babysitter/expire_queue_test
+  236  build
+  237  system/babysitter/expire_queue_test
+  238  build
+  239  system/babysitter/expire_queue_test
+  240  build
+  241  system/babysitter/expire_queue_test
+  242  build
+  243  system/babysitter/expire_queue_test
+  244  system/babysitter/expire_queue_test --logtostderr
+  245  build
+  246  system/babysitter/expire_queue_test --logtostderr
+  247  build
+  248  system/babysitter/expire_queue_test --logtostderr
+  249  build
+  250  build
+  251  system/babysitter/expire_queue_test --logtostderr
+  252  build
+  253  system/babysitter/expire_queue_test --logtostderr
+  254  build
+  255  system/babysitter/expire_queue_test --logtostderr
+  256  build
+  257  system/babysitter/expire_queue_test --logtostderr
+  258  build
+  259  system/babysitter/expire_queue_test --logtostderr
+  260  build
+  261  build
+  262  build
+  263  system/babysitter/expire_queue_test --logtostderr
+  264  build
+  265  build
+  266  system/babysitter/expire_queue_test --logtostderr
+  267  build
+  268  build
+  269  system/babysitter/expire_queue_test --logtostderr
+  270  build
+  271  system/babysitter/expire_queue_test --logtostderr
+  272  build
+  273  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  274  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+  275  build
+  276  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  277  ./system/babysitter/monitor
+  278  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  279  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+  280  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 
+  281  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 
+  282  build
+  283  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  284  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+  285  xe dd
+  286  rm dd
+  287  xe dd
+  288  build
+  289  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+  290  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1 
+  291  build
+  292  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1 
+  293  build
+  294  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1 
+  295  build
+  296  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  297  build
+  298  build
+  299  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  300  cd ../release/
+  301  build
+  302  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  303  python ../src/depot/system/babysitter/tst/local_test_monitor.py 
+  304  netstat -al | grep TIME
+  305  netstat -al | grep TIME
+  306  python ../src/depot/system/babysitter/tst/local_test_monitor.py 
+  307  build
+  308  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  309  build
+  310  build
+  311  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  312  build
+  313  build
+  314  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1
+  315  cd ../debug/
+  316  build
+  317  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor_org
+  318  netstat -al | grep TIME | wc -l
+  319  cd ../release/
+  320  build
+  321  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  322  ll
+  323  cd /disk/a/logs/repo
+  324  ls
+  325  cat monitor.upac07.jwu.log.ERROR.20140729-190109.57324.0000 
+  326  ls monitor*
+  327  ll monitor*
+  328  more monitor.upac07.jwu.log.ERROR.20140729-190109.57324.0000
+  329  more monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 
+  330  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 
+  331  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut 
+  332  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2
+  333  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 > ts.txt
+  334  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2
+  335  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | cut -d'Z' -f 1
+  336  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | cut -d'Z' -f 1 | wc -l
+  337  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 
+  338  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | cut -d'Z' -f 1 | wc -l
+  339  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | cut -d'Z' -f 1 | wc -l > time
+  340  mv /tmp/report.py  .
+  341  xe report.py 
+  342  python report.py 
+  343  fg
+  344  python report.py 
+  345  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | cut -d'Z' -f 1  > time
+  346  python report.py 
+  347  which gnuplot
+  348  fg
+  349  fg
+  350  python report.py 
+  351  fg
+  352  python report.py 
+  353  fg
+  354  python
+  355  fg
+  356  python report.py 
+  357  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | more
+  358  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | more
+  359  grep 'dead services' monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000 | cut -d' ' -f 2 | tail
+  360  python report.py 
+  361  xe monitor.upac07.jwu.log.INFO.20140729-190109.57324.0000
+  362  ll monitor*
+  363  ll monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  364  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  365  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  366  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | wc -l
+  367  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | wc -l
+  368  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | wc -l
+  369  grep 51124 monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  370  xe monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  371  grep 51124 monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 
+  372  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | wc -l
+  373  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | head
+  374  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000  | head
+  375  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | head
+  376  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2 | head
+  377  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 | head
+  378  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 | wc -l
+  379  grep 'Check services' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 > log.22672
+  380  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 | head
+  381  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 | wc -l
+  382  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 2 | cut -d'T' -f 2  | cut -d'Z' -f1 > log_started_time_11336
+  383  grep 'Check services done' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 7,8,9 | head
+  384  grep 'Check services done' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 8,9 | head
+  385  grep 'Check services done' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 8 | head
+  386  grep 'Check services done' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 8 | wc -l
+  387  grep 'Check services done' monitor.upac07.jwu.log.INFO.20140729-230042.27708.0000 | cut -d' ' -f 8 > check_time_11336
+  388  fg
+  389  fg
+  390  python report.py
+  391  python report.py | more
+  392  fg
+  393  python report.py | more
+  394  python report.py | tail
+  395  ll
+  396  rm -rf log_test.upac07.*
+  397  ll
+  398  rm -rf *test.up*
+  399  ll
+  400  python report.py | wc -l
+  401  python report.py > tick_11335
+  402  ll
+  403  pwd
+  404  fg
+  405  ll
+  406  ll
+  407  grep "Check services" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000
+  408  grep "Check services" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000
+  409  grep "Check services" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000
+  410  grep "Check services" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 | wc -l
+  411  grep "Check services started" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 | wc -l
+  412  grep "Check services started" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 
+  413  grep "Check services" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 | head
+  414  grep "Check services done" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 | head
+  415  grep "Check services done" monitor.upac07.jwu.log.INFO.20140729-235204.33607.0000 | head
+  416  ll
+  417  cat monitor.upac07.jwu.log.ERROR.20140730-013605.2870.0000
+  418  tail monitor.upac07.jwu.log.ERROR.20140730-013605.2870.0000
+  419  ll
+  420  ll
+  421  ll
+  422  ll
+  423  tail monitor.upac07.jwu.log.INFO.20140730-013923.3083.0000
+  424  tail -f monitor.upac07.jwu.log.INFO.20140730-013923.3083.0000
+  425  ll
+  426  rm -rf baby_checker.upac07.jwu.log.INFO.20140709-075028.5146.0000 
+  427  ll
+  428  rm -rf monitor*
+  429  ll
+  430  ll
+  431  ll
+  432  cat monitor.upac07.jwu.log.WARNING.20140730-174532.47210.0000
+  433  ll
+  434  xe monitor.upac07.jwu.log.INFO.20140730-174532.47210.0000 
+  435  ll
+  436  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140730-174532.47210.0000
+  437  ll
+  438  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140730-200730.3869.0000
+  439  ll
+  440  grep 'Check services started' monitor.upac07.jwu.log.INFO.20140730-200955.30647.0000
+  441  top
+  442  ll
+  443  netstat -al 
+  444  netstat -al | grep TIME
+  445  netstat -al | grep TIME
+  446  netstat -al | grep TIME | wc -l
+  447  netstat -al | grep upac02.prod.upthe:50
+  448  netstat -al | grep upac02
+  449  netstat -al | grep upac02
+  450  netstat -al
+  451  netstat -al | grep 10.1.2.2:50
+  452  netstat -al | grep 10.1.2.2:50 | wc -l
+  453  ll
+  454  fg
+  455  fg
+  456  xe monitor.upac07.jwu.log.INFO.20140730-215047.12958.0000
+  457  fg
+  458  ll
+  459  tail monitor.upac07.jwu.log.INFO.20140730-231837.34541.0000
+  460  xe monitor.upac07.jwu.log.INFO.20140730-231837.34541.0000
+  461  ll
+  462  xe monitor_org.upac07.jwu.log.INFO.20140731-045816.49815.0000
+  463  ll
+  464  fg
+  465  xe monitor.upac07.jwu.log.INFO.20140731-041157.38994.0000
+  466  netstat -al | more
+  467  netstat -al | grep '10.1.2.4:5'
+  468  netstat -al | grep '10.1.2.4:5' | wc -l
+  469  netstat -al | grep '10.1.2.?:5' | wc -l
+  470  netstat -al | grep "10.1.2.?:5" | wc -l
+  471  netstat -al | egrep "10.1.2.?:5" | wc -l
+  472  netstat -al | grep '10.1.2.4:5' | wc -l
+  473  netstat -al | grep '10.1.2.?:5' | wc -l
+  474  netstat -al | grep '10.1.2..:5' | wc -l
+  475  netstat -al | grep '10.1.2..:5' | wc -l
+  476  netstat -al | grep '10.1.2..:5' | wc -l
+  477  netstat -al | grep '10.1.2..:5' 
+  478  netstat -al | grep '10.1.2..:5' 
+  479  netstat -al | grep '10.1.2..:5'  | wc -l
+  480  netstat -al | grep '10.1.2..:5'  | wc -l
+  481  netstat -al | grep '10.1.2..:5'  | wc -l
+  482  netstat -al | grep '10.1.2..:5'  | wc -l
+  483  netstat -al 
+  484  netstat -al | grep TIME_WAIT  | wc -l
+  485  ls
+  486  ll
+  487  fg
+  488  p4src
+  489  ll
+  490  p4 sync
+  491  ls
+  492  ls -l
+  493  emacs -nw system/babysitter/src/babysitter.py
+  494  ps -ef | grep jwu
+  495  ps -o pid,pgid,cmd 5023 59983
+  496  fg
+  497  man kill
+  498  fg
+  499  fg
+  500  tmux
+  501  who
+  502  uptime
+  503  tmux ls
+  504  ps -ef | grep monitor
+  505  kill -9 48683
+  506  ps -ef | grep monitor
+  507  p4dbg
+  508  cd ../release/
+  509  build
+  510  cd ../debug/
+  511  build
+  512  python ../src/depot/system/babysitter/tst/local_test_monitor.py 
+  513  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  514  ulimit -n
+  515  ulimit -n 4096
+  516  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  517  build
+  518  python ../src/depot/system/babysitter/tst/local_test_monitor.py 
+  519  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  520  build
+  521  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  522  build
+  523  build
+  524  build
+  525  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  526  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  527  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  528  echo $?
+  529  ulimit
+  530  ulimit -n
+  531  ./system/babysitter/monitor 
+  532  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  533  build
+  534  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  535  build
+  536  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  537  echo $?
+  538  build
+  539  build
+  540  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  541  build
+  542  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  543  build
+  544  build
+  545  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr
+  546  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity 4
+  547  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  548  build
+  549  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  550  build
+  551  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  552  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  553  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+  554  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+  555  man 2 read
+  556  build
+  557  python ../src/depot/system/babysitter/tst/local_test_monitor.py 
+  558  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  559  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 2>&1 | tee log
+  560  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1 | tee log
+  561  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr 2>&1  > log
+  562  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr > log 2>&1
+  563  tail log
+  564  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor --logtostderr --verbosity=4 >log 2>&1
+  565  strace python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  566  python ../src/depot/system/babysitter/src/run.py | strace ./system/babysitter/monitor
+  567  python ../src/depot/system/babysitter/src/run.py | strace -t ./system/babysitter/monitor
+  568  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  569  python ../src/depot/system/babysitter/src/run.py | strace -t ./system/babysitter/monitor
+  570  build
+  571  man signal
+  572  build
+  573  python ../src/depot/system/babysitter/src/run.py | strace -t ./system/babysitter/monitor
+  574  python ../src/depot/system/babysitter/src/run.py | ./system/babysitter/monitor
+  575  history >> ~/history 

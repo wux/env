@@ -1,0 +1,500 @@
+  114  ps auxf | grep upprod1;
+  115  ps auxf | grep upprod1;
+  116  ps auxf | grep upprod1;
+  117  ps auxf | grep upprod1;
+  118  ps auxf | grep upprod1;
+  119  ps auxf | grep upprod1;
+  120  ps auxf | grep upprod1;
+  121  ps auxf | grep upprod1;
+  122  ps auxf | grep upprod1;
+  123  ps auxf | grep upprod1;
+  124  ps auxf | grep upprod1;
+  125  ps auxf | grep upprod1;
+  126  ps auxf | grep upprod1;
+  127  ps auxf | grep upprod1;
+  128  ps auxf | grep upprod1;
+  129  ps auxf | grep upprod1;
+  130  ps auxf | grep upprod1;
+  131  ps auxf | grep upprod1;
+  132  ps auxf | grep upprod1;
+  133  ps auxf | grep upprod1;
+  134  ps auxf | grep upprod1;
+  135  ps auxf | grep upprod1;
+  136  ps auxf | grep upprod1;
+  137  ps auxf | grep upprod1;
+  138  ps auxf | grep upprod1;
+  139  ps auxf | grep upprod1;
+  140  ps auxf | grep upprod1;
+  141  ps auxf | grep upprod1;
+  142  ps auxf | grep upprod1;
+  143  ps auxf | grep upprod1;
+  144  killall loop.sh
+  145  killall proxy_server.py
+  146  ps auxf | grep upprod1;
+  147  ps auxf | grep upprod1;
+  148  kill -9 1754
+  149  ps auxf | grep upprod1;
+  150  kill -9 3244 3247
+  151  ps auxf | grep upprod1;
+  152  ps auxf | grep upprod1;
+  153  ps auxf | grep upprod1;
+  154  ps auxf | grep upprod1;
+  155  killall loop.sh; killall echo_server.py; killall proxy_server.py
+  156  ps auxf | grep upprod1;
+  157  ps auxf | grep upprod1;
+  158  ps auxf | grep upprod1;
+  159  ps auxf | grep upprod1;
+  160  ps auxf | grep upprod1;
+  161  ps auxf | grep upprod1;
+  162  ps auxf | grep upprod1;
+  163  ps auxf | grep upprod1;
+  164  ps auxf | grep upprod1;
+  165  ps auxf | grep upprod1;
+  166  ps auxf | grep upprod1;
+  167  ps auxf | grep upprod1;
+  168  ps auxf | grep upprod1;
+  169  ps auxf | grep upprod1;
+  170  ps auxf | grep upprod1;
+  171  ps auxf | grep upprod1;
+  172  ps auxf | grep upprod1;
+  173  ps auxf | grep upprod1;
+  174  ps auxf | grep upprod1;
+  175  ps auxf | grep upprod1;
+  176  ps auxf | grep upprod1;
+  177  ps auxf | grep upprod1;
+  178  ps auxf | grep upprod1;
+  179  ps auxf | grep upprod1;
+  180  ps auxf | grep upprod1;
+  181  ps auxf | grep upprod1;
+  182  ps auxf | grep upprod1;
+  183  ps auxf | grep upprod1;
+  184  ps auxf | grep upprod1;
+  185  ps auxf | grep upprod1;
+  186  ps auxf | grep upprod1;
+  187  ps auxf | grep upprod1;netstat -al | grep 5000 | grep upac07 | grep -v TIME_WAIT; ls /tmp
+  188  killall loop.sh; killall echo_server.py; killall proxy_server.py
+  189  ps auxf | grep upprod1;
+  190  ps auxf | grep upprod1;
+  191  ps auxf | grep upprod1;
+  192  ps auxf | grep upprod1;
+  193  ps auxf | grep upprod1;
+  194  kill -9 4264 4267
+  195  ps auxf | grep upprod1;
+  196  ps auxf | grep upprod1;
+  197  ps auxf | grep upprod1;
+  198  ps auxf | grep upprod1;
+  199  ps auxf | grep upprod1;
+  200  ps auxf | grep upprod1;
+  201  ps auxf | grep upprod1;
+  202  ps auxf | grep upprod1;
+  203  kill -9 4248 4251
+  204  ps auxf | grep upprod1;
+  205  ps auxf | grep upprod1;
+  206  killall loop.sh; killall echo_server.py; killall proxy_server.py
+  207  ps auxf | grep upprod1;
+  208  exit
+  209  ps auxf | grep upprod1
+  210  ls /upthere/bin/
+  211  ps auxf | grep upprod1
+  212  ps auxf | grep upprod1
+  213  kill -9 6229 6232
+  214  ps auxf | grep upprod1
+  215  ps auxf | grep upprod1
+  216  ps auxf | grep upprod1
+  217  ps auxf | grep upprod1
+  218  ps auxf | grep upprod1
+  219  ps auxf | grep upprod1
+  220  ps auxf | grep upprod1
+  221  ps auxf | grep upprod1
+  222  ps auxf | grep upprod1
+  223  ps auxf | grep upprod1
+  224  ps auxf | grep upprod1
+  225  ps auxf | grep upprod1
+  226  ps auxf | grep upprod1
+  227  ps auxf | grep upprod1
+  228  ps auxf | grep upprod1
+  229  ps auxf | grep upprod1
+  230  kill -9 6236
+  231  ps auxf | grep upprod1
+  232  kill -9 10369 6093
+  233  ps auxf | grep upprod1
+  234  ps auxf | grep upprod1
+  235  ps auxf | grep upprod1
+  236  ps auxf | grep upprod1
+  237  ps auxf | grep upprod1
+  238  ps auxf | grep upprod1
+  239  ps auxf | grep upprod1
+  240  ps auxf | grep upprod1
+  241  ps auxf | grep upprod1
+  242  ps auxf | grep upprod1
+  243  ps auxf | grep upprod1
+  244  ps auxf | grep upprod1
+  245  ps auxf | grep upprod1
+  246  ps auxf | grep upprod1
+  247  ps auxf | grep upprod1
+  248  ps auxf | grep upprod1
+  249  ps auxf | grep upprod1
+  250  ps auxf | grep upprod1
+  251  ps auxf | grep upprod1
+  252  ps auxf | grep upprod1
+  253  ps auxf | grep upprod1
+  254  ps auxf | grep upprod1
+  255  ps auxf | grep upprod1
+  256  ps auxf | grep upprod1
+  257  ps auxf | grep upprod1
+  258  ps auxf | grep upprod1
+  259  ps auxf | grep upprod1
+  260  ps auxf | grep upprod1
+  261  ps auxf | grep upprod1
+  262  ps auxf | grep upprod1
+  263  ps auxf | grep upprod1
+  264  ps auxf | grep upprod1
+  265  ps auxf | grep upprod1
+  266  ps auxf | grep upprod1
+  267  kill -9 9038 9041
+  268  ps auxf | grep upprod1
+  269  ps auxf | grep upprod1
+  270  ps auxf | grep upprod1
+  271  ps auxf | grep upprod1
+  272  ps auxf | grep upprod1
+  273  ps auxf | grep upprod1
+  274  ps auxf | grep upprod1
+  275  ps auxf | grep upprod1
+  276  ps auxf | grep upprod1
+  277  ps auxf | grep upprod1
+  278  ps auxf | grep upprod1
+  279  ps auxf | grep upprod1
+  280  ps auxf | grep upprod1
+  281  ps auxf | grep upprod1
+  282  ps auxf | grep upprod1
+  283  kill -9 11511 11514
+  284  ps auxf | grep upprod1
+  285  ps auxf | grep upprod1
+  286  ps auxf | grep upprod1
+  287  ps auxf | grep upprod1
+  288  kill -9 13481 13484
+  289  ps auxf | grep upprod1
+  290  ps auxf | grep upprod1
+  291  ps auxf | grep upprod1
+  292  ps auxf | grep upprod1
+  293  ps auxf | grep upprod1
+  294  ps auxf | grep upprod1
+  295  ps auxf | grep upprod1
+  296  ps auxf | grep upprod1
+  297  ps auxf | grep upprod1
+  298  ps auxf | grep upprod1
+  299  ps auxf | grep upprod1
+  300  ps auxf | grep upprod1
+  301  ps auxf | grep upprod1
+  302  ps auxf | grep upprod1
+  303  ps auxf | grep upprod1
+  304  ps auxf | grep upprod1
+  305  ps auxf | grep upprod1
+  306  ps auxf | grep upprod1
+  307  ps auxf | grep upprod1
+  308  ps auxf | grep upprod1
+  309  ps auxf | grep upprod1
+  310  ps auxf | grep upprod1
+  311  ps auxf | grep upprod1
+  312  ps auxf | grep upprod1
+  313  ps auxf | grep upprod1
+  314  ps auxf | grep upprod1
+  315  ps auxf | grep upprod1
+  316  ps auxf | grep upprod1
+  317  ps auxf | grep upprod1
+  318  ps auxf | grep upprod1
+  319  ps auxf | grep upprod1
+  320  ps auxf | grep upprod1
+  321  ps auxf | grep upprod1
+  322  ps auxf | grep upprod1
+  323  ps auxf | grep upprod1
+  324  ps auxf | grep upprod1
+  325  ps auxf | grep upprod1
+  326  ps auxf | grep upprod1
+  327  ps auxf | grep upprod1
+  328  ps auxf | grep upprod1
+  329  ps auxf | grep upprod1
+  330  ps auxf | grep upprod1
+  331  ps auxf | grep upprod1
+  332  ps auxf | grep upprod1
+  333  ps auxf | grep upprod1
+  334  ps auxf | grep upprod1
+  335  ps auxf | grep upprod1
+  336  ps auxf | grep upprod1
+  337  ps auxf | grep upprod1
+  338  ps auxf | grep upprod1
+  339  ps auxf | grep upprod1
+  340  ps auxf | grep upprod1
+  341  ps auxf | grep upprod1
+  342  ps auxf | grep upprod1
+  343  ps auxf | grep upprod1
+  344  ps auxf | grep upprod1
+  345  ps auxf | grep upprod1
+  346  ps auxf | grep upprod1
+  347  ps auxf | grep upprod1
+  348  ps auxf | grep upprod1
+  349  ps auxf | grep upprod1
+  350  ps auxf | grep upprod1
+  351  ps auxf | grep upprod1
+  352  ps auxf | grep upprod1
+  353  netstat -al | grep TIME
+  354  netstat -al | grep TIME
+  355  ps auxf | grep upprod1
+  356  ps auxf | grep upprod1
+  357  ps auxf | grep upprod1
+  358  ps auxf | grep upprod1
+  359  ps auxf | grep upprod1
+  360  ps auxf | grep upprod1
+  361  ps auxf | grep upprod1
+  362  ps auxf | grep upprod1
+  363  ps auxf | grep upprod1
+  364  ps auxf | grep upprod1
+  365  ps auxf | grep upprod1
+  366  ps auxf | grep upprod1
+  367  ps auxf | grep upprod1
+  368  ps auxf | grep upprod1
+  369  ps auxf | grep upprod1
+  370  ps auxf | grep upprod1
+  371  ps auxf | grep upprod1
+  372  ps auxf | grep upprod1
+  373  ps auxf | grep upprod1
+  374  ps auxf | grep upprod1
+  375  ps auxf | grep upprod1
+  376  ps auxf | grep upprod1
+  377  ps auxf | grep upprod1
+  378  ps auxf | grep upprod1
+  379  ps auxf | grep upprod1
+  380  ps auxf | grep upprod1
+  381  ps auxf | grep upprod1
+  382  ps auxf | grep upprod1
+  383  ps auxf | grep upprod1
+  384  ps auxf | grep upprod1
+  385  ps auxf | grep upprod1
+  386  ps auxf | grep upprod1
+  387  ps auxf | grep upprod1
+  388  ps auxf | grep upprod1
+  389  ps auxf | grep upprod1
+  390  ps auxf | grep upprod1
+  391  ps auxf | grep upprod1
+  392  ps auxf | grep upprod1
+  393  ps auxf | grep upprod1
+  394  ps auxf | grep upprod1
+  395  ps auxf | grep upprod1
+  396  ps auxf | grep upprod1
+  397  ps auxf | grep upprod1
+  398  ps auxf | grep upprod1
+  399  ps auxf | grep upprod1
+  400  ps auxf | grep upprod1
+  401  ps auxf | grep upprod1
+  402  ps auxf | grep upprod1
+  403  ps auxf | grep upprod1
+  404  ps auxf | grep upprod1
+  405  kill -9 24125 24130
+  406  ps auxf | grep upprod1
+  407  ps auxf | grep upprod1
+  408  ps auxf | grep upprod1
+  409  ps auxf | grep upprod1
+  410  ps auxf | grep upprod1
+  411  ps auxf | grep upprod1
+  412  ps auxf | grep upprod1
+  413  ps auxf | grep upprod1
+  414  ps auxf | grep upprod1
+  415  ps auxf | grep upprod1
+  416  ps auxf | grep upprod1
+  417  ps auxf | grep upprod1
+  418  ps auxf | grep upprod1
+  419  ps auxf | grep upprod1
+  420  ps auxf | grep upprod1
+  421  ps auxf | grep upprod1
+  422  ps auxf | grep upprod1
+  423  ps auxf | grep upprod1
+  424  ps auxf | grep upprod1
+  425  ps auxf | grep upprod1
+  426  ps auxf | grep upprod1
+  427  ps auxf | grep upprod1
+  428  ps auxf | grep upprod1
+  429  ps auxf | grep upprod1
+  430  ls /tmp
+  431  ls /tmp/upprod1_06.jwu 
+  432  ls -al /tmp/upprod1_06.jwu 
+  433  cat /tmp/upprod1_06.jwu 
+  434  ll
+  435  ps auxf | grep upprod1
+  436  kill -9 35175 35178
+  437  ps auxf | grep upprod1
+  438  ps auxf | grep upprod1
+  439  ps auxf | grep upprod1
+  440  kill -9 35745 35742
+  441  ps auxf | grep upprod1
+  442  ps auxf | grep upprod1
+  443  kill -9 36873 36876
+  444  kill -9 36873 36876
+  445  ps auxf | grep upprod1
+  446  ps auxf | grep upprod1
+  447  kill -9 38349 38352
+  448  ps auxf | grep upprod1
+  449  kill -9 39011 39014
+  450  ps auxf | grep upprod1
+  451  ps auxf | grep upprod1
+  452  kill -9 40255 40258
+  453  ps auxf | grep upprod1
+  454  su
+  455  $?
+  456  ps auxf | grep upprod1
+  457  kill -9 44013 44016
+  458  ps auxf | grep upprod1
+  459  ps auxf | grep upprod1
+  460  ps auxf | grep upprod1
+  461  ps auxf | grep upprod1
+  462  ps auxf | grep upprod1
+  463  su --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || echo 100 + $?;
+  464  su --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1
+  465  echo $?
+  466  su --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1; [[ $? == 0 ]] || echo $?;
+  467  su --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1; echo $?
+  468  su --non-interactive --background  -u upprod1 /upthere/bin/loop.sh /upthere/bin/echo_server.py --port 50001 2>&1 >> /disk/a/logs/loop.10.1.2.6.50001.upprod1.echo_server.py.$$ > /dev/null 2>&1; rc=$?; [[ $rc == 0 ]] || echo $rc;
+  469  rc=100; echo rc + 1
+  470  rc=100; echo $rc + 1
+  471  rc=100; echo ($rc + 1)
+  472  rc=100; echo eval($rc + 1)
+  473  rc=100; echo $((rc + 1))
+  474  ps auxf | grep upprod1
+  475  ls /tmp/__babysitter_lock.50001 
+  476  ps auxf | grep upprod1
+  477  ps auxf | grep upprod1
+  478  ps auxf | grep upprod1
+  479  pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}");echo $list
+  480  pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); echo $list
+  481  pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); echo $list
+  482  pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}")
+  483  pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"))
+  484  pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); echo $list }
+  485  pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); echo $list; }
+  486  pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); echo $list; }
+  487  xe /tmp/a.sh
+  488  emacs /tmp/a.sh
+  489  bash -x /tmp/a.sh
+  490  fg
+  491  emacs /tmp/a.sh
+  492  bash -x /tmp/a.sh
+  493  fg
+  494  bash -x /tmp/a.sh
+  495  bash -x /tmp/a.sh
+  496  perf stat 'pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); echo $list; }'
+  497  perf stat pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); echo $list; }
+  498  pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); echo $list; }
+  499  perf stat pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }
+  500  perf stat 'pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }'
+  501  perf stat 'pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }'
+  502  ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"
+  503  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  504  ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"
+  505  perf stat 'pids=($(pgrep -u upprod1 -f "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }'
+  506  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  507  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  508  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  509  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  510  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  511  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  512  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  513  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  514  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  515  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  516  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  517  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  518  perf stat 'pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }'
+  519  perf stat 'pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }'
+  520  perf stat 'pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }'
+  521  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  522  perf stat 'pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }'
+  523  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  524  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  525  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  526  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  527  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  528  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  529  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  530  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  531  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  532  perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"'
+  533  perf stat 'pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }'
+  534  perf stat 'for i in {1..100}; do pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }; done'
+  535  for i in {1..100}; do pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }; done
+  536  time 'for i in {1..100}; do pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }; done'
+  537  time bash -c 'for i in {1..100}; do pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }; done'
+  538  time bash -c 'for i in {1..100}; do perf stat 'ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"; done'
+  539  time bash -c 'for i in {1..100}; do ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"; done'
+  540  time bash -c 'for i in {1..100}; do ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g" > /dev/null; done'
+  541  time bash -c 'for i in {1..100}; do pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }; done'
+  542  time bash -c 'for i in {1..100}; do list=$(ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"); done'
+  543  time bash -c 'for i in {1..100}; do pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }; done'
+  544  time bash -c 'for i in {1..100}; do list=$(ps -o pgid,cmd -u upprod1 | egrep -e ".*echo_server.py.*--port[ =]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"); done'
+  545  time bash -c 'for i in {1..100}; do pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }; done'
+  546  time bash -c 'for i in {1..100}; do pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }; done'
+  547  time bash -c 'for i in {1..100}; do pids=($(pgrep -u upprod1 -f ".*echo_server.py.*-port[ |=]50001")); [[ ${#pids[*]} -eq 0 ]] || { pgids=($(ps --no-headers -o pgid ${pids[*]})); list=$(printf " -%s" "${pgids[@]}"); }; done'
+  548  man time
+  549  man time
+  550  which time
+  551  ps -ef | grep loop
+  552  ps -ef | grep echo
+  553  kill -9 49462 49466
+  554  ps -ef | grep echo
+  555  ps auxf | grep upprod1
+  556  killall loop.sh; killall echo_server.py; killall proxy_server.py    
+  557  killall loop.sh; killall echo_server.py; killall proxy_server.py    
+  558  ps auxf | grep upprod1
+  559  killall loop.sh; killall echo_server.py; killall proxy_server.py    
+  560  ps auxf | grep upprod1
+  561  ps auxf | grep upprod1
+  562  killall loop.sh; killall echo_server.py; killall proxy_server.py    
+  563  ps auxf | grep upprod1
+  564  ps auxf | grep upprod1
+  565  killall loop.sh; killall echo_server.py; killall proxy_server.py    
+  566  ps auxf | grep upprod1
+  567  ps auxf | grep upprod1
+  568  killall loop.sh; 
+  569  ps auxf | grep upprod1
+  570* 
+  571  ps auxf | grep upprod1
+  572  ps auxf | grep upprod1
+  573  ps auxf | grep upprod1 | grep port; 
+  574  ps auxf | grep upprod1 | grep port; killall loop.sh; killall echo_server.py; killall proxy_server.py;ps auxf | grep upprod1 | grep port; 
+  575  ps auxf | grep upprod1 | grep port; 
+  576  ps auxf | grep upprod1 | grep port; 
+  577  pgids=($(ps -u upprod1 -o pgid,cmd | egrep -e "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" | sed -r "s/(^[0-9]+).*$/-/g")); echo $pgids
+  578  ps -u upprod1 -o pgid,cmd | egrep -e "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001"
+  579  ps -u upprod1 -o pgid,cmd | egrep -e "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" | sed -r "s/(^[0-9]+).*$/-/g"
+  580  ps -u upprod1 -o pgid,cmd | egrep -e "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" | sed -r "s/(^[0-9]+) .*$/-/g"
+  581  ps -u upprod1 -o pgid,cmd | egrep -e "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" | sed -r "s/(^[0-9]+) .*$/-\1/g"
+  582  ps -u upprod1 -o pgid,cmd | egrep -e "/upthere/bin/loop\.sh .*echo_server.py.*-port[ |=]50001" | sed -r "s/(^[0-9]+).*$/-\1/g"
+  583  ps auxf | grep upprod1 | grep port; killall loop.sh; killall echo_server.py; killall proxy_server.py;ps auxf | grep upprod1 | grep port; 
+  584  ps auxf | grep upprod1 | grep port; killall loop.sh; killall echo_server.py; killall proxy_server.py; echo; echo; ps auxf | grep upprod1 | grep port; 
+  585  ps auxf | grep upprod1 | grep port; killall loop.sh; killall echo_server.py; killall proxy_server.py; echo; echo; ps auxf | grep upprod1 | grep port; 
+  586  ps auxf | grep upprod1 | grep port; 
+  587  ps auxf | grep upprod1 | grep port; killall loop.sh; killall echo_server.py; killall proxy_server.py; echo; echo; ps auxf | grep upprod1 | grep port; 
+  588  ps auxf | grep upprod1 | grep port; 
+  589  ps auxf | grep upprod1 | grep port; killall loop.sh; killall echo_server.py; killall proxy_server.py; echo; echo; ps auxf | grep upprod1 | grep port; 
+  590  ps auxf | grep upprod1 | grep port; 
+  591  ps auxf | grep upprod1 | grep port; 
+  592  ps auxf | grep upprod1 | grep port; 
+  593  ps auxf | grep upprod1 | grep port; killall loop.sh; killall echo_server.py; killall proxy_server.py; echo; echo; ps auxf | grep upprod1 | grep port; 
+  594  ps auxf | grep upprod1 | grep port; killall loop.sh; killall echo_server.py; killall proxy_server.py; echo; echo; ps auxf | grep upprod1 | grep port; 
+  595  ps auxf | grep upprod1 | grep port; killall loop.sh; killall echo_server.py; killall proxy_server.py; echo; echo; ps auxf | grep upprod1 | grep port; 
+  596  ps auxf | grep upprod1 | grep port; 
+  597  ps auxf | grep upprod1 | grep port; 
+  598  ps auxf | grep upprod1 | grep port; 
+  599  ps auxf | grep upprod1 | grep port; 
+  600  ps auxf | grep upprod1 | grep port; 
+  601  ps auxf | grep upprod1 | grep port; 
+  602  ps auxf | grep upprod1 | grep port; 
+  603  ps auxf | grep upprod1 | grep port; 
+  604  ps auxf | grep upprod1 | grep port; 
+  605  ps auxf | grep upprod1 | grep port; 
+  606  ps auxf | grep upprod1 | grep port; 
+  607  ps auxf | grep upprod1 | grep port; 
+  608  ps auxf | grep upprod1 | grep port; 
+  609  ps auxf | grep upprod1 | grep port; 
+  610  ps auxf | grep upprod1 | grep port; 
+  611  ps auxf | grep upprod1 | grep port; 
+  612  ps auxf | grep upprod1 | grep port; 
+  613  history >> /tmp/history.upprod1
