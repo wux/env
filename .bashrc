@@ -40,7 +40,7 @@ fi
    alias la='ls -a -h --color=auto'
 
    alias lc='ls -F -h --color=auto'
-
+   alias l='ls -l --color=tty'
    alias ll='ls -lagF --color=auto'
 
    alias ls='ls -F -h'
@@ -106,3 +106,4 @@ function ssh_prd2(){
    alias p4dbg='cd /ssd/a/jwu/debug'
    alias p4opt='cd /ssd/a/jwu/release'
 
+[[ -s "/home/users/jameswu/.jumbo/etc/bashrc" ]] && source "/home/users/jameswu/.jumbo/etc/bashrc"
