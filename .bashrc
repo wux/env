@@ -13,6 +13,7 @@ export P4PORT=perforce.corp.upthere.com:1666
 #export EDITOR=emacs  # or whatever else you prefer
 
 export PATH=$HOME/go/bin:$PATH
+export PATH=/usr/local/bin:$PATH:/usr/local/go/bin
 export GOROOT=$HOME/go
 export GOPATH=$HOME/gocode
 
@@ -41,7 +42,7 @@ fi
 
    alias lc='ls -F -h --color=auto'
 
-   alias ll='ls -lagF --color=auto'
+   alias ll='ls -lagFG'
 
    alias ls='ls -F -h'
 
@@ -93,7 +94,9 @@ function ssh_prd2(){
 #eval $(keychain --eval -Q id_rsa)
 
    alias desktop='ssh -Y jwu@10.0.70.114'
-
+   alias hot='ssh cp01-rdqa-dev411.cp01.baidu.com'
+   alias relay='ssh relay01.baidu.com'
+   alias tea='ssh jameswusv@szjjh-table-test2.szjjh01.baidu.com'
    alias p4src='cd /ssd/a/jwu/src/depot'
 
 
@@ -106,3 +109,23 @@ function ssh_prd2(){
    alias p4dbg='cd /ssd/a/jwu/debug'
    alias p4opt='cd /ssd/a/jwu/release'
 
+   alias huhehot='ssh jameswu@172.19.37.211'
+   alias gpu1='ssh james@172.19.37.212'
+
+# Display chinese char correctly
+# http://stackoverflow.com/questions/4606570/os-x-terminal-utf-8-issues
+# Go to Terminal->Preferences->Settings->Advanced.
+# Under International, make sure the character encoding is set to Unicode (UTF-8).
+
+# man less or more, then search LESSCHARSET.
+# iso8859 is samiliar to ascii, but treat chars in [160 - 255] are treated as normal.
+# This is critical for chinese chars incoded zh_CN.utf-8 (8 BIT but NOT UTF8!).
+export LESSCHARSET=iso8859
+#export LANG=en_US
+export LANG="en_US.UTF-8"
+set meta-flag on
+set input-meta on
+set output-meta on
+set convert-meta off
+
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages/

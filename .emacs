@@ -102,3 +102,7 @@ it only includes basic header information"
         (merg (pop command-line-args-left)))
    (ediff-merge-with-ancestor sccs mine base () merg)))
 (add-to-list 'command-switch-alist '("-merge" . command-line-merge))
+
+
+;; iso-8859-1 as default encoding
+(set-terminal-coding-system 'iso-latin-1)
