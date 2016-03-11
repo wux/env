@@ -42,7 +42,8 @@ fi
 
    alias lc='ls -F -h --color=auto'
 
-   alias ll='ls -lagFG'
+   alias l='ls -l --color=tty'
+   alias ll='ls -lagF --color=auto'
 
    alias ls='ls -F -h'
 
@@ -99,7 +100,6 @@ function ssh_prd2(){
    alias tea='ssh jameswusv@szjjh-table-test2.szjjh01.baidu.com'
    alias p4src='cd /ssd/a/jwu/src/depot'
 
-
    alias svndiff='svn diff --diff-cmd tkdiff'
 
    alias psA='ps auxf'
@@ -109,6 +109,7 @@ function ssh_prd2(){
    alias p4dbg='cd /ssd/a/jwu/debug'
    alias p4opt='cd /ssd/a/jwu/release'
 
+<<<<<<< HEAD
    alias huhehot='ssh jameswu@172.19.37.211'
    alias gpu1='ssh james@172.19.37.212'
 
@@ -129,3 +130,6 @@ set output-meta on
 set convert-meta off
 
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages/
+
+[[ -s "/home/users/jameswu/.jumbo/etc/bashrc" ]] && source "/home/users/jameswu/.jumbo/etc/bashrc"
+
