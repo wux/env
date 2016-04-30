@@ -42,8 +42,11 @@ fi
 
    alias lc='ls -F -h --color=auto'
 
-   alias l='ls -l --color=tty'
-   alias ll='ls -lagF --color=auto'
+   #alias l='ls -l --color=tty'
+   #alias ll='ls -lagF --color=auto'
+   # For mac
+   alias l='ls -lG'
+   alias ll='ls -lagFG'
 
    alias ls='ls -F -h'
 
@@ -109,7 +112,6 @@ function ssh_prd2(){
    alias p4dbg='cd /ssd/a/jwu/debug'
    alias p4opt='cd /ssd/a/jwu/release'
 
-<<<<<<< HEAD
    alias huhehot='ssh jameswu@172.19.37.211'
    alias gpu1='ssh james@172.19.37.212'
 
